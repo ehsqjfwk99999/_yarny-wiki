@@ -1,16 +1,20 @@
-VSCode Shortcuts
-================
+VS Code Shortcuts
+=================
 
 Table of Contents
 -----------------
 
 - [Settings](#settings)
+- [Top](#top)
 - [Sidebar](#sidebar)
+- [Bottom](#bottom)
 - [Editor - window](#editor---window)
 - [Editor - move](#editor---move)
-- [Edit](#edit)
+- [Code - edit](#code---edit)
+- [Code - navigate](#code---navigate)
 - [Debug](#debug)
 - [Jupyter](#jupyter)
+<!-- - []() -->
 
 Settings
 --------
@@ -22,11 +26,25 @@ Settings
 #### Open keyboard shortcuts.
     Ctrl + K  Ctrl + S
 
+Top
+---
+
+#### Open command palette.
+    Ctrl + Shift + P
+#### Goto file.
+    Ctrl + P
+
 Sidebar
 -------
 
 #### Toggle sidebar.
     Ctrl + B
+
+Bottom
+------
+
+#### Toggle terminal.
+    Ctrl + `
 
 Editor - window
 ---------------
@@ -52,8 +70,8 @@ Editor - move
 #### Cursor to bottom line.
     Ctrl + End
 
-Edit
-----
+Code - edit
+-----------
 
 #### Insert line above.
     Ctrl + Shift + Enter
@@ -72,6 +90,12 @@ Edit
 #### Delete line.
     Ctrl + Shift + K
 
+Code - navigate
+---------------
+
+#### Go to definition.
+    F12
+
 Debug
 -----
 
@@ -87,8 +111,8 @@ Jupyter
     Ctrl + Enter
 #### Delete cell.
     D  D
-#### Change cell to code.
-    M
 #### Change cell to markdown.
+    M
+#### Change cell to code.
     Y
 

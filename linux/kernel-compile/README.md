@@ -13,7 +13,7 @@ Steps
 
 ### Download packages
 ```sh
-    sudo apt install build-essential libncurses5 libncurses5-dev bin86 kernel-package libssl-dev bison flex libelf-dev
+    sudo apt install -y build-essential libncurses5 libncurses5-dev bin86 kernel-package libssl-dev bison flex libelf-dev
 ```
 
 ### Download linux kernel
@@ -40,13 +40,8 @@ Steps
 ```
 
 ### Build
-- Check number of cpu core.
 ```sh
-    grep -c processor /proc/cpuinfo
-```
-- Build.
-```sh
-    make -j $NUM_CPU_CORE
+    make -j `grep -c processor /proc/cpuinfo`
 ```
 
 ### Install
@@ -64,4 +59,13 @@ Steps
 ### Check kernel version
 ```sh
     uname -a
+```
+
+Errors
+------
+
+### No rule to make target 'debian/canonical-certs.pem', needed by 'certs/x509_certificate_list'.
+- change .config file.
+```sh
+    CONFIG_SYSTEM_TRUSTED_KEYS=""
 ```

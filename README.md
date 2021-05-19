@@ -3,24 +3,47 @@ Yarny Wiki
 
 Where 2 Go?
 -----------
-- [Docker](./docker)
-- [Ftrace](./ftrace)
-- [Linux Kernel Compile](./linux-kernel-compile)
-- [VS Code](./vscode)
+
 - [Windows10](./windows10)
 <!-- - []() -->
 
+Docker
+------
+
+- [Install](./docker/install)
+<!-- - []() -->
+
+Linux
+-----
+
+### Kernel
+- [Ftrace](./linux/ftrace)
+- [Kernel Compile](./linux/kernel-compile)
+### Packages
+- [curl](./linux/curl)
+<!-- - []() -->
+
+
 Python
 ------
-- [Numpy](./numpy)
-- [tqdm](./tqdm)
+
+### Standard Library
+- [typing](./python/typing)
+### Packages
+- [NumPy](./python/numpy)
+- [tqdm](./python/tqdm)
+<!-- - []() -->
+
+VS Code
+-------
+
+- [Shortcuts](./vscode/shortcuts)
 <!-- - []() -->
 
 New Todo
 --------
-- vscode -notion참고
+
 - Docker
-  - install on windows with wsl
   - commands
   - dockerfile
   - docker-compose.yml
