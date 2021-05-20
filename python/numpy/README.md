@@ -64,39 +64,19 @@ numpy
 - [numpy.median](https://numpy.org/doc/stable/reference/generated/numpy.median.html)
 - [numpy.std](https://numpy.org/doc/stable/reference/generated/numpy.std.html)
 - [numpy.var](https://numpy.org/doc/stable/reference/generated/numpy.var.html)
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
-- [numpy.]()
+- [numpy.amax](https://numpy.org/doc/stable/reference/generated/numpy.amax.html)
+- [numpy.amin](https://numpy.org/doc/stable/reference/generated/numpy.amin.html)
+- [numpy.argmax](https://numpy.org/doc/stable/reference/generated/numpy.argmax.html)
+- [numpy.argmin](https://numpy.org/doc/stable/reference/generated/numpy.argmin.html)
+- [numpy.maximum](https://numpy.org/doc/stable/reference/generated/numpy.maximum.html)
+- [numpy.minimum](https://numpy.org/doc/stable/reference/generated/numpy.minimum.html)
+- [numpy.around](https://numpy.org/doc/stable/reference/generated/numpy.around.html)
+- [numpy.round_](https://numpy.org/doc/stable/reference/generated/numpy.round_.html)
+- [numpy.ceil](https://numpy.org/doc/stable/reference/generated/numpy.ceil.html)
+- [numpy.floor](https://numpy.org/doc/stable/reference/generated/numpy.floor.html)
+- [numpy.trunc](https://numpy.org/doc/stable/reference/generated/numpy.trunc.html)
+- [numpy.sort](https://numpy.org/doc/stable/reference/generated/numpy.sort.html)
+- [numpy.argsort](https://numpy.org/doc/stable/reference/generated/numpy.argsort.html)
 <!-- - []() -->
 
 ### Mathematical
@@ -121,9 +101,50 @@ numpy
 - [numpy.matmul](https://numpy.org/doc/stable/reference/generated/numpy.matmul.html)
 <!-- - []() -->
 
+### ???
+- [numpy.nonzero](https://numpy.org/doc/stable/reference/generated/numpy.nonzero.html)
+- [numpy.where](https://numpy.org/doc/stable/reference/generated/numpy.where.html)
+<!-- - []() -->
+
 numpy.ndarray
 -------------
 
+### Attributes
+- [ndim](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.ndim.html)
+- [shape](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.shape.html)
+- [size](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.size.html)
+- [dtype](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.dtype.html)
+- [itemsize](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.itemsize.html)
+- [nbytes](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.nbytes.html)
+- [base](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.base.html)
+<!-- - []() -->
+
+### Methods
+- [astype](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.astype.html)
+- [view](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.view.html)
+- [copy](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.copy.html)
+- [reshape](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.reshape.html)
+- [resize](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.resize.html)
+- [flatten](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.flatten.html)
+- [ravel](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.ravel.html)
+- [squeeze](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.squeeze.html)
+- [nonzero](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.nonzero.html)
+- [sum](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.sum.html)
+- [prod](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.prod.html)
+- [cumsum](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.cumsum.html)
+- [cumprod](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.cumprod.html)
+- [mean](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.mean.html)
+- [std](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.std.html)
+- [var](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.var.html)
+- [max](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.max.html)
+- [min](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.min.html)
+- [argmax](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.argmax.html)
+- [argmin](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.argmin.html)
+- [round](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.round.html)
+- [sort](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.sort.html)
+- [argsort](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.argsort.html)
+- [repeat](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.repeat.html)
+<!-- - []() -->
 
 Tips
 ----

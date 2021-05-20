@@ -47,7 +47,11 @@ Steps
 ### Install
 ```sh
     make modules
+```
+```sh
     make modules_install
+```
+```sh
     make install
 ```
 
