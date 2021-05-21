@@ -10,6 +10,7 @@ numpy
 - [numpy.pi](https://numpy.org/doc/stable/reference/constants.html#numpy.pi)
 - [numpy.newaxis](https://numpy.org/doc/stable/reference/constants.html#numpy.newaxis)
 - [numpy.e](https://numpy.org/doc/stable/reference/constants.html#numpy.e)
+- [numpy.NAN](https://numpy.org/doc/stable/reference/constants.html#numpy.NAN)
 <!-- - []() -->
 
 ### Create Array
@@ -32,7 +33,7 @@ numpy
 - [numpy.random.normal](https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html)
 <!-- - []() -->
 
-### Change Array Shape
+### Change Array
 - [numpy.reshape](https://numpy.org/doc/stable/reference/generated/numpy.reshape.html)
 - [numpy.resize](https://numpy.org/doc/stable/reference/generated/numpy.resize.html)
 - [numpy.ravel](https://numpy.org/doc/stable/reference/generated/numpy.ravel.html)
@@ -45,12 +46,11 @@ numpy
 - [numpy.hstack](https://numpy.org/doc/stable/reference/generated/numpy.hstack.html)
 - [numpy.stack](https://numpy.org/doc/stable/reference/generated/numpy.stack.html)
 - [numpy.dstack](https://numpy.org/doc/stable/reference/generated/numpy.dstack.html)
-<!-- - []() -->
-
-### Manipulate Array
 - [numpy.repeat](https://numpy.org/doc/stable/reference/generated/numpy.repeat.html)
 - [numpy.tile](https://numpy.org/doc/stable/reference/generated/numpy.tile.html)
 - [numpy.meshgrid](https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html)
+- [numpy.insert](https://numpy.org/doc/stable/reference/generated/numpy.insert.html)
+- [numpy.append](https://numpy.org/doc/stable/reference/generated/numpy.append.html)
 <!-- - []() -->
 
 ### Calculate From Array
@@ -108,6 +108,7 @@ numpy
 
 numpy.ndarray
 -------------
+- [numpy.ndarray](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html)
 
 ### Attributes
 - [ndim](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.ndim.html)
