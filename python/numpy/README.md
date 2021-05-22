@@ -51,6 +51,8 @@ numpy
 - [numpy.meshgrid](https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html)
 - [numpy.insert](https://numpy.org/doc/stable/reference/generated/numpy.insert.html)
 - [numpy.append](https://numpy.org/doc/stable/reference/generated/numpy.append.html)
+- [numpy.random.shuffle](https://numpy.org/doc/stable/reference/random/generated/numpy.random.shuffle.html)
+- [numpy.random.permutation](https://numpy.org/doc/stable/reference/random/generated/numpy.random.permutation.html)
 <!-- - []() -->
 
 ### Calculate From Array
@@ -154,3 +156,15 @@ Tips
 - 브로드캐스팅은 '1'을 기준으로 일어남.
 - "..."는 가능한 모든 차원 의미.
 - axis는 그 차원 없애는 것.
+- copy 반환 vs 값 자체 반환.
+### flatten() vs ravel()
+- flatten
+    - copy 반환한다.
+- ravel
+    - 원본의 shape만 다르게 반환한다.
+### permutation() vs shuffle()
+- permutation
+    - int라면 np.arange(int)를 만들어 shuffle한다.
+    - array라면 copy하고 shuffle한다.
+- shuffle
+    - in place로 shuffle한다.
