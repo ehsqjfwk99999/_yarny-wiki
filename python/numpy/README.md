@@ -55,6 +55,11 @@ numpy
 - [numpy.random.permutation](https://numpy.org/doc/stable/reference/random/generated/numpy.random.permutation.html)
 <!-- - []() -->
 
+### Logical Functions
+- [numpy.isnan](https://numpy.org/doc/stable/reference/generated/numpy.isnan.html)
+- [numpy.logical_not](https://numpy.org/doc/stable/reference/generated/numpy.logical_not.html)
+<!-- - []() -->
+
 ### Calculate From Array
 - [numpy.sum](https://numpy.org/doc/stable/reference/generated/numpy.sum.html)
 - [numpy.prod](https://numpy.org/doc/stable/reference/generated/numpy.prod.html)
