@@ -5,7 +5,6 @@ Where 2 Go?
 -----------
 
 - [Kaggle](./kaggle)
-- [Shell Script](./shell_script)
 - [Windows10](./windows10)
 <!-- - []() -->
 
@@ -23,8 +22,19 @@ Linux
 - [Kernel Compile](./linux/kernel_compile)
 ### Packages
 - [curl](./linux/curl)
+- [unzip](./linux/unzip)
+### Shell
+- [Commands](./linux/commands)
+- [Shell Script](./linux/shell_script)
+
 <!-- - []() -->
 
+Node.js
+-------
+
+### Packages
+- [nodemon](./nodejs/nodemon)
+<!-- - []() -->
 
 Python
 ------
@@ -36,9 +46,10 @@ Python
 - [tqdm](./python/tqdm)
 <!-- - []() -->
 
-OpenSSH
--------
+SSH
+---
 
+- [Commands](./openssh/commands)
 - [sshd_config](./openssh/sshd_config)
 - [ssh_config](./openssh/ssh_config)
 <!-- - []() -->
