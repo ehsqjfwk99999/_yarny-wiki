@@ -9,16 +9,18 @@ Tips
 
 Authority
 ---------
-- Shell script file must be executable.
 ```sh
+# Shell script file must be executable.
+
 chmod +x $SHELL_SCRIPT
 ```
 
 Shell Program
 -------------
-- Must indicate shell program to use on the top of shell script.
 ```sh
-#! /bin/bash
+# Must indicate shell program to use on the top of shell script.
+
+=> #! /bin/bash
 ```
 
 Grammer
@@ -33,15 +35,21 @@ Grammer
 - global variable.
 ```sh
 # No whitespace on both side of '='.
+
 global_variable=$VARIABLE
 ```
 - local variable.
 ```sh
 # Only allowed in function.
+
 function function_one() {
     local local_variable=$VARIABLE
     echo "Something to do in function"
 }
+```
+- Parameter expansion
+```sh
+# ${VARIABLE} is same as $VARIABLE
 ```
 
 ### Array
@@ -137,6 +145,7 @@ function function_one() {
 ```
 ```sh
 # function keyword can be omitted.
+
 function_two() {
     echo "Something to do in function"
 }
@@ -144,19 +153,81 @@ function_two() {
 - Function Call
 ```sh
 # Funtion should be called after declaration.
+
 function_one $ARGUMENT_1 $ARGUMENT_2 ...
 ```
 
 Pre-Defined
 -----------
 
+### Reserved Variables
+| Variable | Descripttion |
+| :------: | :----------: |
+| ${HOME} | Home path |
+| ${PATH} | Path to find executing files |
+| ${PWD} | Current directory path |
+| ${SHELL} | Current shell |
+
+### Positional Parameters.
+| Variable | Descripttion |
+| :------: | :----------: |
+| ${0} | Executed script |
+| ${1}, ${2}, ... | Parameters |
+| ${*}, ${@} | All parameters |
+| ${#} | Parameter count |
+
+### Special Parameters.
+| Variable | Descripttion |
+| :------: | :----------: |
+| ${$} | PID of current script |
+| ${?} | Exit code of last execution |
+
 Operators
 ---------
 
+### Arithmetic Operators.
+| Operator | Descripttion |
+| :------: | :----------: |
+| + | Add |
+| - | Subtract |
+| * | Multiply |
+| ** | Power |
+| / | Divide |
+| % | Modulo |
+| += | Plus-equal |
+| -= | Minus-equal |
+| *= | Times-equal |
+| /= | Slash-equal |
+| %= | Mod-equal |
 
+### Logical Operators.
+| Operator | Descripttion |
+| :------: | :----------: |
+| &&, -a | Logical AND |
+| \|\|, -o | Logical OR |
 
-Usages
-------
+### Integer Comparison Operators.
+| Operator | Descripttion |
+| :------: | :----------: |
+| -eq | Equal |
+| -ne | Not equal |
+| >, -gt | Greater than |
+| >=, -ge | Greater or equal |
+| <, -lt | Less than |
+| <=, -le | Less or equal |
+
+### String Comparison Operators.
+| Operator | Descripttion |
+| :------: | :----------: |
+| =, == | Equal |
+| != | Not equal |
+| > | Bigger in ASCII |
+| < | Smaller in ASCII |
+| -z | Length is not 0 |
+| -n | Length is 0 |
+
+Additional
+----------
 
 ### getops
 ```sh
@@ -175,4 +246,21 @@ while getops ab: $OPTION_VARIABLE; do
             ;;
     esac
 done
+```
+
+### Redirect 
+- Redirect both stdout(1) and stderr(2).
+```sh
+./some_script.sh &> log.txt
+```
+- Throw away output.
+```sh
+./some_script.sh > /dev/null
+```
+
+### Command Substitution
+```sh
+# Capture the output of some command.
+
+$($SOME_COMMAND)
 ```

@@ -17,6 +17,8 @@ Docker
 Linux
 -----
 
+### Install
+- [Install Packages](./linux/install_packages)
 ### Kernel
 - [Ftrace](./linux/ftrace)
 - [Kernel Compile](./linux/kernel_compile)
@@ -26,7 +28,6 @@ Linux
 ### Shell
 - [Commands](./linux/commands)
 - [Shell Script](./linux/shell_script)
-
 <!-- - []() -->
 
 Node.js
@@ -54,10 +55,23 @@ SSH
 - [ssh_config](./openssh/ssh_config)
 <!-- - []() -->
 
+VIM
+---
+
+- []()
+<!-- - []() -->
+
 VS Code
 -------
 
 - [Shortcuts](./vscode/shortcuts)
+<!-- - []() -->
+
+Zsh
+---
+
+- [Install](./zsh/install)
+- [.zshrc](./zsh/.zshrc)
 <!-- - []() -->
 
 New Todo
