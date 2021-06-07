@@ -4,6 +4,7 @@ Yarny Wiki
 Where 2 Go?
 -----------
 
+- [C](./c)
 - [Kaggle](./kaggle)
 - [Windows10](./windows10)
 <!-- - []() -->
