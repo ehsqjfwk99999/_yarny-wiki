@@ -58,7 +58,8 @@ SSH
 VIM
 ---
 
-- []()
+- [Install](./vim/install)
+- [.vimrc](./vim/.vimrc)
 <!-- - []() -->
 
 VS Code

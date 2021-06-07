@@ -14,10 +14,17 @@ sudo apt install zsh
 
 sudo vi /etc/passwd
 ```
-
 ### Re-login
 ```sh
 exit
+```
+
+Open(create) .zshrc file
+------------------------
+```sh
+vi ~/.zshrc
+
+# copy and paste my .zshrc configuration.
 ```
 
 Install & customize [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
