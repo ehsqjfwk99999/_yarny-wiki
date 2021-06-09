@@ -60,7 +60,7 @@ VIM
 ---
 
 - [Install](./vim/install)
-- [.vimrc](./vim/.vimrc)
+- [.vimrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-vimrc)
 <!-- - []() -->
 
 VS Code
