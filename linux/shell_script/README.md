@@ -20,7 +20,7 @@ Shell Program
 ```sh
 # Must indicate shell program to use on the top of shell script.
 
-=> #! /bin/bash
+#! /bin/bash
 ```
 
 Grammer
@@ -263,4 +263,13 @@ done
 # Capture the output of some command.
 
 $($SOME_COMMAND)
+```
+
+### Compare Regex
+```sh
+# Use '[[ ... ]]' and '=~'.
+# Expression on the right side of '=~' is considered regex.
+# Return true if matched, else false.
+
+[[ $VARIABLE =~ $REGEX ]]
 ```

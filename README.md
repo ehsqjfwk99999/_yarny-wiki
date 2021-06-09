@@ -51,9 +51,9 @@ Python
 SSH
 ---
 
-- [Commands](./openssh/commands)
-- [sshd_config](./openssh/sshd_config)
-- [ssh_config](./openssh/ssh_config)
+- [Commands](./ssh/commands)
+- [sshd_config](./ssh/sshd_config)
+- [ssh_config](./ssh/ssh_config)
 <!-- - []() -->
 
 VIM
@@ -73,7 +73,7 @@ Zsh
 ---
 
 - [Install](./zsh/install)
-- [.zshrc](./zsh/.zshrc)
+- [.zshrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-zshrc)
 <!-- - []() -->
 
 New Todo
