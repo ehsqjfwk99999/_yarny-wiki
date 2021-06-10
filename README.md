@@ -29,6 +29,12 @@ Linux
 ### Shell
 - [Commands](./linux/commands)
 - [Shell Script](./linux/shell_script)
+### Vim
+- [Install](./linux/install_vim)
+- [.vimrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-vimrc)
+### Zsh
+- [Install](./linux/install_zsh)
+- [.zshrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-zshrc)
 <!-- - []() -->
 
 Node.js
@@ -56,24 +62,10 @@ SSH
 - [ssh_config](./ssh/ssh_config)
 <!-- - []() -->
 
-VIM
----
-
-- [Install](./vim/install)
-- [.vimrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-vimrc)
-<!-- - []() -->
-
 VS Code
 -------
 
 - [Shortcuts](./vscode/shortcuts)
-<!-- - []() -->
-
-Zsh
----
-
-- [Install](./zsh/install)
-- [.zshrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-zshrc)
 <!-- - []() -->
 
 New Todo

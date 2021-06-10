@@ -31,6 +31,27 @@ Grammer
 # This line is commented.
 ```
 
+### Read
+```sh
+# Read a single line from stdin.
+
+read $INPUT_VARIABLE
+
+# With some output.
+read -p "Some output ... " $INPUT_VARIABLE
+```
+
+### Exit
+```sh
+# Exit script.
+# If no explicit exit status, exit with status of last command run.
+
+exit
+
+# Exit with exit status.
+exit $STATUS_NUMBER
+```
+
 ### Variable
 - global variable.
 ```sh
@@ -47,9 +68,29 @@ function function_one() {
     echo "Something to do in function"
 }
 ```
-- Parameter expansion
+
+### Parameter expansion
 ```sh
-# ${VARIABLE} is same as $VARIABLE
+# ${VARIABLE} is substituted with $VARIABLE.
+
+${$VAR}
+```
+```sh
+# Return length of $VAR.
+
+${#$VAR}
+```
+```sh
+# if $VAR is not defined, return $DIS_VAR.
+${$VAR-$DIS_VAR}
+# if $VAR is not defined or null, return $DIS_VAR.
+${$VAR:-$DIS_VAR}
+```
+```sh
+# if $VAR is not defined, substitute $VAR with $DIS_VAR and return $DIS_VAR.
+${$VAR-$DIS_VAR}
+# if $VAR is not defined or null, substitute $VAR with $DIS_VAR and return $DIS_VAR.
+${$VAR:-$DIS_VAR}
 ```
 
 ### Array
@@ -223,8 +264,16 @@ Operators
 | != | Not equal |
 | > | Bigger in ASCII |
 | < | Smaller in ASCII |
-| -z | Length is not 0 |
-| -n | Length is 0 |
+| -z | Length is 0 |
+| -n | Length is not 0 |
+
+### File Test Operators.
+| Operator | Descripttion |
+| :------: | :----------: |
+| -d | If directory |
+| -e | If file |
+| -b | If block special file |
+| -c | If character special file |
 
 Additional
 ----------
@@ -260,7 +309,7 @@ done
 
 ### Command Substitution
 ```sh
-# Capture the output of some command.
+# Execute command and capture the output.
 
 $($SOME_COMMAND)
 ```
