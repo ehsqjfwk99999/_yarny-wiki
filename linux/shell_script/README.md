@@ -114,6 +114,27 @@ ${#ARRAY_NAME[*]}
 ${#ARRAY_NAME[@]}
 ```
 
+### Test Command
+```sh
+# True : exit status = 0
+# False : exit status = 1
+
+[ $SOME_EXPRESSION ]
+```
+
+### True or False
+```sh
+# Exit status = 0 => True
+# Exit status = non-zero => False
+```
+
+### Null
+```sh
+# Empty string is considered null.
+
+$NULL_STRING=""
+```
+
 ### IF Statement
 - if
 ```sh
