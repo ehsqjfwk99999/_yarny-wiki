@@ -7,6 +7,7 @@ Where 2 Go?
 - [C](./c)
 - [Git](./git)
 - [Kaggle](./kaggle)
+- [VS Code](./vscode)
 - [Windows10](./windows10)
 <!-- - []() -->
 
@@ -32,6 +33,10 @@ Linux
 - [Commands](./linux/shell/commands)
 ### Shell Script
 - [Shell Script](./linux/shell_script)
+### SSH
+- [Commands](./linux/ssh/commands)
+- [sshd_config](./linux/ssh/sshd_config)
+- [ssh_config](./linux/ssh/ssh_config)
 ### Vim
 - [Install](./linux/vim/install_vim)
 - [.vimrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-vimrc)
@@ -44,8 +49,10 @@ Node.js
 -------
 
 ### Packages
-- [nodemon](./nodejs/nodemon)
-<!-- - []() -->
+- [nodemon](./nodejs/packages/nodemon)
+### Manager
+- [npm](./nodejs/manager/npm)
+- [nvm](./nodejs/manager/nvm)
 
 Python
 ------
@@ -55,20 +62,6 @@ Python
 ### Packages
 - [NumPy](./python/numpy)
 - [tqdm](./python/tqdm)
-<!-- - []() -->
-
-SSH
----
-
-- [Commands](./ssh/commands)
-- [sshd_config](./ssh/sshd_config)
-- [ssh_config](./ssh/ssh_config)
-<!-- - []() -->
-
-VS Code
--------
-
-- [Shortcuts](./vscode/shortcuts)
 <!-- - []() -->
 
 New Todo

@@ -1,6 +1,8 @@
 VS Code Shortcuts
 =================
 
+![VSCode Logo](./logo.png)
+
 Table of Contents
 -----------------
 
@@ -19,100 +21,100 @@ Table of Contents
 Settings
 --------
 
-#### Open settings.
+### - Open settings.
     Ctrl + ,  Ctrl + ,
-#### Open settings.json.
+### - Open settings.json.
     Ctrl + ,  Ctrl + .
-#### Open keyboard shortcuts.
+### - Open keyboard shortcuts.
     Ctrl + K  Ctrl + S
 
 Top
 ---
 
-#### Open command palette.
+### - Open command palette.
     Ctrl + Shift + P
-#### Goto file.
+### - Goto file.
     Ctrl + P
 
 Sidebar
 -------
 
-#### Toggle sidebar.
+### - Toggle sidebar.
     Ctrl + B
 
 Bottom
 ------
 
-#### Toggle terminal.
+### - Toggle terminal.
     Ctrl + `
 
 Editor - window
 ---------------
 
-#### Close editor window.
+### - Close editor window.
     Ctrl + W
-#### Split editor window.
+### - Split editor window.
     Ctrl + \
-#### Open preview window.
+### - Open preview window.
     Ctrl + K  V
-#### Return to editor from terminal.
+### - Return to editor from terminal.
     Escape
 
 Editor - move
 -------------
 
-#### Scroll line down.
+### - Scroll line down.
     Ctrl + DownArrow
-#### Scroll line up.
+### - Scroll line up.
     Ctrl + UpArrow
-#### Cursor to top line.
+### - Cursor to top line.
     Ctrl + Home
-#### Cursor to bottom line.
+### - Cursor to bottom line.
     Ctrl + End
 
 Code - edit
 -----------
 
-#### Insert line above.
+### - Insert line above.
     Ctrl + Shift + Enter
-#### Insert line below.
+### - Insert line below.
     Ctrl + Enter
-#### Add cursor above.
+### - Add cursor above.
     Ctrl + Alt + UpArrow
-#### Add cursor below.
+### - Add cursor below.
     Ctrl + Alt + DownArrow
-#### Expand selection.
+### - Expand selection.
     Alt + Shift + RightArrow
-#### Copy up.
+### - Copy up.
     Alt + Shift + UpArrow
-#### Copy down.
+### - Copy down.
     Alt + Shift + DownArrow
-#### Delete line.
+### - Delete line.
     Ctrl + Shift + K
 
 Code - navigate
 ---------------
 
-#### Go to definition.
+### - Go to definition.
     F12
 
 Debug
 -----
 
-#### Start debuggins.
+### - Start debuggins.
     F5
-#### Run (start without debugging).
+### - Run (start without debugging).
     Ctrl + '
 
 Jupyter
 -------
 
-#### Run current cell.
+### - Run current cell.
     Ctrl + Enter
-#### Delete cell.
+### - Delete cell.
     D  D
-#### Change cell to markdown.
+### - Change cell to markdown.
     M
-#### Change cell to code.
+### - Change cell to code.
     Y
 
