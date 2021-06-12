@@ -5,17 +5,18 @@ Where 2 Go?
 -----------
 
 - [C](./c)
+- [Docker](./docker/install)
 - [Git](./git)
 - [Kaggle](./kaggle)
 - [VS Code](./vscode)
 - [Windows10](./windows10)
 <!-- - []() -->
 
-Docker
-------
+Database
+--------
 
-- [Install](./docker/install)
-<!-- - []() -->
+### MySQL
+- [Install](./database/mysql/install)
 
 Linux
 -----
