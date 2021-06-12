@@ -26,12 +26,12 @@ Shell Program
 Grammer
 -------
 
-### Comment
+### - Comment
 ```sh
 # This line is commented.
 ```
 
-### Read
+### - Read
 ```sh
 # Read a single line from stdin.
 
@@ -41,7 +41,7 @@ read $INPUT_VARIABLE
 read -p "Some output ... " $INPUT_VARIABLE
 ```
 
-### Exit
+### - Exit
 ```sh
 # Exit script.
 # If no explicit exit status, exit with status of last command run.
@@ -52,7 +52,7 @@ exit
 exit $STATUS_NUMBER
 ```
 
-### Variable
+### - Variable
 - global variable.
 ```sh
 # No whitespace on both side of '='.
@@ -69,7 +69,7 @@ function function_one() {
 }
 ```
 
-### Parameter expansion
+### - Parameter expansion
 ```sh
 # ${VARIABLE} is substituted with $VARIABLE.
 
@@ -93,7 +93,7 @@ ${$VAR-$DIS_VAR}
 ${$VAR:-$DIS_VAR}
 ```
 
-### Array
+### - Array
 - Declaration
 ```sh
 $ARRAY_NAME=($ELEMENT_1 $ELEMENT_2 $ELEMENT_3 ...)
@@ -114,7 +114,7 @@ ${#ARRAY_NAME[*]}
 ${#ARRAY_NAME[@]}
 ```
 
-### Test Command
+### - Test Command
 ```sh
 # True : exit status = 0
 # False : exit status = 1
@@ -122,20 +122,20 @@ ${#ARRAY_NAME[@]}
 [ $SOME_EXPRESSION ]
 ```
 
-### True or False
+### - True or False
 ```sh
 # Exit status = 0 => True
 # Exit status = non-zero => False
 ```
 
-### Null
+### - Null
 ```sh
 # Empty string is considered null.
 
 $NULL_STRING=""
 ```
 
-### IF Statement
+### - IF Statement
 - if
 ```sh
 if [ $VARIABLE -eq $CONSTANT ]; then
@@ -161,7 +161,7 @@ else
 fi
 ```
 
-### For Statement
+### - For Statement
 - for in
 ```sh
 for $VARIABLE in $LIST; do
@@ -176,14 +176,14 @@ done
 ```
 
 
-### While Statement
+### - While Statement
 ```sh
 while [ $VARIABLE -lt $CONSTANT ]; do
     echo "Something to do when while condition"
 done
 ```
 
-### Case Statement
+### - Case Statement
 ```sh
 case $VARIABLE in
     $CASE_1)
@@ -198,7 +198,7 @@ case $VARIABLE in
 esac
 ```
 
-### Function
+### - Function
 - Function Declaration
 ```sh
 function function_one() {
@@ -222,7 +222,7 @@ function_one $ARGUMENT_1 $ARGUMENT_2 ...
 Pre-Defined
 -----------
 
-### Reserved Variables
+### - Reserved Variables
 | Variable | Descripttion |
 | :------: | :----------: |
 | ${HOME} | Home path |
@@ -230,7 +230,7 @@ Pre-Defined
 | ${PWD} | Current directory path |
 | ${SHELL} | Current shell |
 
-### Positional Parameters.
+### - Positional Parameters.
 | Variable | Descripttion |
 | :------: | :----------: |
 | ${0} | Executed script |
@@ -238,7 +238,7 @@ Pre-Defined
 | ${*}, ${@} | All parameters |
 | ${#} | Parameter count |
 
-### Special Parameters.
+### - Special Parameters.
 | Variable | Descripttion |
 | :------: | :----------: |
 | ${$} | PID of current script |
@@ -247,7 +247,7 @@ Pre-Defined
 Operators
 ---------
 
-### Arithmetic Operators.
+### - Arithmetic Operators.
 | Operator | Descripttion |
 | :------: | :----------: |
 | + | Add |
@@ -262,13 +262,13 @@ Operators
 | /= | Slash-equal |
 | %= | Mod-equal |
 
-### Logical Operators.
+### - Logical Operators.
 | Operator | Descripttion |
 | :------: | :----------: |
 | &&, -a | Logical AND |
 | \|\|, -o | Logical OR |
 
-### Integer Comparison Operators.
+### - Integer Comparison Operators.
 | Operator | Descripttion |
 | :------: | :----------: |
 | -eq | Equal |
@@ -278,7 +278,7 @@ Operators
 | <, -lt | Less than |
 | <=, -le | Less or equal |
 
-### String Comparison Operators.
+### - String Comparison Operators.
 | Operator | Descripttion |
 | :------: | :----------: |
 | =, == | Equal |
@@ -288,7 +288,7 @@ Operators
 | -z | Length is 0 |
 | -n | Length is not 0 |
 
-### File Test Operators.
+### - File Test Operators.
 | Operator | Descripttion |
 | :------: | :----------: |
 | -d | If directory |
@@ -299,7 +299,7 @@ Operators
 Additional
 ----------
 
-### getops
+### - getops
 ```sh
 while getops ab: $OPTION_VARIABLE; do
     # option without argument has only alphabet => a
@@ -318,7 +318,7 @@ while getops ab: $OPTION_VARIABLE; do
 done
 ```
 
-### Redirect 
+### - Redirect 
 - Redirect both stdout(1) and stderr(2).
 ```sh
 ./some_script.sh &> log.txt
@@ -328,14 +328,14 @@ done
 ./some_script.sh > /dev/null
 ```
 
-### Command Substitution
+### - Command Substitution
 ```sh
 # Execute command and capture the output.
 
 $($SOME_COMMAND)
 ```
 
-### Compare Regex
+### - Compare Regex
 ```sh
 # Use '[[ ... ]]' and '=~'.
 # Expression on the right side of '=~' is considered regex.
