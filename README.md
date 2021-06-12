@@ -5,6 +5,7 @@ Where 2 Go?
 -----------
 
 - [C](./c)
+- [Git](./git)
 - [Kaggle](./kaggle)
 - [Windows10](./windows10)
 <!-- - []() -->
@@ -21,19 +22,21 @@ Linux
 ### Install
 - [Install Packages](./linux/install_packages)
 ### Kernel
-- [Ftrace](./linux/ftrace)
-- [Kernel Compile](./linux/kernel_compile)
+- [Ftrace](./linux/kernel/ftrace)
+- [Kernel Compile](./linux/kernel/kernel_compile)
+- [Kernel Debug](./linux/kernel/kernel_debug)
 ### Packages
-- [curl](./linux/curl)
-- [unzip](./linux/unzip)
+- [curl](./linux/packages/curl)
+- [unzip](./linux/packages/unzip)
 ### Shell
-- [Commands](./linux/commands)
+- [Commands](./linux/shell/commands)
+### Shell Script
 - [Shell Script](./linux/shell_script)
 ### Vim
-- [Install](./linux/install_vim)
+- [Install](./linux/vim/install_vim)
 - [.vimrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-vimrc)
 ### Zsh
-- [Install](./linux/install_zsh)
+- [Install](./linux/zsh/install_zsh)
 - [.zshrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-zshrc)
 <!-- - []() -->
 
