@@ -17,6 +17,8 @@ Database
 
 ### MySQL
 - [Install](./database/mysql/install)
+### MongoDB
+- [Install(deprecated)](./database/mongodb/install)
 
 Linux
 -----

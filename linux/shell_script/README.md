@@ -181,6 +181,11 @@ done
 while [ $VARIABLE -lt $CONSTANT ]; do
     echo "Something to do when while condition"
 done
+
+# While infinite loop.
+while true; do
+    echo "Something to do when while condition"
+done
 ```
 
 ### - Case Statement
