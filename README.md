@@ -22,7 +22,7 @@ Database
 
 Linux
 -----
-
+- [select](./linux/kernel/trace.md)
 ### Install
 - [Install Packages](./linux/install_packages)
 ### Kernel
