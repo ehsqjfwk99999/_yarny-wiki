@@ -1,8 +1,6 @@
 typing
 ======
 
-![tqdm Logo](./logo.png)
-
 Examples
 --------
 ```python

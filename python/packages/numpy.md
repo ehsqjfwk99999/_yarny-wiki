@@ -1,8 +1,6 @@
 NumPy
 =====
 
-![NumPy Logo](./logo.svg)
-
 numpy
 -----
 

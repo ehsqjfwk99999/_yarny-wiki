@@ -1,8 +1,6 @@
 tqdm
 ====
 
-![tqdm Logo](./logo.gif)
-
 Examples
 --------
 ```python

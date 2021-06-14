@@ -22,7 +22,7 @@ Database
 
 Linux
 -----
-- [select](./linux/kernel/trace.md)
+
 ### Install
 - [Install Packages](./linux/install_packages)
 ### Kernel
@@ -60,11 +60,13 @@ Node.js
 Python
 ------
 
+### Anaconda
+- [conda](./python/anaconda/conda.md)
 ### Standard Library
-- [typing](./python/typing)
+- [typing](./python/library/typing.md)
 ### Packages
-- [NumPy](./python/numpy)
-- [tqdm](./python/tqdm)
+- [NumPy](./python/packages/numpy.md)
+- [tqdm](./python/packages/tqdm.md)
 <!-- - []() -->
 
 New Todo
