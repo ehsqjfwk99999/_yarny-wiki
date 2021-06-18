@@ -4,70 +4,79 @@ Yarny Wiki
 Where 2 Go?
 -----------
 
-- [C](./c)
-- [Docker](./docker/install)
-- [Git](./git)
-- [Kaggle](./kaggle)
-- [VS Code](./vscode)
-- [Windows10](./windows10)
-<!-- - []() -->
+- [C](./where/c.md)
+- [Docker](./where/docker.md)
+- [Git](./where/git.md)
+- [Kaggle](./where/kaggle.md)
+- [VS Code](./where/vscode.md)
 
 Database
 --------
 
-### MySQL
-- [Install](./database/mysql/install)
-### MongoDB
-- [Install(deprecated)](./database/mongodb/install)
+### - MySQL
+- [Install](./database/mysql/install.md)
+### - MongoDB
+- [Install(deprecated)](./database/mongodb/install.md)
 
 Linux
 -----
 
-### Install
+### - Install
 - [Install Packages](./linux/install_packages)
-### Kernel
+### - Kernel
 - [Ftrace](./linux/kernel/ftrace)
 - [Kernel Compile](./linux/kernel/kernel_compile)
 - [Kernel Debug](./linux/kernel/kernel_debug)
-### Packages
+### - Packages
 - [curl](./linux/packages/curl)
 - [unzip](./linux/packages/unzip)
-### Shell
+### - Shell
 - [Commands](./linux/shell/commands)
-### Shell Script
+### - Shell Script
 - [Shell Script](./linux/shell_script)
-### SSH
+### - SSH
 - [Commands](./linux/ssh/commands)
 - [sshd_config](./linux/ssh/sshd_config)
 - [ssh_config](./linux/ssh/ssh_config)
-### Vim
+### - Vim
 - [Install](./linux/vim/install_vim)
 - [.vimrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-vimrc)
-### Zsh
+### - Zsh
 - [Install](./linux/zsh/install_zsh)
 - [.zshrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-zshrc)
-<!-- - []() -->
 
 Node.js
 -------
 
-### Packages
-- [nodemon](./nodejs/packages/nodemon)
-### Manager
-- [npm](./nodejs/manager/npm)
-- [nvm](./nodejs/manager/nvm)
+### - Library
+- [ECMAScript modules](./nodejs/library/es_module.md))
+### - Packages
+- [nodemon](./nodejs/packages/nodemon.md)
+### - Manager
+- [npm](./nodejs/manager/npm.md)
+- [nvm](./nodejs/manager/nvm.md)
 
 Python
 ------
 
-### Anaconda
+### - Anaconda
 - [conda](./python/anaconda/conda.md)
-### Standard Library
+### - Standard Library
 - [typing](./python/library/typing.md)
-### Packages
+### - Packages
 - [NumPy](./python/packages/numpy.md)
 - [tqdm](./python/packages/tqdm.md)
-<!-- - []() -->
+
+TypeScript
+----------
+
+- []()
+
+Windows10
+---------
+
+- [Setup](./windows10/setup.md)
+- [Shortcuts](./windows10/shortcuts.md)
 
 New Todo
 --------

@@ -1,8 +1,6 @@
 nodemon
 =======
 
-![nodemon Logo](./logo.png)
-
 Installation
 ------------
 ```sh

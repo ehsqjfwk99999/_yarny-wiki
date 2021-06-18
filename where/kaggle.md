@@ -1,8 +1,6 @@
 Kaggle
 ======
 
-![Kaggle Logo](./logo.png)
-
 API
 ---
 

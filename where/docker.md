@@ -1,8 +1,6 @@
 Install Docker Desktop on Windows 10
 ====================================
 
-![Docker Logo](./logo.png)
-
 Steps
 -----
 ### Download

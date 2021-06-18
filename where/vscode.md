@@ -1,8 +1,6 @@
 VS Code Shortcuts
 =================
 
-![VSCode Logo](./logo.png)
-
 Table of Contents
 -----------------
 

@@ -8,7 +8,7 @@ printk()
 /**
  * Print values in kernel space.
  * Header : <linux/kernel.h>
- * Usage is same with printf().
+ * Usage is similar with printf().
  */
 
 printk("Something to print : %p", $POINTER);
