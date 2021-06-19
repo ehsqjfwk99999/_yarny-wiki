@@ -70,7 +70,10 @@ Python
 TypeScript
 ----------
 
-- []()
+### - Recipes
+- [Grammer](./typescript/recipes/grammer.md)
+### - Settings
+- [tsconfig.json](./typescript/settings/tsconfigjson.md)
 
 Windows10
 ---------
