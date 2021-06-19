@@ -7,8 +7,8 @@ Installation
 npm i -D nodemon
 ```
 
-Examples
---------
+Recipe
+------
 ```sh
 nodemon $APP_PATH
 ```

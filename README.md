@@ -51,6 +51,7 @@ Node.js
 ### - Library
 - [ECMAScript modules](./nodejs/library/es_module.md))
 ### - Packages
+- [Express](./nodejs/packages/express.md)
 - [nodemon](./nodejs/packages/nodemon.md)
 ### - Manager
 - [npm](./nodejs/manager/npm.md)
@@ -59,13 +60,14 @@ Node.js
 Python
 ------
 
-### - Anaconda
-- [conda](./python/anaconda/conda.md)
 ### - Standard Library
 - [typing](./python/library/typing.md)
 ### - Packages
 - [NumPy](./python/packages/numpy.md)
+- [Pandas](./python/packages/pandas.md)
 - [tqdm](./python/packages/tqdm.md)
+### - Anaconda
+- [conda](./python/anaconda/conda.md)
 
 TypeScript
 ----------
