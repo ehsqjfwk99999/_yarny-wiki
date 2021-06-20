@@ -1,8 +1,6 @@
 SSH Commands
 ============
 
-![OpenSSH Logo](./openssh.gif)
-
 Install
 -------
 

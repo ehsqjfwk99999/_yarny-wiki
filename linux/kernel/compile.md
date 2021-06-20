@@ -1,13 +1,6 @@
 Linux Kernel Compile
 ====================
 
-![Linux Logo](./logo.gif)
-
-Files
------
-- [Linux Logo](./logo.gif)
-<!-- - []() -->
-
 Steps
 -----
 

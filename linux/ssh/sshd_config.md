@@ -1,8 +1,6 @@
 sshd_config
 ===========
 
-![OpenSSH Logo](./openssh.gif)
-
 Files
 -----
 ```sh

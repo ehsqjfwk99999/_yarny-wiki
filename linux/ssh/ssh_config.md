@@ -1,8 +1,6 @@
 ssh_config
 ==========
 
-![OpenSSH Logo](./openssh.gif)
-
 Files
 -----
 - Per-user configuration file.

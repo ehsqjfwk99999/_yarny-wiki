@@ -28,27 +28,27 @@ Linux
 -----
 
 ### - Install
-- [Install Packages](./linux/install_packages)
+- [Install Packages](./linux/install/install_packages.md)
 ### - Kernel
-- [Ftrace](./linux/kernel/ftrace)
-- [Kernel Compile](./linux/kernel/kernel_compile)
-- [Kernel Debug](./linux/kernel/kernel_debug)
+- [Ftrace](./linux/kernel/ftrace.md)
+- [Kernel Compile](./linux/kernel/compile.md)
+- [Kernel Debug](./linux/kernel/debug.md)
 ### - Packages
-- [curl](./linux/packages/curl)
-- [unzip](./linux/packages/unzip)
+- [curl](./linux/packages/curl.md)
+- [unzip](./linux/packages/unzip.md)
 ### - Shell
-- [Commands](./linux/shell/commands)
+- [Commands](./linux/shell/commands.md)
 ### - Shell Script
-- [Shell Script](./linux/shell_script)
+- [Shell Script](./linux/shell_script/shell_script.md)
 ### - SSH
-- [Commands](./linux/ssh/commands)
-- [sshd_config](./linux/ssh/sshd_config)
-- [ssh_config](./linux/ssh/ssh_config)
+- [Commands](./linux/ssh/commands.md)
+- [sshd_config](./linux/ssh/sshd_config.md)
+- [ssh_config](./linux/ssh/ssh_config.md)
 ### - Vim
-- [Install](./linux/vim/install_vim)
+- [Install](./linux/vim/install.md)
 - [.vimrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-vimrc)
 ### - Zsh
-- [Install](./linux/zsh/install_zsh)
+- [Install](./linux/zsh/install.md)
 - [.zshrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-zshrc)
 
 Node.js

@@ -1,8 +1,6 @@
 Shell Script
 ============
 
-![Bash Logo](./logo.png)
-
 Tips
 ----
 - Always use ${variable} for variables.

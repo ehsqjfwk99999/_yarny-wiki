@@ -1,8 +1,6 @@
 curl
 ====
 
-![curl Logo](logo.svg)
-
 Examples
 --------
 
