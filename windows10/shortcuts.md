@@ -23,3 +23,9 @@ Virtual Desktop
     Windows + Ctrl + F4
 ### - Switch to the virtual desktop on the left or right.
     Windows + Ctrl + Left/Right
+
+Special Symbols
+---------------
+
+### - Emoji
+    Windows + .
