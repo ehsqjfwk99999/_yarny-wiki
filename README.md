@@ -5,7 +5,6 @@ Where 2 Go?
 -----------
 
 - [C](./where/c.md)
-- [Docker](./where/docker.md)
 - [Git](./where/git.md)
 - [Kaggle](./where/kaggle.md)
 - [VS Code](./where/vscode.md)
@@ -17,6 +16,13 @@ Database
 - [Install](./database/mysql/install.md)
 ### - MongoDB
 - [Install(deprecated)](./database/mongodb/install.md)
+
+Docker
+------
+
+- [Commands](./docker/commands.md)
+- [Config Files](./docker/config_files.md)
+- [Install](./docker/install.md)
 
 Linux
 -----
