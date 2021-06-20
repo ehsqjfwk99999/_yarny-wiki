@@ -45,6 +45,7 @@ Linux
 - [sshd_config](./linux/ssh/sshd_config.md)
 - [ssh_config](./linux/ssh/ssh_config.md)
 ### - Vim
+- [Commands](./linux/vim/commands.md)
 - [Install](./linux/vim/install.md)
 - [.vimrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-vimrc)
 ### - Zsh
@@ -88,12 +89,3 @@ Windows10
 
 - [Setup](./windows10/setup.md)
 - [Shortcuts](./windows10/shortcuts.md)
-
-New Todo
---------
-
-- Docker
-  - commands
-  - dockerfile
-  - docker-compose.yml
-- Colab - notion참고
