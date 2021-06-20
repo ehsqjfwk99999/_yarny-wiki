@@ -62,23 +62,41 @@ echo > /sys/kernel/debug/tracing/set_ftrace_filter
 # Trace $FUNCTION_1 $FUNCTION_2 functions. 
 echo $FUNCTION_1 $FUNCTION_2 ... > /sys/kernel/debug/tracing/set_ftrace_filter
 ```
+```sh
+# Select funtions not to be traced.
+# Path : /sys/kernel/debug/tracing/set_ftrace_notrace.
+
+echo $FUNCTION_1 $FUNCTION_2 ... > /sys/kernel/debug/tracing/set_ftrace_notrace
+```
 
 ### - Options
 ```sh
 # Ftrace options.
 # Path : /sys/kernel/debug/tracing/options
+# See current option at /sys/kernel/debug/tracing/trace_options.
 
 # Enable $OPTION.
 echo 1 > /sys/kernel/debug/tracing/options/$OPTION
 ```
 
-Log
----
+Result
+------
 
 ### - Trace File
 ```sh
 # Where ftrace log is saved.
 # Path : /sys/kernel/debug/tracing/trace
+```
+
+### - Per CPU
+```sh
+# 'per_cpu' directory contains trace per-cpu information.
+
+# per_cpu/cpu0/trace
+# Similar to 'trace', but only displays data specific for the cpu.
+
+# per_cpu/cpu0/trace_pipe
+# Similar to 'trace_pipe', but only displays data specific for the cpu.
 ```
 
 Initialization Script
