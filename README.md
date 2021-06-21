@@ -67,6 +67,8 @@ Node.js
 Python
 ------
 
+### - Recipes
+- [Grammer](./python/recipes/grammer.md)
 ### - Standard Library
 - [typing](./python/library/typing.md)
 ### - Packages
