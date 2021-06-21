@@ -52,6 +52,11 @@ Linux
 - [Install](./linux/zsh/install.md)
 - [.zshrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-zshrc)
 
+Linux Kernel Code
+-----------------
+
+- [Book Summary](./linux_kernel_code/book_summary.md)
+
 Node.js
 -------
 
