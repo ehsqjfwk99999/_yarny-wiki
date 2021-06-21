@@ -22,5 +22,4 @@ def decorator_function(old_function):
 @decorator_function
 def old_function():
     ...
-
 ```
