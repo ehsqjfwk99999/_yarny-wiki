@@ -28,14 +28,14 @@ compilerOptions
 
 ```json
 /**
- * Allow JS
+ * allowJS
  * Allow JavaScript file in project.
  * Default: false
  */
 "allowJS": false
 
 /**
- * Check JS
+ * checkJS
  * Check JavaScript error when allowJS is enabled.
  * Default: false
  */
@@ -52,7 +52,7 @@ compilerOptions
 
 ```json
 /**
- * No Implicit Any
+ * noImplicitAny
  * Make error when typescript infer any type.
  * Default: false
  */

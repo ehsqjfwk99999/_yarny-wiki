@@ -6,6 +6,21 @@ Types
 
 ```typescript
 /**
+ * any
+ * Represents every type.
+ */
+let anyVariable: any = 'Can be everything';
+
+/**
+ * void
+ * Represents return value of functions which don’t return a value.
+ */
+function someFunction( ... ): void {
+    ...
+}
+```
+```typescript
+/**
  * boolean
  * Represents boolean values, true and false.
  */
@@ -49,24 +64,49 @@ let objectVariable: { property_1: string, property_2: number } = {
 };
 ```
 
+Type Annotation
+---------------
+
+### - Variable
+
+```typescript
+/**
+ * Variable type annotation.
+ * Add type behing variable.
+ */
+const someVariable: string = 'Some string';
+```
+
+### - Function
+
+```typescript
+/**
+ * Parameter type annotation.
+ * Add type behind parameter.
+ */
+function someFunction(parameter_1: string, parameter_2: number) {
+    ...
+}
+
+/**
+ * Return type annotation.
+ * Add type behind parameter declaration.
+ */
+function someFunction( ... ): number {
+    ...
+    return 123;
+}
+```
+
 Function
 --------
 
 ```typescript
 /**
- * Type Annotations
- * For parameter type and return type.
+ * Optional parameter.
+ * Make parameter optional by adding '?' at the end of parameter.
  */
-function functionOne(parameter_1: string, parameter_2: number): number {
-    ...
-    return 123;
-}
-
-/**
- * Optional Parameters.
- * Make parameter optional with '?:'.
- */
-function functionOne(parameter_1?: string) {
+function someFunction(optional_parameter?: string) {
     ...
 }
 ```
