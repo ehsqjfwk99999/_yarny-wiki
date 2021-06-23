@@ -25,3 +25,4 @@ wc -w $FILE_NAME
 # Print byte count.
 wc -c $FILE_NAME
 ```
+- [diff](https://man7.org/linux/man-pages/man1/diff.1.html)

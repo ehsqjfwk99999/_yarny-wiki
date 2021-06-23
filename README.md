@@ -33,14 +33,11 @@ Linux
 - [Ftrace](./linux/kernel/ftrace.md)
 - [Kernel Compile](./linux/kernel/compile.md)
 - [Kernel Debug](./linux/kernel/debug.md)
-### - Packages
-- [curl](./linux/packages/curl.md)
-- [unzip](./linux/packages/unzip.md)
 ### - Shell Commands
 - [Commands](./linux/shell_commands/commands.md)
 - [System Info](./linux/shell_commands/system_info.md)
 - [Process / Memory / Network Info](./linux/shell_commands/process_memory_network_info.md)
-- [String Management](./linux/shell_commands/string_management.md)
+- [Text Management](./linux/shell_commands/text_management.md)
 ### - Shell Script
 - [Shell Script](./linux/shell_script/shell_script.md)
 ### - SSH
@@ -70,7 +67,7 @@ Node.js
 -------
 
 ### - Library
-- [ECMAScript modules](./nodejs/library/es_module.md))
+- [ECMAScript modules](./nodejs/library/es_module.md)
 ### - Packages
 - [Express](./nodejs/packages/express.md)
 - [nodemon](./nodejs/packages/nodemon.md)
