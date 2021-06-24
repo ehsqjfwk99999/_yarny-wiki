@@ -7,7 +7,7 @@ Functions
 - BTRFS_I()
 ```c
 /**
- * Return the address of btrfs_inode structure that the inode belongs to.
+ * Return the pointer(address) of btrfs_inode structure that the inode belongs to.
  */
 
 static inline struct btrfs_inode *BTRFS_I(const struct inode *inode)

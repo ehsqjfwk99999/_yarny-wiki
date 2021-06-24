@@ -49,7 +49,7 @@ Macros
 - container_of()
 ```c
 /**
- * Return the starting address of an structure by address of one structure field.
+ * Return the pointer(starting address) of an structure by address of one structure field.
  * starting_address_of_structure
  *                = container_of(address_of_structure_field, structure, structure_field)
  */
