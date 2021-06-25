@@ -84,7 +84,7 @@ const someVariable: string = 'Some string';
  * Parameter type annotation.
  * Add type behind parameter.
  */
-function someFunction(parameter_1: string, parameter_2: number) {
+function someFunction(parameter_1: string, parameter_2: number, ...) {
     ...
 }
 
@@ -101,12 +101,68 @@ function someFunction( ... ): number {
 Function
 --------
 
+### - Optional Parameter
+
 ```typescript
-/**
- * Optional parameter.
- * Make parameter optional by adding '?' at the end of parameter.
- */
-function someFunction(optional_parameter?: string) {
+// Make parameter optional by adding '?' at the end of parameter.
+function someFunction(optionalParameter?: string) {
+    ...
+}
+```
+
+Interface
+---------
+
+### - Declaration
+
+```typescript
+// Object type.
+interface objectInterface {
+    property_1: string;
+    property_2: number;
+    ...
+}
+
+// Function type.
+interface functionInterface {
+    (parameter_1: string, parameter_2: number, ...): boolean;
+}
+```
+
+### - Optional Property
+
+```typescript
+// Make property optional by adding '?' at the end of property.
+interface objectInterface {
+    optionalProperty?: number;
+    normalProperty: string;
+    ...
+}
+```
+
+### - Extension(Inheritance)
+
+```typescript
+// Extend interface by extends keyword.
+interface newInterface extends superInterface{
+    newProperty: boolean
+    ...
+}
+```
+
+Type Alias
+----------
+
+### - Declaration
+
+```typescript
+// Using basic types.
+type newType = string;
+
+// Using object types.
+type newType = {
+    property_1: string;
+    property_2: number;
     ...
 }
 ```
