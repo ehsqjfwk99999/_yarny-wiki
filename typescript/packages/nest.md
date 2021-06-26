@@ -6,7 +6,7 @@ Nest CLI
 
 ### - Commands
 
-- nest n
+- nest n(new)
 ```sh
 nest new $PROJECT_NAME
 nest n $PROJECT_NAME
@@ -17,6 +17,7 @@ nest n $PROJECT_NAME
 nest info
 ```
 
-### - Recipes
+Recipes
+-------
 
 - [Hot reload](https://docs.nestjs.com/recipes/hot-reload)
