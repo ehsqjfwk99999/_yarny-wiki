@@ -30,7 +30,7 @@ Functions
 - wake_up_process()
 - yield()
 - do_nanosleep()
-- __schedule()
+- **__schedule()**
 - wait_event_interruptible()
 - sys_pause()
 - io_event_wait()
