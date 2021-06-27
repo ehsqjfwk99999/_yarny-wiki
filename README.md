@@ -40,8 +40,9 @@ Linux
 - [Install Packages](./linux/install/install_packages.md)
 ### - Kernel
 - [Ftrace](./linux/kernel/ftrace.md)
+- [Strace](./linux/kernel/strace.md)
 - [Kernel Compile](./linux/kernel/compile.md)
-- [Kernel Debug](./linux/kernel/debug.md)
+- [Kernel Debug Functions](./linux/kernel/debug_funcs.md)
 ### - Shell Commands
 - [Commands](./linux/shell_commands/commands.md)
 - [System Info](./linux/shell_commands/system_info.md)
@@ -81,9 +82,9 @@ Node.js
 ### - Packages
 - [Express](./nodejs/packages/express.md)
 - [nodemon](./nodejs/packages/nodemon.md)
-### - Manager
-- [npm](./nodejs/manager/npm.md)
-- [nvm](./nodejs/manager/nvm.md)
+### - Managers
+- [npm](./nodejs/managers/npm.md)
+- [nvm](./nodejs/managers/nvm.md)
 
 Python
 ------

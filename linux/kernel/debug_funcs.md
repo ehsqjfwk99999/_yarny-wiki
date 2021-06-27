@@ -1,5 +1,5 @@
-Kernel Debug
-============
+Kernel Debug Functions
+======================
 
 printk()
 --------

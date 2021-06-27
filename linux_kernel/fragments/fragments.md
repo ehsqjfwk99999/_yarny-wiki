@@ -29,18 +29,12 @@ keywords
  * Don't make the function inline.
  */
 ```
-
-Functions
----------
-
-- __builtin_return_address()
+- asmlinkage
 ```c
 /**
- * Return the address of caller function.
- * TBD.
+ * Meaning this function is directly callable from assembly code.
+ * Every argument is passed by stack, not register.
  */
-
-long unsigned int caller_func_address = (long unsigned int)__builtin_return_address(0);
 ```
 
 Macros
@@ -58,4 +52,45 @@ Macros
 #define container_of(ptr, type, member) \
     (type *)((char *)(ptr) - (char *) &((type *)0)->member)
 #endif
+```
+
+- likely() / unlikely()
+```c
+/**
+ * Hint to compiler for branch prediction.
+ * likely() prepares for true prediction, unlikely() for false prediction.
+ */
+
+# ifndef likely
+#  define likely(x) (__branch_check__(x, 1, __builtin_constant_p(x)))
+# endif
+# ifndef unlikely
+#  define unlikely(x)   (__branch_check__(x, 0, __builtin_constant_p(x)))
+# endif
+```
+
+Functions
+---------
+
+- __builtin_return_address()
+```c
+/**
+ * Return the address of caller function.
+ * TBD.
+ */
+
+// Examples.
+long unsigned int caller_func_address = (long unsigned int)__builtin_return_address(0);
+```
+
+- barrier()
+```c
+/**
+ * Memory barrier that disallow optimization(execution reordering).
+ */
+
+static inline void barrier(void)
+{
+    asm volatile("" : : : "memory");
+}
 ```
