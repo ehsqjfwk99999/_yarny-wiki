@@ -1,7 +1,7 @@
 NPM Commands
 ============
 
-![npm Logo](../../.logos/logo.svg)
+![npm Logo](../../.logos/npm.svg)
 
 Table of Contents
 -----------------
@@ -14,51 +14,43 @@ Table of Contents
 npm
 ---
 
-### - Display full usage info.
 ```sh
-npm -l
-```
-### - Show version.
-```sh
+# Show version.
 npm --version
 ```
 
 npm init
 --------
 
-### - Create package.json file.
 ```sh
+# Create package.json file.
 npm init
-```
-### - Create package.json file without questionnaire.
-```sh
+
+# Create without questionnaire.
 npm init -y
 ```
 
 npm i
 -----
 
-### - Install all packages in package.json
 ```sh
+# Install all packages in package.json.
 npm i
-```
-### - Install package in dependencies.
-```sh
+
+# Install package in dependencies.
 npm i $PACKAGE_NAME
-```
-### - Install package in devDependencies.
-```sh
+
+# Install package in devDependencies.
 npm i $PACKAGE_NAME -D
-```
-### - Install package globally.
-```sh
+
+# Install package globally.
 npm i $PACKAGE_NAME -g
 ```
 
 npm rm
 ------
 
-### - Remove a package.
 ```sh
+# Remove a package.
 npm rm $PACKAGE_NAME
 ```
