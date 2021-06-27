@@ -1,7 +1,7 @@
 NPM Commands
 ============
 
-![npm Logo](./logo.svg)
+![npm Logo](../../.logos/logo.svg)
 
 Table of Contents
 -----------------
