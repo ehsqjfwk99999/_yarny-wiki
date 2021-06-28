@@ -6,7 +6,7 @@ printk()
 
 ```c
 /**
- * Print values in kernel space.
+ * Print string in kernel space.
  * Header : <linux/kernel.h>
  * Usage is similar with printf().
  */
@@ -22,6 +22,17 @@ printk("Something to print : %p", $POINTER);
 | pointer | %p |
 | pointer symbol | %pS |
 
+trace_printk()
+--------------
+
+```c
+/**
+ * Print string to ftrace ring buffer.
+ */
+
+trace_printk("Something to print : %p", $POINTER);
+```
+
 dump_stack()
 ------------
 
@@ -31,5 +42,5 @@ dump_stack()
  * Header : <linux/kernel.h>
  */
 
-dump_stack()
+dump_stack();
 ```

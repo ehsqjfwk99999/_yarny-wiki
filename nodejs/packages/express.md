@@ -23,6 +23,7 @@ API
 ### - Response
 
 - [res.render](https://expressjs.com/en/4x/api.html#res.render)
+- [res.sendFile](https://expressjs.com/en/4x/api.html#res.sendFile)
 - [res.redirect](https://expressjs.com/en/4x/api.html#res.redirect)
 
 ### - Router
