@@ -10,31 +10,73 @@ Keywords
  * Meaning this function is called once during booting process.
  * Located in "linux/include/linux/init.h".
  */
+
+#define __init      __section(".init.text") __cold  __latent_entropy __noinitretpoline __nocfi
 ```
+
 - __noreturn
 ```c
 /**
  * Meaning this function does not return to the caller funtion.
+ * Location : linux/include/linux/compiler_attributes.h
  */
+
+#define __noreturn                      __attribute__((__noreturn__))
 ```
+
+- __sched
+```c
+/**
+ * Meaning that scheduling is executed inside this function.
+ * Location : linux/sched/debug.h
+ */
+
+#define __sched     __section(".sched.text")
+```
+
 - inline
 ```c
 /**
  * Substitue the body of function where the function is called.
  */
 ```
+
 - noinline
 ```c
 /**
  * Don't make the function inline.
+ * Location : linux/include/linux/compiler_attributes.h
  */
+
+#define   noinline                      __attribute__((__noinline__))
 ```
+
 - asmlinkage
 ```c
 /**
  * Meaning this function is directly callable from assembly code.
  * Every argument is passed by stack, not register.
  */
+```
+
+- __must_check
+```c
+/**
+ * Meaning that return value of this function must be checked.
+ * Location : linux/include/linux/compiler_attributes.h
+ */
+
+#define __must_check                    __attribute__((__warn_unused_result__))
+```
+
+- __force
+```c
+/**
+ * Used to suppress warning in sparse(semantic parser for C).
+ * Location : linux/include/linux/compiler_types.h
+ */
+
+# define __force    __attribute__((force))
 ```
 
 Macros
@@ -187,14 +229,17 @@ do {                                    \
 })
 ```
 
-- __sched
+- IS_ERR()
 ```c
 /**
- * Meaning that scheduling is executed inside this function.
- * Location : linux/sched/debug.h
+ * Check if pointer is error value.
+ * Location : linux/include/linux/err.h
  */
 
-#define __sched     __section(".sched.text")
+static inline bool __must_check IS_ERR(__force const void *ptr)
+{
+    return IS_ERR_VALUE((unsigned long)ptr);
+}
 ```
 
 Structures
