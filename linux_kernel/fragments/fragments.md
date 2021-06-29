@@ -257,6 +257,18 @@ typedef struct {
 } atomic_t;
 ```
 
+- struct list_head
+```c
+/**
+ * Linked list implementation in Linux.
+ * Location : linux/include/linux/types.h
+ */
+
+struct list_head {
+    struct list_head *next, *prev;
+};
+```
+
 Functions
 ---------
 

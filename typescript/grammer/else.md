@@ -13,6 +13,44 @@ function someFunction(optionalParameter?: string) {
 }
 ```
 
+Class
+-----
+
+```typescript
+/**
+ * TBD ...
+ */
+class SomeClass {
+    // Class member should be declared on the top.
+    property_1: string;
+    property_2: number;
+    ...
+
+    constructor() {
+        ...
+    }
+}
+```
+
+Generic
+-------
+
+```typescript
+/**
+ * Function
+ */
+function someGenericFunction<T>(arg: T): T {
+    ...
+}
+
+/**
+ * Class
+ */
+class SomeGenericClass<T> {
+    ...
+}
+```
+
 Enums
 -----
 
