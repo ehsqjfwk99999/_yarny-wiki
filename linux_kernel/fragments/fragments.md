@@ -298,3 +298,16 @@ void __sched down_write(struct rw_semaphore *sem)
  * Location : linux/kernel/panic.c 
  */
 ```
+
+- test_bit()
+```c
+/**
+ * Determine whether a bit is set.
+ * Location : linux/include/asm-generic/bitops/non-atomic.h
+ */
+
+static inline int test_bit(int nr, const volatile unsigned long *addr)
+{
+    return 1UL & (addr[BIT_WORD(nr)] >> (nr & (BITS_PER_LONG-1)));
+}
+```
