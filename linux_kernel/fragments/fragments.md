@@ -79,6 +79,16 @@ Keywords
 # define __force    __attribute__((force))
 ```
 
+- __percpu
+```c
+/**
+ * Meaning this pointer is related to percpu data.
+ * Location : linux/include/linux/compiler_types.h
+ */
+
+# define __percpu   __attribute__((noderef, address_space(__percpu)))
+```
+
 Macros
 ------
 
