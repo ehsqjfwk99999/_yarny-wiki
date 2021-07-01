@@ -5,13 +5,19 @@ Download
 --------
 
 - Download Go from [here](https://golang.org/dl/)
+```sh
+wget $DOWNLOAD_LINK
+```
 
 Install
 -------
 
 - Create Go tree in /usr/local/go.
 ```sh
-sudo rm -rf /usr/local/go && tar -C /usr/local -xzf $DOWNLOAD_FILE
+sudo su
+```
+```sh
+rm -rf /usr/local/go && tar -C /usr/local -xzf $DOWNLOAD_FILE
 ```
 
 - Add /usr/local/go/bin to the PATH.
@@ -30,13 +36,13 @@ Additional Configuration
 - Configure environment variables.
 ```sh
 export GOROOT=/usr/local/go
-export GOPATH=$HOME/gogogo
+export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH
 ```
 
 - Create directories.
 ```sh
-cd $GOPTAH && mkdir bin pkg src
+cd $GOPATH && mkdir bin pkg src
 ```
 
 Installation Script
