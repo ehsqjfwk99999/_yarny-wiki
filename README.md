@@ -81,6 +81,7 @@ Node.js
 - [Style Guide](./nodejs/cookbook/style_guide.md)
 ### - Recipes
 - [Iteration Protocols](./nodejs/recipes/iter_protocols.md)
+- [Asynchrony](./nodejs/recipes/asynchrony.md)
 ### - Library
 - [ECMAScript modules](./nodejs/library/es_modules.md)
 ### - Packages
