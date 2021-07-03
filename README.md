@@ -37,7 +37,8 @@ Python
 - [Pandas](./python/packages/pandas.md)
 - [tqdm](./python/packages/tqdm.md)
 ### - Anaconda
-- [conda](./python/anaconda/conda.md)
+- [Commands](./python/anaconda/commands.md)
+- [Install](./python/anaconda/install.md)
 
 Node
 -------

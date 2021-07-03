@@ -17,13 +17,12 @@ Table of Contents
 conda
 -----
 
-### - Show manual page.
 ```sh
+# Show manual page.
 conda -h
 conda --help
-```
-### - Show version.
-```sh
+
+# Show version.
 conda -V
 conda --version
 ```
@@ -31,59 +30,58 @@ conda --version
 conda info
 ----------
 
-### - Display information about current conda install.
 ```sh
+# Display information about current conda install.
 conda info
 ```
 
 conda env
 ---------
 
-### - List the conda environments.
 ```sh
+# List the conda environments.
 conda env list
 ```
 
 conda activate
 --------------
 
-### - Activate an environment.
 ```sh
+# Activate an environment.
 conda activate
 ```
 
 conda deactivate
 ----------------
 
-### - Deactivate an environment.
 ```sh
+# Deactivate an environment.
 conda deactivate
 ```
 
 conda list
 ----------
 
-### - List packages in conda environment.
 ```sh
+# List packages in conda environment.
 conda list
 ```
 
 conda install
 -------------
 
-### - Install package in conda environment.
 ```sh
+# Install package in conda environment.
 conda install $PACKAGE_NAME
 ```
 
 conda update
 ------------
 
-### - Update conda package manager.
 ```sh
+# Update conda package manager.
 conda update conda
-```
-### - Update anaconda.
-```sh
+
+# Update anaconda.
 conda update anaconda
 ```
