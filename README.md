@@ -1,34 +1,82 @@
 Yarny Wiki
 ==========
 
-Where 2 Go?
------------
+Table of Contents
+-----------------
+
+- [Where 2 Go?](#where-2-go)
+- [Python](#python)
+- [Node](#node)
+- [TypeScript](#typescript)
+- [Golang](#golang)
+- [Linux](#linux)
+- [Linux Kernel](#linux-kernel)
+- [Database](#database)
+- [Docker](#docker)
+- [Windows10](#windows10)
+
+Where 2 Go
+----------
 
 - [C](./where/c.md)
 - [Git](./where/git.md)
 - [Kaggle](./where/kaggle.md)
 - [VS Code](./where/vscode.md)
+- [ESLint](./where/eslint.md)
+- [Prettier](./where/prettier.md)
 
-Database
---------
-
-### - MySQL
-- [Install](./database/mysql/install.md)
-### - MongoDB
-- [Install(deprecated)](./database/mongodb/install.md)
-
-Docker
+Python
 ------
 
-- [Commands](./docker/commands.md)
-- [Config Files](./docker/config_files.md)
-- [Install](./docker/install.md)
+### - Recipes
+- [Grammer](./python/recipes/grammer.md)
+### - Standard Library
+- [typing](./python/library/typing.md)
+### - Packages
+- [NumPy](./python/packages/numpy.md)
+- [Pandas](./python/packages/pandas.md)
+- [tqdm](./python/packages/tqdm.md)
+### - Anaconda
+- [conda](./python/anaconda/conda.md)
 
-Formatter & Linter
-------------------
+Node
+-------
 
-- [ESLint](./formatter&linter/eslint.md)
-- [Prettier](./formatter&linter/prettier.md)
+### - Cookbook
+- [Style Guide](./nodejs/cookbook/style_guide.md)
+### - Recipes
+- [Iteration Protocols](./nodejs/recipes/iter_protocols.md)
+- [Asynchrony](./nodejs/recipes/asynchrony.md)
+### - Library
+- [ECMAScript modules](./nodejs/library/es_modules.md)
+### - Packages
+- [Express](./nodejs/packages/express.md)
+- [nodemon](./nodejs/packages/nodemon.md)
+### - NVM
+- [Commands](./nodejs/nvm/commands.md)
+- [Install](./nodejs/nvm/install.md)
+### - NPM
+- [Commands](./nodejs/npm/commands.md)
+
+TypeScript
+----------
+
+### - Cookbook
+- [Style Guide](./typescript/cookbook/style_guide.md)
+### - Grammer
+- [Types](./typescript/grammer/types.md)
+- [Else](./typescript/grammer/else.md)
+### - Packages
+- [NestJs](./typescript/packages/nestjs.md)
+### - Settings
+- [tsconfig.json](./typescript/settings/tsconfigjson.md)
+
+Golang
+------
+
+- [Style Guide](./golang/style_guide.md)
+- [Grammer](./golang/grammer.md)
+- [Install](./golang/install.md)
 
 Linux
 -----
@@ -74,56 +122,20 @@ Linux Kernel
 ### - Fragments
 - [Fragments](./linux_kernel/fragments/fragments.md)
 
-Node.js
--------
+Database
+--------
 
-### - Cookbook
-- [Style Guide](./nodejs/cookbook/style_guide.md)
-### - Recipes
-- [Iteration Protocols](./nodejs/recipes/iter_protocols.md)
-- [Asynchrony](./nodejs/recipes/asynchrony.md)
-### - Library
-- [ECMAScript modules](./nodejs/library/es_modules.md)
-### - Packages
-- [Express](./nodejs/packages/express.md)
-- [nodemon](./nodejs/packages/nodemon.md)
-### - Managers
-- [npm](./nodejs/managers/npm.md)
-- [nvm](./nodejs/managers/nvm.md)
+### - MySQL
+- [Install](./database/mysql/install.md)
+### - MongoDB
+- [Install(deprecated)](./database/mongodb/install.md)
 
-TypeScript
-----------
-
-### - Cookbook
-- [Style Guide](./typescript/cookbook/style_guide.md)
-### - Grammer
-- [Types](./typescript/grammer/types.md)
-- [Else](./typescript/grammer/else.md)
-### - Packages
-- [NestJs](./typescript/packages/nestjs.md)
-### - Settings
-- [tsconfig.json](./typescript/settings/tsconfigjson.md)
-
-Python
+Docker
 ------
 
-### - Recipes
-- [Grammer](./python/recipes/grammer.md)
-### - Standard Library
-- [typing](./python/library/typing.md)
-### - Packages
-- [NumPy](./python/packages/numpy.md)
-- [Pandas](./python/packages/pandas.md)
-- [tqdm](./python/packages/tqdm.md)
-### - Anaconda
-- [conda](./python/anaconda/conda.md)
-
-Golang
-------
-
-- [Style Guide](./golang/style_guide.md)
-- [Grammer](./golang/grammer.md)
-- [Install](./golang/install.md)
+- [Commands](./docker/commands.md)
+- [Config Files](./docker/config_files.md)
+- [Install](./docker/install.md)
 
 Windows10
 ---------

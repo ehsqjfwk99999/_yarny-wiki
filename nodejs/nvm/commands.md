@@ -12,43 +12,40 @@ Table of Contents
 nvm
 ---
 
-### - Show manual page.
 ```sh
+# Show manual page.
 nvm --help
-```
-### - Show version.
-```sh
+
+# Show version.
 nvm --version
 ```
 
 nvm ls
 ------
 
-### - List installed versions.
 ```sh
+# List installed node versions.
 nvm ls
 ```
 
 nvm install
 -----------
 
-### - Install the latest available version.
 ```sh
+# Install the latest available node version.
 nvm install node
-```
-### - Install the latest LTS version.
-```sh
+
+# Install the latest node LTS version.
 nvm install --lts
 ```
 
 nvm use
 -------
 
-### - Use the latest version.
 ```sh
+# Use the latest node version.
 nvm use node
-```
-### - Use the latest LTS version.
-```sh
+
+# Use the latest node LTS version.
 nvm use --lts
 ```
