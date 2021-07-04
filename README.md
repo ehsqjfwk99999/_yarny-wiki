@@ -76,7 +76,7 @@ Golang
 ------
 
 - [Style Guide](./golang/style_guide.md)
-- [Grammer](./golang/grammer.md)
+<!-- - [Grammer](./golang/grammer.md) -->
 - [Install](./golang/install.md)
 
 Linux

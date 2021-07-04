@@ -37,7 +37,13 @@ Additional Configuration
 ```sh
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOROOT/bin:$GOPATH
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin:$GOPATH:$GOBIN
+```
+
+- Check environment variables.
+```sh
+go env
 ```
 
 - Create directories.
