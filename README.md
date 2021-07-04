@@ -66,7 +66,7 @@ TypeScript
 - [Style Guide](./typescript/cookbook/style_guide.md)
 ### - Grammer
 - [Types](./typescript/grammer/types.md)
-- [Else](./typescript/grammer/else.md)
+<!-- - [Else](./typescript/grammer/else.md) -->
 ### - Packages
 - [NestJs](./typescript/packages/nestjs.md)
 ### - Settings
