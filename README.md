@@ -34,7 +34,7 @@ Python
 - [typing](./python/library/typing.md)
 ### - Packages
 - [NumPy](./python/packages/numpy.md)
-- [Pandas](./python/packages/pandas.md)
+<!-- - [Pandas](./python/packages/pandas.md) -->
 - [tqdm](./python/packages/tqdm.md)
 ### - Anaconda
 - [Commands](./python/anaconda/commands.md)
