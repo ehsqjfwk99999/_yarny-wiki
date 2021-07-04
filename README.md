@@ -28,8 +28,8 @@ Where 2 Go
 Python
 ------
 
-### - Recipes
-- [Grammer](./python/recipes/grammer.md)
+### - Grammer
+<!-- - [Grammer](./python/recipes/grammer.md) -->
 ### - Standard Library
 - [typing](./python/library/typing.md)
 ### - Packages
