@@ -19,6 +19,13 @@ API
 ```sh
     chmod 600 ~/.kaggle/kaggle.json
 ```
+- Using in colab.
+```python
+# Add to code before loading data.
+import os
+os.environ['KAGGLE_USERNAME'] = 'kaggle username'
+os.environ['KAGGLE_KEY'] = 'kaggle key'
+```
 
 Commands
 --------
