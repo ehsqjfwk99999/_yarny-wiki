@@ -6,7 +6,7 @@ Table of Contents
 
 - [Where 2 Go?](#where-2-go)
 - [Python](#python)
-- [Node](#node)
+- [JavaScript](#javascript)
 - [TypeScript](#typescript)
 - [Golang](#golang)
 - [Linux](#linux)
@@ -40,24 +40,23 @@ Python
 - [Commands](./python/anaconda/commands.md)
 - [Install](./python/anaconda/install.md)
 
-Node
--------
+JavaScript
+----------
 
 ### - Cookbook
-- [Style Guide](./nodejs/cookbook/style_guide.md)
+- [Style Guide](./javascript/cookbook/style_guide.md)
 ### - Recipes
-- [Iteration Protocols](./nodejs/recipes/iter_protocols.md)
-- [Asynchrony](./nodejs/recipes/asynchrony.md)
-### - Library
-- [ECMAScript modules](./nodejs/library/es_modules.md)
+- [Iteration Protocols](./javascript/recipes/iter_protocols.md)
+- [Asynchrony](./javascript/recipes/asynchrony.md)
+- [ECMAScript modules](./javascript/recipes/es_modules.md)
 ### - Packages
-- [Express](./nodejs/packages/express.md)
-- [nodemon](./nodejs/packages/nodemon.md)
+- [Express](./javascript/packages/express.md)
+- [nodemon](./javascript/packages/nodemon.md)
 ### - NVM
-- [Commands](./nodejs/nvm/commands.md)
-- [Install](./nodejs/nvm/install.md)
+- [Commands](./javascript/nvm/commands.md)
+- [Install](./javascript/nvm/install.md)
 ### - NPM
-- [Commands](./nodejs/npm/commands.md)
+- [Commands](./javascript/npm/commands.md)
 
 TypeScript
 ----------
