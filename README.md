@@ -39,6 +39,8 @@ Python
 ### - Anaconda
 - [Commands](./python/anaconda/commands.md)
 - [Install](./python/anaconda/install.md)
+### - Colab
+- [Keymap](./python/colab/keymap.md)
 
 JavaScript
 ----------
