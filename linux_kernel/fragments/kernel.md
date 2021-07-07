@@ -7,6 +7,7 @@ Keywords
 - __init
 ```c
 /**
+ * __init
  * Meaning this function is called once during booting process.
  * Located in "linux/include/linux/init.h".
  */
@@ -197,8 +198,8 @@ do {                                    \
 - WARN() / WARN_ON() / WARN_ON_ONCE() / WARN_ONCE()
 ```c
 /**
- * Print current status but system runs.
- * Logical error existed if executed.
+ * Print current status while remaining system running.
+ * If executed logical error existed.
  * Location : linux/include/asm-generic/bug.h
  */
 
