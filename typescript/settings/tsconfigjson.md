@@ -7,16 +7,22 @@ tsconfig.json
 ```typescript
 {
   "compilerOptions": {
-    // Project Options.
+    // JavaScript Support.
     "allowJS": false,
     "checkJs": false,
+
+    // Emit.
     "outDir": "dist",
 
-    // Strict Checks.
+    // Type Checking.
     "noImplicitAny": false,
 
-    // Module Resolution.
-    "baseUrl": "./"
+    // Modules.
+    "baseUrl": "./",
+
+    // Language and Environment.
+    "target": "ES3",
+    "lib": []
   },
 }
 ```
@@ -24,8 +30,9 @@ tsconfig.json
 compilerOptions
 ---------------
 
-### - Project Options
+### - JavaScript Support
 
+- [allowJS](https://www.typescriptlang.org/tsconfig#allowJs)
 ```json
 /**
  * allowJS
@@ -33,14 +40,21 @@ compilerOptions
  * Default: false
  */
 "allowJS": false
-
+```
+- [checkJS](https://www.typescriptlang.org/tsconfig#checkJs)
+```json
 /**
  * checkJS
  * Check JavaScript error when allowJS is enabled.
  * Default: false
  */
 "checkJs": false
+```
 
+### - Emit
+
+- [outDir](https://www.typescriptlang.org/tsconfig#outDir)
+```json
 /**
  * outDir
  * If specified, .js(.js.map, etc.) files will be emitted to this directory.
@@ -48,8 +62,10 @@ compilerOptions
  */
 "outDir": "dist"
 ```
-### - Strict Checks
 
+### - Type Checking
+
+- [noImplicitAny](https://www.typescriptlang.org/tsconfig#noImplicitAny)
 ```json
 /**
  * noImplicitAny
@@ -59,8 +75,9 @@ compilerOptions
 "noImplicitAny": false
 ```
 
-### - Module Resolution
+### - Modules
 
+- [baseUrl](https://www.typescriptlang.org/tsconfig#baseUrl)
 ```json
 /**
  * baseUrl
@@ -68,4 +85,24 @@ compilerOptions
  * With './' typescript will look for files in same directory as tsconfig.json.
  */
 "baseUrl": "./"
+```
+
+### - Language and Environment
+
+- [target](https://www.typescriptlang.org/tsconfig#target)
+```json
+/**
+ * target
+ * Configure the output javascript file features.
+ * Default: ES3
+ */
+"target": "ES3"
+```
+- [lib](https://www.typescriptlang.org/tsconfig#lib)
+```json
+/**
+ * lib
+ * Includes APIs for newer JS features.
+ */
+"lib": [ ... ]
 ```
