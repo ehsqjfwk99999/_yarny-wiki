@@ -6,6 +6,6 @@ Naming
 
 | Style | Category |
 | :---: | :------: |
-| UpperCamelCase | class / interface / type / enum / decorator|
-| lowerCamelCase | variable / parameter / function / method / property / module alias |
-| CONSTANT_CASE | global constant / enum values |
+| UpperCamelCase | class<br>interface<br>type<br>enum<br>decorator|
+| lowerCamelCase | variable<br>parameter<br>function<br>method<br>property<br>module alias |
+| CONSTANT_CASE | global constant<br>enum values |
