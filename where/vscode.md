@@ -14,7 +14,6 @@ Table of Contents
 - [Code - navigate](#code---navigate)
 - [Debug](#debug)
 - [Jupyter](#jupyter)
-<!-- - []() -->
 
 Settings
 --------
@@ -24,7 +23,12 @@ Settings
 ### - Open settings.json.
     Ctrl + ,  Ctrl + .
 ### - Open keyboard shortcuts.
-    Ctrl + K  Ctrl + S
+```json
+// Open keyboard shortcuts.
+Alt + , + Alt + ,
+```
+### - Open keybindings.json.
+    Alt + , + Alt + .
 
 Top
 ---
@@ -94,7 +98,11 @@ Code - navigate
 ---------------
 
 ### - Go to definition.
-    F12
+    Ctrl + ]
+### - Go back
+    Ctrl + [
+### - Add selection to next find match.
+    Ctrl + D
 
 Debug
 -----
