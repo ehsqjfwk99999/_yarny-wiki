@@ -38,9 +38,25 @@ Keywords
 - inline
 ```c
 /**
+ * inline
  * Substitue the body of function where the function is called.
+ * Location : linux/include/linux/compiler_types.h
  */
+
+#define inline inline __gnu_inline __inline_maybe_unused notrace
 ```
+
+- __always_inline
+```c
+/**
+ * __always_inline
+ * Meaning always inline this code.
+ * Location : linux/include/linux/compiler_attributes.h
+ */
+
+#define __always_inline                 inline __attribute__((__always_inline__))
+```
+
 
 - noinline
 ```c
@@ -88,6 +104,17 @@ Keywords
  */
 
 # define __percpu   __attribute__((noderef, address_space(__percpu)))
+```
+
+- __user
+```c
+/**
+ * __user
+ * Meaning this pointer is pointing at somewhere in user space.
+ * Location : linux/include/linux/compiler_types.h
+ */
+
+# define __user     __attribute__((noderef, address_space(__user)))
 ```
 
 Macros
@@ -243,6 +270,7 @@ do {                                    \
 - IS_ERR()
 ```c
 /**
+ * IS_ERR()
  * Check if pointer is error value.
  * Location : linux/include/linux/err.h
  */
