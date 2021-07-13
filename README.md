@@ -69,7 +69,7 @@ TypeScript
 - [Types](./typescript/grammer/types.md)
 <!-- - [Else](./typescript/grammer/else.md) -->
 ### - Packages
-- [NestJs](./typescript/packages/nestjs.md)
+<!-- - [NestJs](./typescript/packages/nestjs.md) -->
 ### - Settings
 - [tsconfig.json](./typescript/settings/tsconfigjson.md)
 
