@@ -20,25 +20,34 @@ Filesystem Hierarchy Standard
 |   # Parent directory of user's home directories.
 |-- /home
 |
-|   # Directory for libraries needed in system.
+|   # Directory for libraries for system.
 |-- /lib
 |
 |   # Directory for temporarily mounted filesystems.
 |-- /mnt
 |
-|   # Virtual filesystem that presents system information.
+|   # Virtual filesystem for system and process information.
 |-- /proc
-|   |
-|   |   # Contain information about the cpus.
-|   |-- /proc/cpuinfo
-|   |
-|   |   # Contain summary of memory managed by kernel.
-|   |-- /proc/meminfo
+|        \
+|         |   # Contain information about Linux release.
+|         |-- /proc/version
+|         |
+|         |   # Contain information about the cpus.
+|         |-- /proc/cpuinfo
+|         |
+|         |   # Contain summary of memory managed by kernel.
+|         |-- /proc/meminfo
 |
 |   # Home directory for the root user.
 |-- /root
 |
-|   # ?
+|   # Directory for runtime files.
+|-- /run
+|
+|   # Directory for system command binaries.
+|-- /sbin
+|
+|   # Virtual filesystem for system information.
 |-- /sys
 |
 |   # Directory for temporary files.
@@ -46,7 +55,13 @@ Filesystem Hierarchy Standard
 |
 |   # ?
 |-- /usr
+|       \
+|        |   # Path for basic program installation.
+|        |-- /usr/bin
+|        |
+|        |   # Path for system program installation.
+|        |-- /usr/sbin
 |
-|   # Directory for variable files.
+|   # Directory for logs and datas.
 |-- /var
 ```

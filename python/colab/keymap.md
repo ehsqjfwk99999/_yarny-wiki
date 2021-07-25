@@ -51,3 +51,11 @@ Ctrl + M  D
 # Cancel cell work.
 Ctrl + M  Z
 ```
+
+Edit
+----
+
+```sh
+# Show auto complete.
+Ctrl + Space
+```

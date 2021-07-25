@@ -33,12 +33,16 @@ Python
 ### - Standard Library
 - [typing](./python/library/typing.md)
 ### - Packages
-- [NumPy](./python/packages/numpy.md)
+<!-- - [NumPy](./python/packages/numpy.md) -->
 <!-- - [Pandas](./python/packages/pandas.md) -->
 - [tqdm](./python/packages/tqdm.md)
 ### - Anaconda
 - [Commands](./python/anaconda/commands.md)
 - [Install](./python/anaconda/install.md)
+### - Jupyter Notebook
+- [Cookbook](./python/jupyter_notebook/jupyter_notebook_cookbook.md)
+### - Ipython
+- [Magic Commands](./python/ipython/ipython_magic_commands.md)
 ### - Colab
 - [Keymap](./python/colab/keymap.md)
 
