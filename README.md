@@ -31,7 +31,9 @@ Python
 ### - Grammer
 <!-- - [Grammer](./python/recipes/grammer.md) -->
 ### - Standard Library
-- [typing](./python/library/typing.md)
+- [os](./python/library/os.md)
+- [sys](./python/library/sys.md)
+<!-- - [typing](./python/library/typing.md) -->
 ### - Packages
 <!-- - [NumPy](./python/packages/numpy.md) -->
 <!-- - [Pandas](./python/packages/pandas.md) -->
@@ -39,12 +41,10 @@ Python
 ### - Anaconda
 - [Commands](./python/anaconda/commands.md)
 - [Install](./python/anaconda/install.md)
-### - Jupyter Notebook
-- [Cookbook](./python/jupyter_notebook/jupyter_notebook_cookbook.md)
-### - Ipython
-- [Magic Commands](./python/ipython/ipython_magic_commands.md)
-### - Colab
-- [Keymap](./python/colab/keymap.md)
+### - Else
+- [Jupyter Notebook - Cookbook](./python/else/jupyter_notebook_cookbook.md)
+- [Ipython - Magic Commands](./python/else/ipython_magic_commands.md)
+- [Colab - Keymap](./python/else/colab_keymap.md)
 
 JavaScript
 ----------
@@ -80,7 +80,6 @@ TypeScript
 Golang
 ------
 
-- [Style Guide](./golang/style_guide.md)
 <!-- - [Grammer](./golang/grammer.md) -->
 - [Install](./golang/install.md)
 
@@ -121,10 +120,6 @@ Linux Kernel
 
 ### - BtrFS
 - [Fragments](./linux_kernel/btrfs/fragments.md)
-### - Book Summary
-- [Synchronization](./linux_kernel/book_summary/sync.md)
-- [Timer](./linux_kernel/book_summary/timer.md)
-- [System Call](./linux_kernel/book_summary/syscall.md)
 ### - Fragments
 - [Kernel](./linux_kernel/fragments/kernel.md)
 - [File System](./linux_kernel/fragments/fs.md)
