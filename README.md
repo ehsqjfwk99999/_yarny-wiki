@@ -19,6 +19,7 @@ Where 2 Go
 ----------
 
 - [C](./where/c.md)
+- [GDB](./where/gdb.md)
 - [Git](./where/git.md)
 - [Kaggle](./where/kaggle.md)
 - [VS Code](./where/vscode.md)
@@ -30,14 +31,16 @@ Python
 
 ### - Grammer
 <!-- - [Grammer](./python/recipes/grammer.md) -->
+- [Errors & Exceptions](./python/grammer/errors_&_exceptions.md)
 ### - Standard Library
 - [os](./python/library/os.md)
 - [sys](./python/library/sys.md)
 <!-- - [typing](./python/library/typing.md) -->
 ### - Packages
-<!-- - [NumPy](./python/packages/numpy.md) -->
-<!-- - [Pandas](./python/packages/pandas.md) -->
+- [Pandas Cookbook](./python/packages/pandas_cookbook.md)
+- [Pandas API](./python/packages/pandas_api.md)
 - [tqdm](./python/packages/tqdm.md)
+<!-- - [NumPy](./python/packages/numpy.md) -->
 ### - Anaconda
 - [Commands](./python/anaconda/commands.md)
 - [Install](./python/anaconda/install.md)
