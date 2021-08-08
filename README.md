@@ -29,9 +29,11 @@ Where 2 Go
 Python
 ------
 
-### - Grammer
-<!-- - [Grammer](./python/recipes/grammer.md) -->
-- [Errors & Exceptions](./python/grammer/errors_&_exceptions.md)
+### - Language Reference
+- [Module](./python/language_reference/module.md)
+- [Errors & Exceptions](./python/language_reference/errors_&_exceptions.md)
+- [Built-in Keywords](./python/language_reference/built-in_keywords.md)
+- [Built-in Functions](./python/language_reference/built-in_functions.md)
 ### - Standard Library
 - [os](./python/library/os.md)
 - [sys](./python/library/sys.md)
