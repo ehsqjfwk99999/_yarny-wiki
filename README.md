@@ -21,7 +21,6 @@ Where 2 Go
 - [C](./where/c.md)
 - [GDB](./where/gdb.md)
 - [Git](./where/git.md)
-- [Kaggle](./where/kaggle.md)
 - [VS Code](./where/vscode.md)
 - [ESLint](./where/eslint.md)
 - [Prettier](./where/prettier.md)
@@ -47,6 +46,7 @@ Python
 - [Commands](./python/anaconda/commands.md)
 - [Install](./python/anaconda/install.md)
 ### - Else
+- [Kaggle](./python/else/kaggle.md)
 - [Jupyter Notebook - Cookbook](./python/else/jupyter_notebook_cookbook.md)
 - [Ipython - Magic Commands](./python/else/ipython_magic_commands.md)
 - [Colab - Keymap](./python/else/colab_keymap.md)
