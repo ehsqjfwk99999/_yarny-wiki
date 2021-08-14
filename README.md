@@ -41,6 +41,7 @@ Python
 - [Pandas Cookbook](./python/packages/pandas_cookbook.md)
 - [Pandas API](./python/packages/pandas_api.md)
 - [tqdm](./python/packages/tqdm.md)
+- [joblib](./python/packages/joblib.md)
 <!-- - [NumPy](./python/packages/numpy.md) -->
 ### - Anaconda
 - [Commands](./python/anaconda/commands.md)
@@ -141,9 +142,9 @@ Database
 Docker
 ------
 
-- [Commands](./docker/commands.md)
-- [Config Files](./docker/config_files.md)
-- [Install](./docker/install.md)
+<!-- - [Commands](./docker/commands.md) -->
+<!-- - [Config Files](./docker/config_files.md) -->
+<!-- - [Install](./docker/install.md) -->
 
 Windows10
 ---------
