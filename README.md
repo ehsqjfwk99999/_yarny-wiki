@@ -24,6 +24,7 @@ Where 2 Go
 - [VS Code](./where/vscode.md)
 - [ESLint](./where/eslint.md)
 - [Prettier](./where/prettier.md)
+- [Travis CI](./where/travis_ci.md)
 
 Python
 ------
@@ -36,7 +37,7 @@ Python
 ### - Standard Library
 - [os](./python/library/os.md)
 - [sys](./python/library/sys.md)
-<!-- - [typing](./python/library/typing.md) -->
+- [unittest](./python/library/unittest.md)
 ### - Packages
 - [Pandas Cookbook](./python/packages/pandas_cookbook.md)
 - [Pandas API](./python/packages/pandas_api.md)
@@ -141,13 +142,17 @@ Database
 
 Docker
 ------
-
-<!-- - [Commands](./docker/commands.md) -->
-<!-- - [Config Files](./docker/config_files.md) -->
-<!-- - [Install](./docker/install.md) -->
+### - CLI
+- [CLI](./docker/cli.md)
+### - Config Files
+- [Docker File](./docker/docker_file.md)
+- [Docker Compose File](./docker/docker_compose_file.md)
+- [Docker Ignore](./docker/docker_ignore.md)
+### - Else
+- [Cookbook](./docker/cookbook.md)
+- [Install](./docker/install.md)
 
 Windows10
 ---------
-
 - [Setup](./windows10/setup.md)
 - [Shortcuts](./windows10/shortcuts.md)
