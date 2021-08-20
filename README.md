@@ -25,11 +25,14 @@ Where 2 Go
 - [ESLint](./where/eslint.md)
 - [Prettier](./where/prettier.md)
 - [Travis CI](./where/travis_ci.md)
+- [Hadoop](./where/hadoop.md)
 
 Python
 ------
 
 ### - Language Reference
+- [Class](./python/language_reference/class.md)
+- [Decorator](./python/language_reference/decorator.md)
 - [Module](./python/language_reference/module.md)
 - [Errors & Exceptions](./python/language_reference/errors_&_exceptions.md)
 - [Built-in Keywords](./python/language_reference/built-in_keywords.md)
@@ -37,6 +40,7 @@ Python
 ### - Standard Library
 - [os](./python/library/os.md)
 - [sys](./python/library/sys.md)
+- [timeit](./python/library/timeit.md)
 - [unittest](./python/library/unittest.md)
 ### - Packages
 - [Pandas Cookbook](./python/packages/pandas_cookbook.md)
@@ -63,7 +67,7 @@ JavaScript
 - [Asynchrony](./javascript/recipes/asynchrony.md)
 - [ECMAScript modules](./javascript/recipes/es_modules.md)
 ### - Packages
-- [Express](./javascript/packages/express.md)
+<!-- - [Express](./javascript/packages/express.md) -->
 - [nodemon](./javascript/packages/nodemon.md)
 ### - NVM
 - [Commands](./javascript/nvm/commands.md)
@@ -124,13 +128,13 @@ Linux
 
 Linux Kernel
 ------------
-
+### - Reference
+- [Block I/O Layer](./linux_kernel/reference/block_io_layer.md)
 ### - BtrFS
 - [Fragments](./linux_kernel/btrfs/fragments.md)
 ### - Fragments
 - [Kernel](./linux_kernel/fragments/kernel.md)
 - [File System](./linux_kernel/fragments/fs.md)
-### - Documentation
 
 Database
 --------

@@ -1,5 +1,5 @@
-Python Errors & Exceptions
-==========================
+Python Language Reference : Errors & Exceptions
+===============================================
 
 Handling Exceptions
 -------------------

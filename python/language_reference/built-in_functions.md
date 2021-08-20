@@ -1,5 +1,5 @@
-Python Built-in Functions
-=========================
+Python Language Reference : Built-in Functions
+==============================================
 
 Built-in Functions
 ------------------

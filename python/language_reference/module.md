@@ -1,5 +1,5 @@
-Python Module
--------------
+Python Language Reference : Module
+==================================
 
 Module vs Package
 -----------------
