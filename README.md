@@ -25,13 +25,14 @@ Where 2 Go
 - [ESLint](./where/eslint.md)
 - [Prettier](./where/prettier.md)
 - [Travis CI](./where/travis_ci.md)
-- [Hadoop](./where/hadoop.md)
+<!-- - [Hadoop](./where/hadoop.md) -->
 
 Python
 ------
 
 ### - Language Reference
 - [Class](./python/language_reference/class.md)
+- [Iterator & Generator](./python/language_reference/iterator_&_generator.md)
 - [Decorator](./python/language_reference/decorator.md)
 - [Module](./python/language_reference/module.md)
 - [Errors & Exceptions](./python/language_reference/errors_&_exceptions.md)
@@ -39,6 +40,7 @@ Python
 - [Built-in Functions](./python/language_reference/built-in_functions.md)
 ### - Standard Library
 - [os](./python/library/os.md)
+- [os.path](./python/library/os.path.md)
 - [sys](./python/library/sys.md)
 - [timeit](./python/library/timeit.md)
 - [unittest](./python/library/unittest.md)
@@ -47,6 +49,7 @@ Python
 - [Pandas API](./python/packages/pandas_api.md)
 - [tqdm](./python/packages/tqdm.md)
 - [joblib](./python/packages/joblib.md)
+- [mrjob](./python/packages/mrjob.md)
 <!-- - [NumPy](./python/packages/numpy.md) -->
 ### - Anaconda
 - [Commands](./python/anaconda/commands.md)

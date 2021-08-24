@@ -27,3 +27,4 @@ Python Language Reference : Built-in Keywords
 - pass
 - return
 - while
+- yield

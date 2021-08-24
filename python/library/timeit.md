@@ -7,6 +7,9 @@ Import
 import timeit
 ```
 
+timeit API
+==========
+
 Class
 -----
 - [timeit.Timer](https://docs.python.org/3/library/timeit.html#timeit.Timer)
