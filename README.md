@@ -122,7 +122,7 @@ Linux
 - [sshd_config](./linux/ssh/sshd_config.md)
 - [ssh_config](./linux/ssh/ssh_config.md)
 ### - Vim
-- [Commands](./linux/vim/commands.md)
+- [CLI](./linux/vim/cli.md)
 - [Install](./linux/vim/install.md)
 - [.vimrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-vimrc)
 ### - Zsh
