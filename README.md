@@ -31,6 +31,7 @@ Python
 ------
 
 ### - Language Reference
+- [Type Hints](./python/language_reference/type_hints.md)
 - [Class](./python/language_reference/class.md)
 - [Iterator & Generator](./python/language_reference/iterator_&_generator.md)
 - [Decorator](./python/language_reference/decorator.md)
@@ -41,6 +42,7 @@ Python
 ### - Standard Library
 - [os](./python/library/os.md)
 - [os.path](./python/library/os.path.md)
+- [random](./python/library/random.md)
 - [sys](./python/library/sys.md)
 - [timeit](./python/library/timeit.md)
 - [unittest](./python/library/unittest.md)
@@ -72,6 +74,7 @@ JavaScript
 ### - Packages
 <!-- - [Express](./javascript/packages/express.md) -->
 - [nodemon](./javascript/packages/nodemon.md)
+- [Node Redis](./javascript/packages/node_redis.md)
 ### - NVM
 - [Commands](./javascript/nvm/commands.md)
 - [Install](./javascript/nvm/install.md)
