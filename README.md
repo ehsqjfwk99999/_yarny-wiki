@@ -65,21 +65,15 @@ Python
 JavaScript
 ----------
 
-### - Cookbook
-- [Style Guide](./javascript/cookbook/style_guide.md)
-### - Recipes
-- [Iteration Protocols](./javascript/recipes/iter_protocols.md)
-- [Asynchrony](./javascript/recipes/asynchrony.md)
-- [ECMAScript modules](./javascript/recipes/es_modules.md)
+### - Language Reference
+- [Iterator & Generator](./javascript/language_reference/iterator_&_generator.md)
 ### - Packages
 <!-- - [Express](./javascript/packages/express.md) -->
 - [nodemon](./javascript/packages/nodemon.md)
 - [Node Redis](./javascript/packages/node_redis.md)
-### - NVM
-- [Commands](./javascript/nvm/commands.md)
-- [Install](./javascript/nvm/install.md)
-### - NPM
-- [Commands](./javascript/npm/commands.md)
+### - Else
+- [NVM](./javascript/else/nvm.md)
+- [npm](./javascript/else/npm.md)
 
 TypeScript
 ----------

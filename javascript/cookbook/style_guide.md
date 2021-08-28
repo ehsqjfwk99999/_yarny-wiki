@@ -1,2 +1,0 @@
-JavaScript Style Guide
-======================
