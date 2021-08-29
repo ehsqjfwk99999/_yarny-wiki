@@ -7,15 +7,15 @@ Configuration File
 
 Structure
 ---------
-```yaml
+```yml
 version: "3"
 services:
-	$CONTAINER_NAME_1:
-		image: $IMAGE
-	$CONTAINER_NAME_2:
-		build : $BUILD_PATH
+	<CONTAINER_NAME>:
+		image: <IMAGE>
+	<CONTAINER_NAME>:
+		build : <BUILD_PATH>
 		ports:
-			- '$PORT_HOST:$PORT_CONTAINER:
+			- "<PORT_HOST>:<PORT_CONTAINER>"
 ```
 
 Options
