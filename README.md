@@ -3,7 +3,6 @@ Yarny Wiki
 
 Table of Contents
 -----------------
-
 - [Where 2 Go?](#where-2-go)
 - [Python](#python)
 - [JavaScript](#javascript)
@@ -17,7 +16,6 @@ Table of Contents
 
 Where 2 Go
 ----------
-
 - [C](./where/c.md)
 - [GDB](./where/gdb.md)
 - [Git](./where/git.md)
@@ -29,8 +27,7 @@ Where 2 Go
 
 Python
 ------
-
-### - Language Reference
+#### - Python Language Reference
 - [Type Hints](./python/language_reference/type_hints.md)
 - [Class](./python/language_reference/class.md)
 - [Iterator & Generator](./python/language_reference/iterator_&_generator.md)
@@ -39,24 +36,28 @@ Python
 - [Errors & Exceptions](./python/language_reference/errors_&_exceptions.md)
 - [Built-in Keywords](./python/language_reference/built-in_keywords.md)
 - [Built-in Functions](./python/language_reference/built-in_functions.md)
-### - Standard Library
+#### - Python Standard Library
+- [argparse](./python/library/argparse.md)
 - [os](./python/library/os.md)
 - [os.path](./python/library/os.path.md)
 - [random](./python/library/random.md)
+- [re](./python/library/re.md)
+- [subprocess](./python/library/subprocess.md)
 - [sys](./python/library/sys.md)
+- [time](./python/library/time.md)
 - [timeit](./python/library/timeit.md)
 - [unittest](./python/library/unittest.md)
-### - Packages
+#### - Python Packages
 - [Pandas Cookbook](./python/packages/pandas_cookbook.md)
 - [Pandas API](./python/packages/pandas_api.md)
 - [tqdm](./python/packages/tqdm.md)
 - [joblib](./python/packages/joblib.md)
 - [mrjob](./python/packages/mrjob.md)
 <!-- - [NumPy](./python/packages/numpy.md) -->
-### - Anaconda
+#### - Anaconda
 - [Commands](./python/anaconda/commands.md)
 - [Install](./python/anaconda/install.md)
-### - Else
+#### - Else
 - [Kaggle](./python/else/kaggle.md)
 - [Jupyter Notebook - Cookbook](./python/else/jupyter_notebook_cookbook.md)
 - [Ipython - Magic Commands](./python/else/ipython_magic_commands.md)
@@ -64,14 +65,13 @@ Python
 
 JavaScript
 ----------
-
-### - Language Reference
+#### - JavaScript Language Reference
 - [Iterator & Generator](./javascript/language_reference/iterator_&_generator.md)
-### - Packages
+#### - JavaScript Packages
 <!-- - [Express](./javascript/packages/express.md) -->
 - [nodemon](./javascript/packages/nodemon.md)
 - [Node Redis](./javascript/packages/node_redis.md)
-### - Else
+#### - Else
 - [NVM](./javascript/else/nvm.md)
 - [npm](./javascript/else/npm.md)
 
@@ -146,13 +146,14 @@ Database
 
 Docker
 ------
-### - CLI
-- [CLI](./docker/cli.md)
-### - Config Files
+#### - Docker CLI
+- [Docker CLI](./docker/docker_cli.md)
+- [Docker Compose CLI](./docker/docker-compose_cli.md)
+#### - Docker Config Files
 - [Docker File](./docker/docker_file.md)
 - [Docker Compose File](./docker/docker_compose_file.md)
 - [Docker Ignore](./docker/docker_ignore.md)
-### - Else
+#### - Else
 - [Cookbook](./docker/cookbook.md)
 - [Install](./docker/install.md)
 

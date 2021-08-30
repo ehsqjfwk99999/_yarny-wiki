@@ -43,37 +43,37 @@ Start Container
 ---------------
 - [docker run](https://docs.docker.com/engine/reference/commandline/run/)
     ```sh
-    # docker run [-d] [-e] [-i] [-p] [-P] [-t] [-v] [--name] [--network] [--rm] <IMAGE> [COMMAND]
+    # docker run [-d] [-e] [-i] [-p] [-P] [-t] [-v] [--name] [--network] [--rm] <image> [command]
     # docker run = docker create + docker start.
 
-    # Run container executing $COMMAND, overriding default command(CMD in Dockerfile).
-    docker run $IMAGE $COMMAND
+    # Run container executing <command>, overriding default command(CMD in Dockerfile).
+    docker run <image> <command>
 
     # Run container setting environment variables.
-    docker run -e ENV_VAR=env_var $IMAGE
+    docker run -e ENV_VAR=env_var <image>
 
-    # Run container executing $COMMAND and wait until command ends.
-    docker run -it $IMAGE $COMMAND
+    # Run container executing <command> and wait until command ends.
+    docker run -it <image> <command>
 
-    # Run container and map $HOST_PORT to $CONTAINER_PORT.
-    docker run -p $HOST_PORT:$CONTAINER_PORT $IMAGE
+    # Run container and map <host_port> to <container_port>.
+    docker run -p <host_port>:<container_port> <image>
 
     # Run container mounting directory into the container.
-    docker run -v $HOST_DIR $CONTAINER_DIR $IMAGE
+    docker run -v <host_dir> <container_dir> <image>
 
     # Run container connecting container to $NETWORK.
-    docker run --network=$NETWORK $IMAGE
+    docker run --network=<network> <image>
     ```
 - [docker create](https://docs.docker.com/engine/reference/commandline/create/)
 - [docker start](https://docs.docker.com/engine/reference/commandline/start/)
     ```sh
-    # docker start [-a] [-i] <CONTAINER>
+    # docker start [-a] [-i] <container>
 
     # Attach STDOUT/STDERR.
-    docker start -a $CONTAINER
+    docker start -a <container>
 
     # Attach container's STDIN.
-    docker start -i $CONTAINER
+    docker start -i <container>
     ```
 
 Stop Container
@@ -85,52 +85,31 @@ Create Image
 ------------
 - [docker build](https://docs.docker.com/engine/reference/commandline/build/)
     ```sh
-    # docker build [-f] [-t] <PATH>
+    # docker build [-f] [-t] <path>
     # Directory of path must have Dockerfile.
 
-    # Build image of $DOCKERFILE_NAME in $PATH.
+    # Build image of <dockerfile_path> in <path>.
     # Default is 'PATH/Dockerfile'.
-    docker build -f $DOCKERFILE_NAME $PATH
+    docker build -f <dockerfile_path> <path>
 
     # Build and give a name(tag) for new image.
-    docker build -t $TAG $PATH
+    docker build -t <tag> <path>
     ```
 - [docker commit](https://docs.docker.com/engine/reference/commandline/commit/)
     ```sh
-    # docker commit <CONTAINER> [REPOSITORY[:TAG]]
+    # docker commit <container> [repository[:tag]]
     ```
 
 Else
 ----
 - [docker exec](https://docs.docker.com/engine/reference/commandline/exec/)
     ```sh
-    # docker exec [-i] [-t] <CONTAINER> [COMMAND]
+    # docker exec [-i] [-t] <container> [command]
 
-    # Run $COMMAND in running container and wait until command ends.
-    docker exec -it $CONTAINER $COMMAND
+    # Run <command> in running container and wait until command ends.
+    docker exec -it <container> <command>
     # Run shell in running container and keep it.
-    docker exec -it $CONTAINER $SHELL_NAME(sh, bash, zsh)
+    docker exec -it <container> <shell(sh, bash, zsh)>
     ```
 - [docker logs](https://docs.docker.com/engine/reference/commandline/logs/)
 - [docker login](https://docs.docker.com/engine/reference/commandline/login/)
-
-Docker Compose
---------------
-- [docker-compose ps](https://docs.docker.com/compose/reference/ps/)
-- [docker-compose up](https://docs.docker.com/compose/reference/up/)
-    ```sh
-    # docker-compose up [-d] [--build]
-
-    # Start containers in background.
-    docker-compose up -d
-
-    # Always build image(no matter image exists) and start containers.
-    docker-compose up --build
-    ```
-- [docker-compose down](https://docs.docker.com/compose/reference/down/)
-- [docker-compose start](https://docs.docker.com/compose/reference/start/)
-- [docker-compose restart](https://docs.docker.com/compose/reference/restart/)
-- [docker-compose stop](https://docs.docker.com/compose/reference/stop/)
-- [docker-compose logs](https://docs.docker.com/compose/reference/logs/)
-- [docker-compose exec](https://docs.docker.com/compose/reference/exec/)
-- [docker-compose build](https://docs.docker.com/compose/reference/build/)

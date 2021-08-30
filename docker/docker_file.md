@@ -10,39 +10,39 @@ Instructions
 ------------
 - [FROM](https://docs.docker.com/engine/reference/builder/#from)
 	```dockerfile
-	# FROM <IMAGE> [AS <STAGE>]
+	# FROM <image> [AS <stage>]
 	# Set base image.
 	```
 - [RUN](https://docs.docker.com/engine/reference/builder/#run)
 	```dockerfile
-	# RUN <COMMAND>
+	# RUN <command>
 	# Create new layer on top of current image.
 
-	RUN ["$COMMAND_1", "$COMMAND_2", ...]
+	RUN ["<command_1>", "<command>_2", ...]
 	``````
 - [CMD](https://docs.docker.com/engine/reference/builder/#cmd)
 	```dockerfile
-	# CMD <COMMAND>
+	# CMD <command>
 	# Set default command for container.
 
-	CMD ["$COMMAND_1", "$COMMAND_2", ...]
+	CMD ["<command_1>", "<command>_2", ...]
 	```
 - [ADD](https://docs.docker.com/engine/reference/builder/#add)
 	```dockerfile
-	# ADD <SRC> <DEST>
+	# ADD <src> <dest>
 	# Copies files or directories and adds them in container.
 	```
 - [COPY](https://docs.docker.com/engine/reference/builder/#copy)
 	```dockerfile
-	# COPY [--from=<STAGE>] <SRC> <DEST>
+	# COPY [--from=<stage>] <src> <dest>
 	# Copies files or directories and adds them in container.
 	```
 - [WORKDIR](https://docs.docker.com/engine/reference/builder/#workdir)
 	```dockerfile
-	# WORKDIR <PATH>
-	# Set working directory for other instructions.
+	# WORKDIR <path>
+	# Set working directory path in container for other instructions.
 	```
 - [EXPOSE](https://docs.docker.com/engine/reference/builder/#expose)
 	```dockerfile
-	# EXPOSE <PORT>
+	# EXPOSE <port>
 	```
