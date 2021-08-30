@@ -77,7 +77,6 @@ JavaScript
 
 TypeScript
 ----------
-
 ### - Cookbook
 - [Style Guide](./typescript/cookbook/style_guide.md)
 ### - Grammer
@@ -90,13 +89,11 @@ TypeScript
 
 Golang
 ------
-
 <!-- - [Grammer](./golang/grammer.md) -->
 - [Install](./golang/install.md)
 
 Linux
 -----
-
 ### - Conventions
 - [FHS(Filesystem Hierarchy Standard)](./linux/conventions/fhs.md)
 - [POSIX(Portable Operating System Interface)](./linux/conventions/posix.md)
@@ -135,14 +132,6 @@ Linux Kernel
 ### - Fragments
 - [Kernel](./linux_kernel/fragments/kernel.md)
 - [File System](./linux_kernel/fragments/fs.md)
-
-Database
---------
-
-### - MySQL
-- [Install](./database/mysql/install.md)
-### - MongoDB
-- [Install(deprecated)](./database/mongodb/install.md)
 
 Docker
 ------
