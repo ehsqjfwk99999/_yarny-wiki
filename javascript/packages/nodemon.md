@@ -1,14 +1,17 @@
-nodemon
-=======
+nodemon Cookbook
+================
 
-Installation
-------------
+Install
+-------
 ```sh
 npm i -D nodemon
 ```
-
-Recipe
-------
 ```sh
-nodemon $APP_PATH
+npm i -g nodemon
+```
+
+CLI
+---
+```sh
+# nodemon [-V|--verbose] <file>
 ```
