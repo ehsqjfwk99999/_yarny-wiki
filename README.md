@@ -27,6 +27,7 @@ Where 2 Go
 Python
 ------
 #### - Python Language Reference
+- [Built-in Types](./python/language_reference/built-in_types.md)
 - [Type Hints](./python/language_reference/type_hints.md)
 - [Class](./python/language_reference/class.md)
 - [Iterator & Generator](./python/language_reference/iterator_&_generator.md)
@@ -57,6 +58,8 @@ Python
 - [Commands](./python/anaconda/commands.md)
 - [Install](./python/anaconda/install.md)
 #### - Else
+- [Python CLI](./python/else/python_cli.md)
+- [Python Cookbook](./python/else/python_cookbook.md)
 - [Kaggle](./python/else/kaggle.md)
 - [Jupyter Notebook - Cookbook](./python/else/jupyter_notebook_cookbook.md)
 - [Ipython - Magic Commands](./python/else/ipython_magic_commands.md)
