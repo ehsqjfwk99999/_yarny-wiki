@@ -28,5 +28,5 @@ Commands
 --------
 - kaggle
     ```sh
-    kaggle [-h|--help] [-v|--version]
+    # kaggle [-h|--help] [-v|--version]
     ```
