@@ -70,7 +70,7 @@ JavaScript
 #### - JavaScript Language Reference
 - [Iterator & Generator](./javascript/language_reference/iterator_&_generator.md)
 #### - JavaScript Packages
-<!-- - [Express](./javascript/packages/express.md) -->
+- [Classnames](./javascript/packages/classnames.md)
 - [Mongoose](./javascript/packages/mongoose.md)
 - [nodemon](./javascript/packages/nodemon.md)
 - [Node Redis](./javascript/packages/node_redis.md)
