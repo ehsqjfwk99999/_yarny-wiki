@@ -1,6 +1,18 @@
 Python Cookbook
 ===============
 
+EOF Check
+---------
+```python
+# EOF in python is empty sting.
+
+if not line:
+    ...
+
+if line == '':
+    ...
+```
+
 '==' vs 'is'
 ----------
 ```python
