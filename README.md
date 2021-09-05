@@ -62,7 +62,7 @@ Python
 - [Python Cookbook](./python/else/python_cookbook.md)
 - [Kaggle](./python/else/kaggle.md)
 - [Jupyter Notebook - Cookbook](./python/else/jupyter_notebook_cookbook.md)
-- [Ipython - Magic Commands](./python/else/ipython_magic_commands.md)
+- [Ipython](./python/else/ipython.md)
 - [Colab - Keymap](./python/else/colab_keymap.md)
 
 JavaScript

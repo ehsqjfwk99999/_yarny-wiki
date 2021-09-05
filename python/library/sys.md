@@ -11,6 +11,12 @@ sys API
 
 Variables
 ---------
+- [sys.argv](https://docs.python.org/3/library/sys.html#sys.argv)
+    ```python
+    # sys.argv
+    # List of command line arguments passed to python script.
+    # argv[0] is script name.
+    ```
 - [sys.path](https://docs.python.org/3/library/sys.html#sys.path)
     ```python
     # sys.path

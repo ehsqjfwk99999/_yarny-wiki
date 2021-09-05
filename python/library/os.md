@@ -27,3 +27,8 @@ Functions
     # os.getcwd
     # String representing the current working directory.
     ```
+- [os.listdir](https://docs.python.org/3/library/os.html#os.listdir)
+    ```python
+    # os.listdir(path='.') -> List
+    # Return a list of entries in the directory given by path. 
+    ```

@@ -1,3 +1,13 @@
+IPython Cookbook
+================
+
+'%time' vs '%%time'
+-------------------
+| Command | Action | 
+|:-------:|:------:|
+| %time | Estimate the time to execute only the statement beside '%time' command. |
+| %%time | Estimate the time to execute everything in the cell. |
+
 IPython Magic Commands
 ======================
 

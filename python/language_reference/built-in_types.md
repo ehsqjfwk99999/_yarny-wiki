@@ -20,6 +20,14 @@ Python Built-in Types
     ```python
     # [METHOD] str.replace(old, new[, count]) -> str
     ```
+- [str.split](https://docs.python.org/3/library/stdtypes.html#str.split)
+    ```python
+    # [METHOD] str.split(sep=None) -> List
+    ```
+- [str.zfill](https://docs.python.org/3/library/stdtypes.html#str.zfill)
+    ```python
+    # [METHOD] str.zfill(width) -> str
+    ```
 
 [Dictonary](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict)
 -----------
