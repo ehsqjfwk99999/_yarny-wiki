@@ -50,6 +50,7 @@ Editor - window
 |:------:|:-------:|
 | Close editor window | `Ctrl + W` |
 | Split editor window | `Ctrl + \` |
+| Open active file in new window | `Ctrl + K` + `O` |
 | Open preview window | `Ctrl + K` + `V` |
 | Return to editor from terminal | `Esc` |
 

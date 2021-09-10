@@ -15,10 +15,10 @@ Table of Contents
 
 Where 2 Go
 ----------
+- [VS Code](./where/vscode.md)
+- [Git](./where/git.md)
 - [C](./where/c.md)
 - [GDB](./where/gdb.md)
-- [Git](./where/git.md)
-- [VS Code](./where/vscode.md)
 - [ESLint](./where/eslint.md)
 - [Prettier](./where/prettier.md)
 - [Travis CI](./where/travis_ci.md)
@@ -97,6 +97,8 @@ Golang
 
 Linux
 -----
+#### - GNU
+- [Make](./linux/gnu/make.md)
 ### - Conventions
 - [FHS(Filesystem Hierarchy Standard)](./linux/conventions/fhs.md)
 - [POSIX(Portable Operating System Interface)](./linux/conventions/posix.md)
@@ -113,7 +115,7 @@ Linux
 - [Process / Memory / Network Info](./linux/shell_commands/process_memory_network_info.md)
 - [Text Management](./linux/shell_commands/text_management.md)
 ### - Shell Script
-- [Shell Script](./linux/shell_script/shell_script.md)
+<!-- - [Shell Script](./linux/shell_script/shell_script.md) -->
 ### - SSH
 - [Commands](./linux/ssh/commands.md)
 - [sshd_config](./linux/ssh/sshd_config.md)
@@ -129,25 +131,26 @@ Linux
 Linux Kernel
 ------------
 ### - Reference
+- [Linked List](./linux_kernel/reference/linked_list.md)
+- [Queue](./linux_kernel/reference/queue.md)
+- [IDR](./linux_kernel/reference/idr.md)
 - [Block I/O Layer](./linux_kernel/reference/block_io_layer.md)
-### - BtrFS
-- [Fragments](./linux_kernel/btrfs/fragments.md)
 ### - Fragments
 - [Kernel](./linux_kernel/fragments/kernel.md)
 - [File System](./linux_kernel/fragments/fs.md)
 
-Docker
+DevOps
 ------
+#### - Docker
+- [Cookbook](./devops/cookbook.md)
+- [Install](./devops/install.md)
 #### - Docker CLI
-- [Docker CLI](./docker/docker_cli.md)
-- [Docker Compose CLI](./docker/docker-compose_cli.md)
+- [Docker CLI](./devops/docker_cli.md)
+- [Docker Compose CLI](./devops/docker-compose_cli.md)
 #### - Docker Config Files
-- [Docker File](./docker/docker_file.md)
-- [Docker Compose File](./docker/docker_compose_file.md)
-- [Docker Ignore](./docker/docker_ignore.md)
-#### - Else
-- [Cookbook](./docker/cookbook.md)
-- [Install](./docker/install.md)
+- [Docker File](./devops/docker_file.md)
+- [Docker Compose File](./devops/docker_compose_file.md)
+- [Docker Ignore](./devops/docker_ignore.md)
 
 Windows10
 ---------
