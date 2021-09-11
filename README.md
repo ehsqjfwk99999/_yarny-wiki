@@ -135,10 +135,10 @@ DevOps
 - [Docker Compose File](./devops/docker_compose_file.md)
 - [Docker Ignore](./devops/docker_ignore.md)
 
-Windows10
----------
-- [Setup](./windows10/setup.md)
-- [Shortcuts](./windows10/shortcuts.md)
+Windows 10
+----------
+- [Setup](./windows_10/setup.md)
+- [Shortcuts](./windows_10/shortcuts.md)
 
 <!-- TypeScript
 ----------
