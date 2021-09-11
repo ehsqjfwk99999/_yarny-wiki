@@ -13,8 +13,8 @@ Table of Contents
 - [Docker](#docker)
 - [Windows10](#windows10)
 
-Where 2 Go
-----------
+Where 2 Go ?
+------------
 - [VS Code](./where/vscode.md)
 - [Git](./where/git.md)
 - [C](./where/c.md)
@@ -78,23 +78,6 @@ JavaScript
 - [NVM](./javascript/else/nvm.md)
 - [npm](./javascript/else/npm.md)
 
-TypeScript
-----------
-### - Cookbook
-- [Style Guide](./typescript/cookbook/style_guide.md)
-### - Grammer
-- [Types](./typescript/grammer/types.md)
-<!-- - [Else](./typescript/grammer/else.md) -->
-### - Packages
-<!-- - [NestJs](./typescript/packages/nestjs.md) -->
-### - Settings
-<!-- - [tsconfig.json](./typescript/settings/tsconfigjson.md) -->
-
-Golang
-------
-<!-- - [Grammer](./golang/grammer.md) -->
-- [Install](./golang/install.md)
-
 Linux
 -----
 #### - GNU
@@ -156,3 +139,20 @@ Windows10
 ---------
 - [Setup](./windows10/setup.md)
 - [Shortcuts](./windows10/shortcuts.md)
+
+<!-- TypeScript
+----------
+### - Cookbook
+- [Style Guide](./typescript/cookbook/style_guide.md)
+### - Grammer
+- [Types](./typescript/grammer/types.md)
+- [Else](./typescript/grammer/else.md)
+### - Packages
+- [NestJs](./typescript/packages/nestjs.md)
+### - Settings
+- [tsconfig.json](./typescript/settings/tsconfigjson.md) -->
+
+<!-- Golang
+------
+- [Grammer](./golang/grammer.md)
+- [Install](./golang/install.md) -->
