@@ -140,6 +140,11 @@ Windows 10
 - [Setup](./windows_10/setup.md)
 - [Shortcuts](./windows_10/shortcuts.md)
 
+Config Files
+------------
+- [.vimrc](./config_files/.vimrc)
+- [.zshrc](./config_files/.zshrc)
+
 <!-- TypeScript
 ----------
 ### - Cookbook
