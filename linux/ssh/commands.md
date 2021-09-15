@@ -1,30 +1,41 @@
-SSH Commands
+SSH Cookbook
 ============
 
 Install
 -------
-
 - Install ssh server & client.
-```sh
-    sudo apt install ssh
-```
+    ```sh
+        sudo apt install ssh
+    ```
 
 SSH Server
 ----------
-
-- Run ssh server.
-```sh
-    sudo service ssh start
-```
 - Check ssh server status.
-```sh
-    service ssh status
-```
+    ```sh
+        service ssh status
+    ```
+    ```sh
+        systemctl status ssh
+    ```
+- Start ssh server.
+    ```sh
+        sudo service ssh start
+    ```
+    ```sh
+        systemctl start ssh
+    ```
+- Restart ssh server.
+    ```sh
+        systemctl restart ssh
+    ```
+- Register ssh server to start automatically after booting.
+    ```sh
+        systemctl enable ssh
+    ```
 
 SSH Client
 ----------
-
 - Connect server.
-```sh
-    ssh $USER_NAME@$HOST_ADDRESS -p $PORT
-```
+    ```sh
+        ssh <username>@<host addr> -p <port>
+    ```
