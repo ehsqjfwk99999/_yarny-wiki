@@ -17,6 +17,7 @@ Where 2 Go ?
 ------------
 - [VS Code](./where/vscode.md)
 - [Git](./where/git.md)
+- [SSH](./where/ssh.md)
 - [C](./where/c.md)
 - [GDB](./where/gdb.md)
 - [ESLint](./where/eslint.md)
@@ -92,17 +93,6 @@ Linux
 - [Strace](./linux/kernel/strace.md)
 - [Kernel Compile](./linux/kernel/compile.md)
 - [Kernel Debug Functions](./linux/kernel/debug_funcs.md)
-### - Shell Commands
-- [Commands](./linux/shell_commands/commands.md)
-- [System Info](./linux/shell_commands/system_info.md)
-- [Process / Memory / Network Info](./linux/shell_commands/process_memory_network_info.md)
-- [Text Management](./linux/shell_commands/text_management.md)
-### - Shell Script
-<!-- - [Shell Script](./linux/shell_script/shell_script.md) -->
-### - SSH
-- [Commands](./linux/ssh/commands.md)
-- [sshd_config](./linux/ssh/sshd_config.md)
-- [ssh_config](./linux/ssh/ssh_config.md)
 ### - Vim
 - [CLI](./linux/vim/cli.md)
 - [Install](./linux/vim/install.md)
@@ -113,12 +103,12 @@ Linux
 
 Linux Kernel
 ------------
-### - Reference
+#### - Reference
 - [Linked List](./linux_kernel/reference/linked_list.md)
 - [Queue](./linux_kernel/reference/queue.md)
 - [IDR](./linux_kernel/reference/idr.md)
 - [Block I/O Layer](./linux_kernel/reference/block_io_layer.md)
-### - Fragments
+#### - Fragments
 - [Kernel](./linux_kernel/fragments/kernel.md)
 - [File System](./linux_kernel/fragments/fs.md)
 
