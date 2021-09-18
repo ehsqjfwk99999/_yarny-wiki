@@ -27,7 +27,7 @@ Top
 ---
 | Action | Command |
 |:------:|:-------:|
-| Open command palette | `Ctrl + Shift + P` |
+| Open command palette | `Ctrl + Shift + P` or `F1`|
 | Goto file | `Ctrl + P` |
 
 Sidebar

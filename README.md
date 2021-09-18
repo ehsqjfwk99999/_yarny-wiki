@@ -73,6 +73,7 @@ JavaScript
 #### - JavaScript Packages
 - [Classnames](./javascript/packages/classnames.md)
 - [Mongoose](./javascript/packages/mongoose.md)
+- [morgan](./javascript/packages/morgan.md)
 - [nodemon](./javascript/packages/nodemon.md)
 - [Node Redis](./javascript/packages/node_redis.md)
 #### - Else
@@ -83,23 +84,20 @@ Linux
 -----
 #### - GNU
 - [Make](./linux/gnu/make.md)
-### - Conventions
+#### - Conventions
 - [FHS(Filesystem Hierarchy Standard)](./linux/conventions/fhs.md)
 - [POSIX(Portable Operating System Interface)](./linux/conventions/posix.md)
-### - Install
+#### - Install
 - [Install Packages](./linux/install/install_packages.md)
-### - Kernel
+#### - Kernel
 - [Ftrace](./linux/kernel/ftrace.md)
 - [Strace](./linux/kernel/strace.md)
 - [Kernel Compile](./linux/kernel/compile.md)
 - [Kernel Debug Functions](./linux/kernel/debug_funcs.md)
-### - Vim
-- [CLI](./linux/vim/cli.md)
-- [Install](./linux/vim/install.md)
-- [.vimrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-vimrc)
-### - Zsh
-- [Install](./linux/zsh/install.md)
-- [.zshrc](https://github.com/ehsqjfwk99999/_yarny-archieve/blob/master/.ksy-settings/ksy-zshrc)
+#### - Else
+- [Linux Cookbook](./linux/else/linux_cookbook.md)
+- [Vim](./linux/else/vim.md)
+- [Zsh](./linux/else/zsh.md)
 
 Linux Kernel
 ------------

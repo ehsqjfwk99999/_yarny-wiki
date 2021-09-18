@@ -1,5 +1,30 @@
-Vim CLI
-========
+Vim Cookbook
+============
+
+Install
+-------
+```sh
+sudo apt install vim
+```
+Config file
+-----------
+- `~/.vimrc`
+
+
+[vim-plug](https://github.com/junegunn/vim-plug)
+----------
+- Install
+    ```sh
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    ```
+- Install plugins
+    ```sh
+    # In vim.
+    :PlugInstall
+    ```
+
+Vim Commands
+============
 
 File Open & Close
 -----------------
