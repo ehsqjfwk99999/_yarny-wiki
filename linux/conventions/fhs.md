@@ -13,6 +13,9 @@ Filesystem Hierarchy Standard
 |
 |   # Directory for deviec files.
 |-- /dev
+|        \
+|         |   # Null device.
+|         |-- /dev/null
 |
 |   # Directory for configuration files.
 |-- /etc
@@ -29,14 +32,29 @@ Filesystem Hierarchy Standard
 |   # Virtual filesystem for system and process information.
 |-- /proc
 |        \
-|         |   # Contain information about Linux release.
+|         |   # Show information about Linux (kernel) release.
 |         |-- /proc/version
 |         |
-|         |   # Contain information about the cpus.
+|         |   # Show information about the cpus.
 |         |-- /proc/cpuinfo
 |         |
-|         |   # Contain summary of memory managed by kernel.
+|         |   # Show summary of memory managed by kernel.
 |         |-- /proc/meminfo
+|         |
+|         |   # List of devices.
+|         |-- /proc/devices
+|         |
+|         |   # List of modules.
+|         |-- /proc/modules
+|         |
+|         |   # Shows mapped memory of specific process.
+|         |-- /proc/${PID}/maps
+|         |
+|         |   # Drop cache.
+|         |-- /proc/sys/vm/drop_caches
+|         |
+|         |   # Shows system limit of open files.
+|         |-- /proc/sys/fs/file-max
 |
 |   # Home directory for the root user.
 |-- /root
@@ -65,3 +83,4 @@ Filesystem Hierarchy Standard
 |   # Directory for logs and datas.
 |-- /var
 ```
+

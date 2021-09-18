@@ -22,3 +22,47 @@ Get help for commands
     ```sh
     man <command>
     ```
+
+Check System Info
+-----------------
+- Memory Info
+    ```sh
+    free -h
+    ```
+    ```sh
+    cat /proc/meminfo
+    ```
+- CPU Info
+    ```sh
+    lscpu
+    ```
+    ```sh
+    cat /proc/cpuinfo
+    ```
+    ```sh
+    nproc
+    ```
+- Kernel Info
+    ```sh
+    uname -a
+    ```
+    ```sh
+    cat /proc/version
+    ```
+- OS Info
+    ```sh
+    lsb_release -a
+    ```
+    ```sh
+    cat /etc/issue
+    ```
+- Network Info
+    ```sh
+    ifconfig
+    ```
+    ```sh
+    hostname -I
+    ```
+    ```sh
+    ip addr
+    ```
