@@ -12,6 +12,12 @@ Turn off bell on tab-completion
     set bell-style none
     ```
 
+Change `/bin/sh` from `dash` to `bash`
+--------------------------------------
+```sh
+sudo dpkg-reconfigure dash
+```
+
 Get help for commands
 ---------------------
 1. Print help message.

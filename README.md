@@ -87,15 +87,12 @@ Linux
 #### - Conventions
 - [FHS(Filesystem Hierarchy Standard)](./linux/conventions/fhs.md)
 - [POSIX(Portable Operating System Interface)](./linux/conventions/posix.md)
-#### - Install
-- [Install Packages](./linux/install/install_packages.md)
-#### - Kernel
-- [Ftrace](./linux/kernel/ftrace.md)
-- [Strace](./linux/kernel/strace.md)
-- [Kernel Compile](./linux/kernel/compile.md)
-- [Kernel Debug Functions](./linux/kernel/debug_funcs.md)
+#### - Shell Script
+- [Shell Script Cookbook](./linux/shell_script/shell_script_cookbook.md)
+- [Shell Script](./linux/shell_script/shell_script.md)
 #### - Else
 - [Linux Cookbook](./linux/else/linux_cookbook.md)
+- [Linux Packages](./linux/else/linux_packages.md)
 - [Vim](./linux/else/vim.md)
 - [Zsh](./linux/else/zsh.md)
 
@@ -109,6 +106,11 @@ Linux Kernel
 #### - Fragments
 - [Kernel](./linux_kernel/fragments/kernel.md)
 - [File System](./linux_kernel/fragments/fs.md)
+#### - Else
+- [Ftrace](./linux_kernel/else/ftrace.md)
+- [Strace](./linux_kernel/else/strace.md)
+- [Kernel Compile](./linux_kernel/else/compile.md)
+- [Kernel Debug Functions](./linux_kernel/else/debug_funcs.md)
 
 DevOps
 ------
