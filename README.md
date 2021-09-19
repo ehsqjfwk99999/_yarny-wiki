@@ -82,9 +82,6 @@ JavaScript
 
 Linux
 -----
-#### - [.kconfig](./linux/.kconfig)
-- [README.md](.linux/.kconfig/README.md)
-- [.config](./linux/.kconfig)
 #### - GNU
 - [Make](./linux/gnu/make.md)
 #### - Conventions
