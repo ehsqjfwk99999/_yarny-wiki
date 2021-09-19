@@ -82,6 +82,9 @@ JavaScript
 
 Linux
 -----
+#### - [.kconfig](./linux/.kconfig)
+- [README.md](.linux/.kconfig/README.md)
+- [.config](./linux/.kconfig)
 #### - GNU
 - [Make](./linux/gnu/make.md)
 #### - Conventions
@@ -127,11 +130,6 @@ Windows 10
 ----------
 - [Setup](./windows_10/setup.md)
 - [Shortcuts](./windows_10/shortcuts.md)
-
-Config Files
-------------
-- [.vimrc](./config_files/.vimrc)
-- [.zshrc](./config_files/.zshrc)
 
 <!-- TypeScript
 ----------

@@ -48,7 +48,7 @@ Filesystem Hierarchy Standard
 |         |-- /proc/modules
 |         |
 |         |   # Shows mapped memory of specific process.
-|         |-- /proc/${PID}/maps
+|         |-- /proc/<pid>/maps
 |         |
 |         |   # Drop cache.
 |         |-- /proc/sys/vm/drop_caches
