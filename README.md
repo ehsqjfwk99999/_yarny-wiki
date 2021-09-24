@@ -19,11 +19,11 @@ Where 2 Go ?
 - [Git](./where/git.md)
 - [SSH](./where/ssh.md)
 - [C](./where/c.md)
-- [GDB](./where/gdb.md)
 - [ESLint](./where/eslint.md)
 - [Prettier](./where/prettier.md)
 - [Travis CI](./where/travis_ci.md)
 - [MongoDB](./where/mongodb.md)
+- [YAML](./where/yaml.md)
 
 Python
 ------
@@ -83,6 +83,8 @@ JavaScript
 Linux
 -----
 #### - GNU
+- [GCC](./linux/gnu/gcc.md)
+- [GDB](./linux/gnu/gdb.md)
 - [Make](./linux/gnu/make.md)
 #### - Conventions
 - [FHS(Filesystem Hierarchy Standard)](./linux/conventions/fhs.md)

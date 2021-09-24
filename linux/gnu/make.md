@@ -27,8 +27,8 @@ submake:
     $(MAKE) -C subdir target
 ```
 
-GNU Make Documentation
-======================
+GNU Make Reference
+==================
 
 Comment
 -------
