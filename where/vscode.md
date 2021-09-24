@@ -1,19 +1,6 @@
 VS Code Shortcuts
 =================
 
-Index
------
-- [Settings](#settings)
-- [Top](#top)
-- [Sidebar](#sidebar)
-- [Panel](#panel)
-- [Editor - window](#editor---window)
-- [Editor - move](#editor---move)
-- [Code - edit](#code---edit)
-- [Code - navigate](#code---navigate)
-- [Debug](#debug)
-- [Jupyter](#jupyter)
-
 Settings
 --------
 | Action | Command |
@@ -28,7 +15,7 @@ Top
 | Action | Command |
 |:------:|:-------:|
 | Open command palette | `Ctrl + Shift + P` or `F1`|
-| Goto file | `Ctrl + P` |
+| Go to file | `Ctrl + P` |
 
 Sidebar
 -------
@@ -84,11 +71,12 @@ Code - navigate
 | Go back | `Ctrl + [` |
 | Add selection to next find match | `Ctrl + D` |
 
-Debug
+Run & Debug
 -----
 | Action | Command |
 |:------:|:-------:|
-| Start debuggings | `F5` |
+| Run python file in terminal | `Ctrl + F5` |
+| Start debugging | `F5` |
 | Run (start without debugging) | `Ctrl + '` |
 
 Jupyter

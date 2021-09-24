@@ -39,6 +39,16 @@ Compile Model
 mongoose.model('ModelName', modelSchema);
 ```
 
+Schema Types
+------------
+| Type | Expression |
+|:----:|:----------:|
+| String | `String` |
+| Number | `Number` |
+| Date | `Date` |
+| Boolean | `Boolean` |
+| Array | `[<schema_type>]` |
+
 Mongoose API
 ============
 
@@ -50,11 +60,6 @@ Mongoose
     // Mongoose constructor.
     // The exports object of the mongoose module is an instance of this class.
     ```
-- [Mongoose.prototype.set](https://mongoosejs.com/docs/api/mongoose.html#mongoose_Mongoose-set)
-    ```js
-    // [METHOD] Mongoose.set(key, value) -> ?
-    // Sets mongoose options.
-    ```
 - [Mongoose.prototype.connect](https://mongoosejs.com/docs/api/mongoose.html#mongoose_Mongoose-connect)
     ```js
     // [METHOD] Mongoose.connect(uri, options, callback) -> void
@@ -62,10 +67,19 @@ Mongoose
     // [METHOD] Mongoose.connect(uri, options?) -> Promise<Mongoose>
     // Opens mongoose connection.
     ```
+- [Mongoose.prototype.connection](https://mongoosejs.com/docs/api/mongoose.html#mongoose_Mongoose-connection)
+    ```js
+    // [?] mongoose.connection -> ?
+    ```
 - [Mongoose.prototype.model](https://mongoosejs.com/docs/api/mongoose.html#mongoose_Mongoose-model)
     ```js
     // [?] Mongoose.model(name, schema?) -> ?
     // Define a model.
+    ```
+- [Mongoose.prototype.set](https://mongoosejs.com/docs/api/mongoose.html#mongoose_Mongoose-set)
+    ```js
+    // [METHOD] Mongoose.set(key, value) -> ?
+    // Sets mongoose options.
     ```
 
 Schema

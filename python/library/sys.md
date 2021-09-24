@@ -25,5 +25,13 @@ Variables
 
     sys.path.append(os.path.join(os.getcwd(), 'module_dir_path'))
     ```
+- [sys.stdin](https://docs.python.org/3/library/sys.html#sys.stdin)
+    ```python
+    # sys.stdin
+    # File object for standard input.
+
+    # Change stdin to file object.
+    sys.stdin = open('input.txt', 'r')
+    ```
 Functions
 ---------
