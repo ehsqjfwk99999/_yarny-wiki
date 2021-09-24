@@ -1,6 +1,13 @@
 Shell Script Cookbook
 =====================
 
+shebang line
+------------
+| Interpreter | shebang line |
+|:-----------:|:------------:|
+| Bash | `#!/bin/bash` or `#!/usr/bin/env bash` |
+| Python3 | `#!/usr/bin/env python3` |
+
 `sh` vs `source`
 ----------------
 | Command | Action |
