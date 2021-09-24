@@ -131,6 +131,7 @@ Windows 10
 ----------
 - [Setup](./windows_10/setup.md)
 - [Shortcuts](./windows_10/shortcuts.md)
+- [WSL](./windows_10/wsl.md)
 
 <!-- TypeScript
 ----------
