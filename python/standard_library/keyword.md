@@ -10,9 +10,12 @@ import keyword
 keyword API
 ===========
 
-- Functions
-    - [keyword.iskeyword](https://docs.python.org/3/library/keyword.html#keyword.iskeyword)
-    - [keyword.issoftkeyword](https://docs.python.org/3/library/keyword.html#keyword.issoftkeyword)
-- Variables
-    - [keyword.kwlist](https://docs.python.org/3/library/keyword.html#keyword.kwlist)
-    - [keyword.softkwlist](https://docs.python.org/3/library/keyword.html#keyword.softkwlist)
+Variables
+---------
+- [keyword.kwlist](https://docs.python.org/3/library/keyword.html#keyword.kwlist)
+- [keyword.softkwlist](https://docs.python.org/3/library/keyword.html#keyword.softkwlist)
+
+Functions
+---------
+- [keyword.iskeyword](https://docs.python.org/3/library/keyword.html#keyword.iskeyword)
+- [keyword.issoftkeyword](https://docs.python.org/3/library/keyword.html#keyword.issoftkeyword)
