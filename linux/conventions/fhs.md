@@ -82,5 +82,8 @@ Filesystem Hierarchy Standard
 |
 |   # Directory for logs and datas.
 |-- /var
+|       \
+|        |   # Directory for various log files.
+|        |-- /var/log
 ```
 

@@ -62,7 +62,6 @@ Python
 - [Install](./python/anaconda/install.md)
 #### - Else
 - [Python CLI](./python/else/python_cli.md)
-- [Python Cookbook](./python/else/python_cookbook.md)
 - [Kaggle](./python/else/kaggle.md)
 - [Jupyter Notebook - Cookbook](./python/else/jupyter_notebook_cookbook.md)
 - [Ipython](./python/else/ipython.md)
@@ -92,10 +91,8 @@ Linux
 - [FHS(Filesystem Hierarchy Standard)](./linux/conventions/fhs.md)
 - [POSIX(Portable Operating System Interface)](./linux/conventions/posix.md)
 #### - Shell Script
-- [Shell Script Cookbook](./linux/shell_script/shell_script_cookbook.md)
 - [Shell Script](./linux/shell_script/shell_script.md)
 #### - Else
-- [Linux Cookbook](./linux/else/linux_cookbook.md)
 - [Linux Packages](./linux/else/linux_packages.md)
 - [Vim](./linux/else/vim.md)
 - [Zsh](./linux/else/zsh.md)
