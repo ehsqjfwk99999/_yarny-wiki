@@ -59,11 +59,11 @@ version: <version>
         # Connect container port with host port.
 
         ports:
-            - <host_port>:<container_port>
+          - <host_port>:<container_port>
         ```
     - [restart](https://docs.docker.com/compose/compose-file/compose-file-v3/#restart)
     - [volumes](https://docs.docker.com/compose/compose-file/compose-file-v3/#volumes)
         ```yml
         volumes:
-            - <host_dir>:<container_dir>
+          - <host_dir>:<container_dir>
         ```

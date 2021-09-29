@@ -11,7 +11,7 @@ Structures
     ```yaml
     # Indent by 2. (recommended)
     services:
-    db:
+      db:
         image: redis
 
     # Indent by 4
@@ -25,7 +25,6 @@ Structures
     # There must be space between ':' and 'value'.
 
     apiVersion: v1
-    kind: Pod
     ```
 - array
     ```yaml
