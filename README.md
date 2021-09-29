@@ -116,7 +116,6 @@ Linux Kernel
 DevOps
 ------
 #### - Docker
-- [Cookbook](./devops/cookbook.md)
 - [Install](./devops/install.md)
 #### - Docker CLI
 - [Docker CLI](./devops/docker_cli.md)

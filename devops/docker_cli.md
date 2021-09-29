@@ -73,8 +73,8 @@ Docker CLI
     # Run container and map <host_port> to <container_port>.
     docker run -p <host_port>:<container_port> <image>
 
-    # Run container mounting directory into the container.
-    docker run -v <host_dir> <container_dir> <image>
+    # Mount hosts' <host_dir> to containers' <container_dir>.
+    docker run -v <host_dir>:<container_dir> <image>
 
     # Run container connecting container to $NETWORK.
     docker run --network=<network> <image>

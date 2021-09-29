@@ -9,15 +9,19 @@ Structure
 ---------
 ```yaml
 version: "3"
+
 services:
-	express-app:
-        container_name: express-app
-		build : .
-		ports:
-			- "3300:3300"
-	redis-server:
-        container_name: redis-server
-		image: redis
+  express-app:
+    container_name: express-app
+    build : .
+    ports:
+      - "3300:3300"
+    redis-server:
+      container_name: redis-server
+      image: redis
+      volumes:
+        - .:/home/ksy
+
 ```
 
 Options
@@ -48,14 +52,18 @@ version: <version>
         ```yaml
         # Image to start the container from.
 
-        # image: <image>
+        image: <image>
         ```
     - [ports](https://docs.docker.com/compose/compose-file/compose-file-v3/#ports)
         ```yaml
         # Connect container port with host port.
 
         ports:
-            - "<port_host>:<port_container>"
+            - <host_port>:<container_port>
         ```
     - [restart](https://docs.docker.com/compose/compose-file/compose-file-v3/#restart)
     - [volumes](https://docs.docker.com/compose/compose-file/compose-file-v3/#volumes)
+        ```yml
+        volumes:
+            - <host_dir>:<container_dir>
+        ```
