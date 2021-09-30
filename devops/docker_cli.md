@@ -92,4 +92,10 @@ Docker CLI
     ```
 - [docker stop](https://docs.docker.com/engine/reference/commandline/stop/)
 - [docker system](https://docs.docker.com/engine/reference/commandline/system/)
-- [docker system prune](https://docs.docker.com/engine/reference/commandline/system_prune/)
+    - [docker system prune](https://docs.docker.com/engine/reference/commandline/system_prune/)
+- docker volume
+    - [docker volume prune](https://docs.docker.com/engine/reference/commandline/volume_prune/)
+        ```sh
+        # docker volume prune
+        # Remove all unused local volumes.
+        ```
