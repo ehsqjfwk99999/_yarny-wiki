@@ -23,6 +23,12 @@ Sidebar
 |:------:|:-------:|
 | Toggle sidebar | `Ctrl + B` |
 
+Explorer
+--------
+| Action | Command |
+|:------:|:-------:|
+| Create new file | `Ctrl + N` |
+
 Panel
 ------
 | Action | Command |

@@ -32,29 +32,29 @@ Filesystem Hierarchy Standard
 |   # Virtual filesystem for system and process information.
 |-- /proc
 |        \
-|         |   # Show information about Linux (kernel) release.
-|         |-- /proc/version
-|         |
 |         |   # Show information about the cpus.
 |         |-- /proc/cpuinfo
-|         |
-|         |   # Show summary of memory managed by kernel.
-|         |-- /proc/meminfo
 |         |
 |         |   # List of devices.
 |         |-- /proc/devices
 |         |
+|         |   # Show summary of memory managed by kernel.
+|         |-- /proc/meminfo
+|         |
 |         |   # List of modules.
 |         |-- /proc/modules
 |         |
-|         |   # Shows mapped memory of specific process.
-|         |-- /proc/<pid>/maps
-|         |
-|         |   # Drop cache.
-|         |-- /proc/sys/vm/drop_caches
-|         |
 |         |   # Shows system limit of open files.
 |         |-- /proc/sys/fs/file-max
+|         |
+|         |   # File for dropping cache.
+|         |-- /proc/sys/vm/drop_caches
+|         |
+|         |   # Show information about Linux (kernel) release.
+|         |-- /proc/version
+|         |
+|         |   # Shows mapped memory of specific process.
+|         |-- /proc/<pid>/maps
 |
 |   # Home directory for the root user.
 |-- /root
@@ -71,13 +71,19 @@ Filesystem Hierarchy Standard
 |   # Directory for temporary files.
 |-- /tmp
 |
-|   # ?
+|   # Directory for user programs.
 |-- /usr
 |       \
-|        |   # Path for basic program installation.
+|        |   # Path for basic program installation by package manager.
 |        |-- /usr/bin
 |        |
-|        |   # Path for system program installation.
+|        |   # Directory for C header files.
+|        |-- /usr/include
+|        |
+|        |   # Path for installation from source code.
+|        |-- /usr/local
+|        |
+|        |   # Path for system program installation by package manager.
 |        |-- /usr/sbin
 |
 |   # Directory for logs and datas.
