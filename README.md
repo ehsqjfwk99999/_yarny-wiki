@@ -71,8 +71,11 @@ JavaScript
 ----------
 #### - JavaScript Language Reference
 - [Iterator & Generator](./javascript/language_reference/iterator_&_generator.md)
+#### - Node.js Modules
+- [assert](./javascript/nodejs_modules/assert.md)
 #### - JavaScript Packages
 - [Classnames](./javascript/packages/classnames.md)
+- [Mocha](./javascript/packages/mocha.md)
 - [Mongoose](./javascript/packages/mongoose.md)
 - [morgan](./javascript/packages/morgan.md)
 - [nodemon](./javascript/packages/nodemon.md)
