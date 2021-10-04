@@ -58,7 +58,7 @@ Docker CLI
 - [docker rmi](https://docs.docker.com/engine/reference/commandline/rmi/)
 - [docker run](https://docs.docker.com/engine/reference/commandline/run/)
     ```sh
-    # docker run [-d] [-e] [-i] [-p] [-P] [-t] [-v] [--name] [--network] [--rm] <image> [command]
+    # docker run [-d] [-e] [-i] [-p] [-P] [-t] [-v] [-w] [--name] [--network] [--rm] <image> [command]
     # docker run = docker create + docker start.
 
     # Run container executing <command>, overriding default command(CMD in Dockerfile).
@@ -75,6 +75,9 @@ Docker CLI
 
     # Mount hosts' <host_dir> to containers' <container_dir>.
     docker run -v <host_dir>:<container_dir> <image>
+
+    # Set working directory to <workdir_path>.
+    docker run -w <workdir_path> <image>.
 
     # Run container connecting container to $NETWORK.
     docker run --network=<network> <image>
