@@ -1,26 +1,42 @@
-C
-=
+C Cookbook
+==========
 
-Points
+Print Format
+------------
+| Specifier | Possible Argument Type | Usage |
+|:---------:|:-----------------------|:------|
+| `%c` | `none` | Single character. |
+| `%s` | `none` | Character string. |
+| `%d` | `none`, `l`, `ll` | signed integer to decimal. |
+| `%o` | `none`, `l`, `ll` | Unsigned integer to octal. |
+| `%x` | `none`, `l`, `ll` | Unsigned integer to hexadecimal. |
+| `%X` | `none`, `l`, `ll` | Unsigned integer to hexadecimal in capital. |
+| `%u` | `none`, `l`, `ll` | Unsigned integer to decimal. |
+| `%f` | `none` | Floating-point to decimal. |
+| `%p` | `none` | Pointer. |
+
+C Keywords
+==========
+
+extern
 ------
-
-### typedef
 ```c
 /**
- * Create alias for Data types.
- * Convention to add '_t' at the end of alias.
+ * extern <data_type> <extern_variable>
+ *
+ * To use variable in other file.
+ * Only denotes that variable is outside of current file.
  */
 
-typedef $DATA_TYPE $TYPE_ALIAS
-```
-- example
-```c
-typedef double distance_t;
+extern int extern_variable;
 ```
 
-### static
+static
+------
 ```c
 /**
+ * static <data_type> <static_variable>
+ *
  * Variable kept until the end of program.
  * Stored in data section of memory.(not in stack)
  * Automatically initialized with 0 when not initialized.
@@ -28,63 +44,61 @@ typedef double distance_t;
  * Global : Like gloabal variable, but can't be used in other files.
  */
 
-static $DATA_TYPE $STATIC_VARIABLE;
-```
-- example
-```c
 static int static_variable;
 ```
 
-### extern
+typedef
+-------
 ```c
 /**
- * To use variable in other file.
- * Only denotes that variable is outside of current file.
+ * typedef <data_type> <type_alias>
+ *
+ * Create alias for Data types.
+ * Convention to add '_t' at the end of alias.
  */
 
-extern $DATA_TYPE $EXTERN_VARIABLE;
-```
-- example
-```c
-extern int extern_variable;
+typedef double distance_t;
 ```
 
-### #define
+C Preprocessor
+==============
+
+#define
+-------
 ```c
 /**
+ * #define <replaced> <original>
+ *
  * Definition of macro.
- * $NEW_VALUE is replaced by $REPLACED_VALUE by preprocessor.
+ * <replaced> is replaced by <original> by preprocessor.
  */
 
-#define $REPLACED_VALUE $NEW_VALUE
-```
-- example
-```c
 #define TIMES 10
 ```
 
-### #ifdef
+#ifdef
+------
 - #ifdef ... #endif
-```c
-#ifdef $MACRO 
-    printf("Something to do if defined.");
-#endif
-```
+    ```c
+    #ifdef <macro> 
+        ...
+    #endif
+    ```
 - #ifdef ... #else ... #endif
-```c
-#ifdef $MACRO 
-    printf("Something to do if defined.");
-#else
-    printf("Something to do in else.");
-#endif
-```
+    ```c
+    #ifdef <macro> 
+        ...
+    #else
+        ...
+    #endif
+    ```
 - #ifdef ... #elif ... #else ... #endif
-```c
-#ifdef $MACRO_1
-    printf("Something to do if defined.");
-#elif defined $MACRO_2
-    printf("Something to do in elif.");
-#else
-    printf("Something to do in else.");
-#endif
-```
+    ```c
+    #ifdef <macro_1>
+        ...
+    #elif defined <macro_2>
+        ...
+    #else
+        ...
+    #endif
+    ```
