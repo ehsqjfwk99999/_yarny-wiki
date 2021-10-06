@@ -5,11 +5,23 @@ Import
 ------
 - Strict Assertion Mode
     ```js
+    const assert = require('assert/strict');
+    ```
+    ```js
+    import assert from 'assert/strict';
+    ```
+    ```js
     const assert = require('assert').strict;
+    ```
+    ```js
+    import { strict as assert } from 'assert';
     ```
 - Legacy Assertion Mode
     ```js
     const assert = require('assert');
+    ```
+    ```js
+    import assert from 'assert';
     ```
 
 assert API

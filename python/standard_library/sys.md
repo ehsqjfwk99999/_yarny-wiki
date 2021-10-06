@@ -13,13 +13,13 @@ Variables
 ---------
 - [sys.argv](https://docs.python.org/3/library/sys.html#sys.argv)
     ```python
-    # sys.argv
+    ## [VARIABLE] sys.argv
     # List of command line arguments passed to python script.
     # argv[0] is script name.
     ```
 - [sys.path](https://docs.python.org/3/library/sys.html#sys.path)
     ```python
-    # sys.path
+    ## [VARIABLE] sys.path
     # List of paths when searching for modules.
     # Can add new path for importing modules.
 
@@ -27,7 +27,7 @@ Variables
     ```
 - [sys.stdin](https://docs.python.org/3/library/sys.html#sys.stdin)
     ```python
-    # sys.stdin
+    ## [VARIABLE] sys.stdin
     # File object for standard input.
 
     # Change stdin to file object.
@@ -35,3 +35,7 @@ Variables
     ```
 Functions
 ---------
+- [sys.exit](https://docs.python.org/3/library/sys.html#sys.exit)
+    ```python
+    ## [FUNCTION] sys.exit([arg]) -> NoReturn
+    ```

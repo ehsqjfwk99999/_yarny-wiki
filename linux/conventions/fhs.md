@@ -13,12 +13,15 @@ Filesystem Hierarchy Standard
 |
 |   # Directory for deviec files.
 |-- /dev
-|        \
-|         |   # Null device.
-|         |-- /dev/null
+|       \
+|        |   # Null device.
+|        |-- /dev/null
 |
 |   # Directory for configuration files.
 |-- /etc
+|       \
+|        |   # Show os information.
+|        |-- /etc/os-release
 |
 |   # Parent directory of user's home directories.
 |-- /home
@@ -37,6 +40,9 @@ Filesystem Hierarchy Standard
 |         |
 |         |   # List of devices.
 |         |-- /proc/devices
+|         |
+|         |   # Show interrupt information.
+|         |-- /proc/interrupts
 |         |
 |         |   # Show summary of memory managed by kernel.
 |         |-- /proc/meminfo

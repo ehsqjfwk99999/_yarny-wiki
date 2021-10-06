@@ -43,6 +43,7 @@ Python
 - [os](./python/standard_library/os.md)
 - [os.path](./python/standard_library/os.path.md)
 - [pickle](./python/standard_library/pickle.md)
+- [pprint](./python/standard_library/pprint.md)
 - [random](./python/standard_library/random.md)
 - [re](./python/standard_library/re.md)
 - [subprocess](./python/standard_library/subprocess.md)
@@ -73,6 +74,7 @@ JavaScript
 - [Iterator & Generator](./javascript/language_reference/iterator_&_generator.md)
 #### - Node.js Modules
 - [assert](./javascript/nodejs_modules/assert.md)
+- [fs](./javascript/nodejs_modules/fs.md)
 #### - JavaScript Packages
 - [Classnames](./javascript/packages/classnames.md)
 - [Mocha](./javascript/packages/mocha.md)
