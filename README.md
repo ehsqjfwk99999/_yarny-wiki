@@ -76,6 +76,7 @@ JavaScript
 #### - Node.js Modules
 - [assert](./javascript/nodejs_modules/assert.md)
 - [fs](./javascript/nodejs_modules/fs.md)
+- [path](./javascript/nodejs_modules/path.md)
 #### - JavaScript Packages
 - [Classnames](./javascript/packages/classnames.md)
 - [Mocha](./javascript/packages/mocha.md)
