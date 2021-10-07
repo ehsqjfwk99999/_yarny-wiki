@@ -71,6 +71,7 @@ Python
 JavaScript
 ----------
 #### - JavaScript Language Reference
+- [Error Handling](./javascript/language_reference/error_handling.md)
 - [Iterator & Generator](./javascript/language_reference/iterator_&_generator.md)
 #### - Node.js Modules
 - [assert](./javascript/nodejs_modules/assert.md)
