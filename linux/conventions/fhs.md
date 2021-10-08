@@ -20,6 +20,9 @@ Filesystem Hierarchy Standard
 |   # Directory for configuration files.
 |-- /etc
 |       \
+|        |   # Show group information.
+|        |-- /etc/group
+|        |
 |        |   # Show os information.
 |        |-- /etc/os-release
 |
