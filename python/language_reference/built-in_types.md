@@ -4,9 +4,32 @@ Python Built-in Types
 [List](https://docs.python.org/3/library/stdtypes.html#lists)
 ------
 - [list](https://docs.python.org/3/library/stdtypes.html#list)
+    ```python
+    ## [CLASS] list([iterable])
+    ```
+- [list.append](https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types)
+    ```python
+    ## [METHOD] list.append(x) -> None
+    ```
+- [list.insert](https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types)
+    ```python
+    ## [METHOD] list.insert(i, x) -> None
+    ```
+- [list.pop](https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types)
+    ```python
+    ## [METHOD] list.pop() -> Any
+    ```
+- [list.remove](https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types)
+    ```python
+    ## [METHOD] list.remove(x) -> None
+    ```
 - [list.reverse](https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types)
     ```python
-    # [METHOD] list.reverse() -> None
+    ## [METHOD] list.reverse() -> None
+    ```
+- [list.sort](https://docs.python.org/3/library/stdtypes.html#list.sort)
+    ```python
+    ## [METHOD] list.sort(*, key=None, reverse=False) -> None
     ```
 
 [String](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
