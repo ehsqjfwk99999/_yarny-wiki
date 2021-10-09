@@ -71,8 +71,11 @@ Python
 JavaScript
 ----------
 #### - JavaScript Language Reference
+- [Built-in Objects](./javascript/language_reference/built-in_objects.md)
+- [ECMAScript Modules](./javascript/language_reference/es_modules.md)
 - [Error Handling](./javascript/language_reference/error_handling.md)
 - [Iterator & Generator](./javascript/language_reference/iterator_&_generator.md)
+- [Regular Expression](./javascript/language_reference/regular_expression.md)
 #### - Node.js Modules
 - [assert](./javascript/nodejs_modules/assert.md)
 - [fs](./javascript/nodejs_modules/fs.md)
