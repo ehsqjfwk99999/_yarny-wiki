@@ -125,8 +125,9 @@ Linux Kernel
 
 DevOps
 ------
-#### - Docker
-- [Install](./devops/install.md)
+#### - Install
+- [Install Docker](./devops/install/install_docker.md)
+- [Install Kubernetes](./devops/install/install_k8s.md)
 #### - Docker CLI
 - [Docker CLI](./devops/docker_cli.md)
 - [Docker Compose CLI](./devops/docker-compose_cli.md)

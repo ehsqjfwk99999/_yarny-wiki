@@ -39,6 +39,11 @@ Connect to SSH Server
 ssh <username>@<host addr> -p <port>
 ```
 
+Connect via SSH without Password
+--------------------------------
+- Add public key(`~/.ssh/id_rsa.pub`) to remote machine's authorized_keys file(`~/.ssh/authorized_keys`).
+- Use `ssh-copy-id` command.
+
 ssh_config
 ==========
 

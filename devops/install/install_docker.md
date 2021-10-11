@@ -23,7 +23,12 @@ Install
 Install Docker Compose
 ======================
 
-Install on arm64(aarch64)
--------------------------
-1. Visit [here](https://docs.docker.com/compose/install/) and go to `Alternative install options`.
-2. Follow the steps in `Install using pip`.
+Install
+-------
+- Follow the steps [here](https://docs.docker.com/compose/install/).
+
+Troubleshooting
+---------------
+- Install on arm64(aarch64)
+    1. Go to `Alternative install options`.
+    2. Follow the steps in `Install using pip`.
