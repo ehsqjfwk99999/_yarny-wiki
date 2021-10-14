@@ -3,9 +3,9 @@ Packages
 
 Modern Unix
 -----------
-| Package | Homepage |
-|:-------:|:--------:|
-| ripgrep | https://github.com/BurntSushi/ripgrep |
+| Package | Install | Homepage |
+|:-------:|:-------:|:--------:|
+| ripgrep | `sudo apt-get install ripgrep` | https://github.com/BurntSushi/ripgrep |
 
 APT
 ---
