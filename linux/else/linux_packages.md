@@ -1,6 +1,12 @@
 Packages
 ========
 
+Modern Unix
+-----------
+| Package | Homepage |
+|:-------:|:--------:|
+| ripgrep | https://github.com/BurntSushi/ripgrep |
+
 APT
 ---
 ```sh
