@@ -14,17 +14,17 @@ Functions
 ---------
 - [time.time](https://docs.python.org/3/library/time.html#time.time)
     ```python
-    # [FUNCTION] time.time() -> float
+    ## [FUNCTION] time.time() -> float
     ```
 - [time.gmtime](https://docs.python.org/3/library/time.html#time.gmtime)
     ```python
-    # [FUNCTION] time.gmtime([secs]) -> ?
+    ## [FUNCTION] time.gmtime([secs]) -> ?
     ```
 - [time.localtime](https://docs.python.org/3/library/time.html#time.localtime)
     ```python
-    # [FUNCTION] time.localtime([secs]) -> ?
+    ## [FUNCTION] time.localtime([secs]) -> ?
     ```
 - [time.strftime](https://docs.python.org/3/library/time.html#time.strftime)
     ```python
-    # [FUNCTION] time.strftime(format[, t]) -> str
+    ## [FUNCTION] time.strftime(format[, t]) -> str
     ```

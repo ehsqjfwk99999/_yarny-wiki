@@ -10,6 +10,15 @@ make -v
 make --version
 ```
 
+Check & Execute
+---------------
+- Check file and execute.
+    ```Makefile
+    # 'true' at the end is needed because if test command([]) fails, whole process stops here.
+
+    [ -f <file> ] && <command> || true
+    ```
+
 Multiple Targets
 ----------------
 ```Makefile
@@ -30,28 +39,24 @@ submake:
 GNU Make Reference
 ==================
 
+Basic Structure & Rules
+-----------------------
+```Makefile
+<target>: <prerequisites>
+    <recipe>
+```
+- `target` on top is executed.
+- `target` is executed if
+    - file 'target' doesn't exist.
+    - at least one file in `prerequisites` changed.
+- `recipe` must start with tab.
+- Shell script can be used in `recipe`.
+- If `recipe` fails, whole process is stopped.
+
 Comment
 -------
 ```Makefile
 # This is comment.
-```
-
-CLI Options
------------
-```Makefile
-# make [-C] [-j]
-
-# Change to directory <dir> before execute.
-make -C <dir> <target>
-```
-
-Basic Structure
----------------
-```Makefile
-# Command list must start with tab.
-
-<target>: <dependency list>
-    <command list>
 ```
 
 Built-in Target Names
