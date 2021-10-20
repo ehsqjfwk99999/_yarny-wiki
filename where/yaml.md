@@ -7,6 +7,9 @@ Structures
     ```yaml
     # This is comment.
     ```
+- Dashes (`---`)    
+    - Indicate the start of a document.
+    - Seperate multiple yaml document in one yaml file.
 - Indent
     - Indent by 2. (recommended)
         ```yaml

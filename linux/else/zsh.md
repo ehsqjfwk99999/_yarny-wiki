@@ -4,81 +4,39 @@ Zsh Cookbook
 Zsh Installation
 ================
 
-Install Zsh & change shell
---------------------------
+Install Zsh
+-----------
+1. Install Zsh & change shell.
+    ```sh
+    sudo apt install zsh && chsh -s `which zsh`
+    ```
+2. Check `/etc/passwd`.
+    - If chsh didn't work, manually change `/bin/bash` to `$(which zsh)`.
 
-### Install zsh
-```sh
-sudo apt install zsh
-```
-### Change shell to zsh
-```sh
-# 자기 계정 "/bin/bash"를 \`which zsh\`로 변경.
+Install Oh My Zsh
+-----------------
+1. Install from [here](https://github.com/ohmyzsh/ohmyzsh#basic-installation).
 
-sudo vi /etc/passwd
-```
-### Re-login
-```sh
-exit
-```
+Install Oh My Zsh Plugins
+-------------------------
+1. Install Plugins.
+    - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+    - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+2. Update `~/.zshrc` file.
+    ```sh
+    # zsh-syntax-highlighting must be the last plugin sourced.
 
-Open(create) .zshrc file
-------------------------
-```sh
-vi ~/.zshrc
+    plugins=( [plugins...] zsh-autosuggestions zsh-syntax-highlighting)
+    ```
 
-# copy and paste my .zshrc configuration.
-```
-
-Install & customize [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
--------------------------------------------------------------------
-
-### Install Oh My Zsh
-```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-### Install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-```sh
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-```
-### Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-```
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-```
-### Edit .zshrc
-```sh
-vi ~/.zshrc
-
-# zsh-syntax-highlighting must be the last plugin sourced.
-plugins=( [plugins...] zsh-autosuggestions zsh-syntax-highlighting)
-```
-### Run configuration file
-```sh
-source ~/.zshrc
-```
-
-Install & customize [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
------------------------------------------------------------------------------
-
-### Install the recommended font
-- Download fonts from [here](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k).
-- For windows terminal, add [ "fontFace": "MesloLGS NF" ] in     settings.json "defaults".
-- For vscode terminal, add [ "terminal.integrated.fontFamily": "MesloLGS NF" ] in settings.json.
-### Install Powerlevel10k
-```sh
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-```
-### Edit .zshrc
-```sh
-vi ~/.zshrc
-
-
-ZSH_THEME="powerlevel10k/powerlevel10k"
-```
-### Run configuration file
-```sh
-source ~/.zshrc
-```
+Install Powerlevel10k
+---------------------
+1. Install Powerlevel10k from [here](https://github.com/romkatv/powerlevel10k#installation).
+2. Update `~/.zshrc` file.
+    ```sh
+    ZSH_THEME="powerlevel10k/powerlevel10k"
+    ```
+3. If error with fonts, see [here](https://github.com/romkatv/powerlevel10k#fonts)
 
 Install [LSDeluxe](https://github.com/Peltoche/lsd)
 ---------------------------------------------------

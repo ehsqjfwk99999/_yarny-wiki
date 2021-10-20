@@ -33,12 +33,6 @@ Manage SSH Server
     systemctl enable ssh
     ```
 
-Connect to SSH Server
----------------------
-```sh
-ssh <username>@<host addr> -p <port>
-```
-
 Connect via SSH without Password
 --------------------------------
 - Add public key(`~/.ssh/id_rsa.pub`) to remote machine's authorized_keys file(`~/.ssh/authorized_keys`).

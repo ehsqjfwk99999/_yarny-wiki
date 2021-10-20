@@ -18,7 +18,6 @@ Where 2 Go ?
 - [VS Code](./where/vscode.md)
 - [Visual Studio](./where/visual_studio.md)
 - [Git](./where/git.md)
-- [SSH](./where/ssh.md)
 - [C](./where/c.md)
 - [ESLint](./where/eslint.md)
 - [Prettier](./where/prettier.md)
@@ -105,6 +104,7 @@ Linux
 - [Shell Script](./linux/shell_script/shell_script.md)
 #### - Else
 - [Linux Packages](./linux/else/linux_packages.md)
+- [SSH](./linux/else/ssh.md)
 - [Vim](./linux/else/vim.md)
 - [Zsh](./linux/else/zsh.md)
 

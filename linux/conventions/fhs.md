@@ -25,6 +25,12 @@ Filesystem Hierarchy Standard
 |        |
 |        |   # Show os information.
 |        |-- /etc/os-release
+|        |
+|        |   # Information of system user accounts.
+|        |-- /etc/passwd
+|        |
+|        |   # Information of system users' passwords.
+|        |-- /etc/shadow
 |
 |   # Parent directory of user's home directories.
 |-- /home
