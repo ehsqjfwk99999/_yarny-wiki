@@ -5,6 +5,7 @@ Modern Unix
 -----------
 | Package | Install | Homepage |
 |:-------:|:-------:|:--------:|
+| bat | `❌` | https://github.com/sharkdp/bat |
 | ripgrep | `sudo apt-get install ripgrep` | https://github.com/BurntSushi/ripgrep |
 
 Language Runtime
