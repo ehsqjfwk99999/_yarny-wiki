@@ -1,4 +1,4 @@
-VS Code Shortcutss
+VS Code Shortcuts
 =================
 
 Settings
