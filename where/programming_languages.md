@@ -7,6 +7,9 @@ Abstract
 |:-------------:|:---------------------------------:|
 | 💥 Update 💥 | 21-10-17                          |
 | Comment       | `//` `/* ... */`                  |
+| String        | `` `...` `` `"..."`               |
+| Boolean       | `true` `false`                    |
+| No Value      | `nil`                             |
 | Variable      | `var`                             |
 | Constant      | `const`                           |
 | Function      | `func`                            |

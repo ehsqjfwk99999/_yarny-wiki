@@ -15,6 +15,7 @@ Table of Contents
 
 Where 2 Go ?
 ------------
+- [Programming Languages](./where/programming_languages.md)
 - [VS Code](./where/vscode.md)
 - [Visual Studio](./where/visual_studio.md)
 - [Git](./where/git.md)
