@@ -5,7 +5,7 @@ Abstract
 --------
 |               | Go                                |
 |:-------------:|:---------------------------------:|
-| 💥 Update 💥 | 21-10-17                          |
+| 💥 Update 💥 | 21-10-25                          |
 | Comment       | `//` `/* ... */`                  |
 | String        | `` `...` `` `"..."`               |
 | Boolean       | `true` `false`                    |
@@ -22,3 +22,14 @@ Abstract
 | Pointer       | `*`                               |
 | Address       | `&`                               |
 | Entry Point   | `main` function in `main` package |
+
+Type Notation
+-------------
+|               | Go       |
+|:-------------:|:--------:|
+| 💥 Update 💥 | 21-10-25 |
+| All           | `❓`     |
+| String        | `string` |
+| Number        | `int`    |
+| Boolean       | `bool`   |
+| Channel       | `chan`   |
