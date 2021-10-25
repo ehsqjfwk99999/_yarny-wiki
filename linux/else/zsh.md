@@ -1,6 +1,10 @@
 Zsh
 ===
 
+Config file
+-----------
+- `~/.zshrc`
+
 Zsh Installation
 ================
 
