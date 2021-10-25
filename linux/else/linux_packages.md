@@ -6,7 +6,7 @@ Vim
 | Package | Install | Homepage |
 |:-------:|:-------:|:--------:|
 | vim | `sudo apt install vim` | https://github.com/sharkdp/bat |
-| vim | `❌` | https://github.com/junegunn/vim-plug |
+| vim-plug | `❌` | https://github.com/junegunn/vim-plug |
 
 Modern Unix
 -----------
