@@ -1,13 +1,6 @@
 Packages
 ========
 
-Vim
------------
-| Package | Install | Homepage |
-|:-------:|:-------:|:--------:|
-| vim | `sudo apt install vim` | https://github.com/sharkdp/bat |
-| vim-plug | `❌` | https://github.com/junegunn/vim-plug |
-
 Modern Unix
 -----------
 | Package | Install | Homepage |
