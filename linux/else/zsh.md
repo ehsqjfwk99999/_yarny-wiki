@@ -41,32 +41,3 @@ Install Powerlevel10k
     ```
 3. Restart terminal.
 4. If there is any error with fonts, see [here](https://github.com/romkatv/powerlevel10k#fonts)
-
-
-
-
-
-
-
-Install [LSDeluxe](https://github.com/Peltoche/lsd)
----------------------------------------------------
-
-### Download .deb package
-- Download lsd_*version*_amd64.deb from [here](https://github.com/Peltoche/lsd/releases).
-### Install .deb package
-```sh
-sudo dpkg -i <name of downloaded file>
-```
-### Edit .zshrc
-```sh
-vi ~/.zshrc
-    
-# Change ls, ll, l 
-alias ls="lsd"
-alias l="ls -al"
-alias ll="ls -al"
-```
-### Run configuration file
-```sh
-source ~/.zshrc
-```
