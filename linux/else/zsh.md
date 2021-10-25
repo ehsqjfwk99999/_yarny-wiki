@@ -1,5 +1,5 @@
-Zsh Cookbook
-============
+Zsh
+===
 
 Zsh Installation
 ================
