@@ -1,27 +1,9 @@
-Vim Cookbook
-============
+Vim
+===
 
-Install
--------
-```sh
-sudo apt install vim
-```
 Config file
 -----------
 - `~/.vimrc`
-
-
-[vim-plug](https://github.com/junegunn/vim-plug)
-----------
-- Install
-    ```sh
-    curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    ```
-- Install plugins
-    ```sh
-    # In vim.
-    :PlugInstall
-    ```
 
 Vim Commands
 ============
@@ -104,3 +86,23 @@ Split
     | Decrease current window height by `n` | `:resize -n` |
     | Increase current window width by `n` | `:vertical resize +n` |
     | Decrease current window width by `n` | `:vertical resize -n` |
+
+Vim Installation
+================
+
+Install Vim
+-----------
+1. Install Vim.
+    ```sh
+    sudo apt install vim
+    ```
+
+Install vim-plug
+----------------
+1. Install from [here](https://github.com/junegunn/vim-plug).
+2. Install plugins.
+    ```sh
+    # In vim.
+
+    :PlugInstall
+    ```
