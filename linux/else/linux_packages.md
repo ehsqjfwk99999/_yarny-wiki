@@ -1,11 +1,19 @@
 Packages
 ========
 
+Vim
+-----------
+| Package | Install | Homepage |
+|:-------:|:-------:|:--------:|
+| vim | `sudo apt install vim` | https://github.com/sharkdp/bat |
+| vim | `❌` | https://github.com/junegunn/vim-plug |
+
 Modern Unix
 -----------
 | Package | Install | Homepage |
 |:-------:|:-------:|:--------:|
 | bat | `❌` | https://github.com/sharkdp/bat |
+| lsd | `❌` | https://github.com/Peltoche/lsd |
 | ripgrep | `sudo apt-get install ripgrep` | https://github.com/BurntSushi/ripgrep |
 
 Language Runtime
@@ -19,9 +27,8 @@ Language Runtime
 APT
 ---
 ```sh
-sudo apt install -y vim git gcc make ctags curl lsb net-tools unzip
+sudo apt install -y git gcc make ctags curl lsb net-tools unzip
 ```
-- vim
 - git
 - gcc
 - make
