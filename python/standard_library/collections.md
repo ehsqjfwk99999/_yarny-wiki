@@ -1,7 +1,7 @@
 Python Standard Library : collections
 =====================================
 
-[deque](https://docs.python.org/3/library/collections.html#collections.deque)
+[collections.deque](https://docs.python.org/3/library/collections.html#collections.deque)
 -------
 - [append](https://docs.python.org/3/library/collections.html#collections.deque.append)
     ```python
