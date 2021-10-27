@@ -40,6 +40,7 @@ Python
 - [Built-in Functions](./python/language_reference/built-in_functions.md)
 #### - Python Standard Library
 - [argparse](./python/standard_library/argparse.md)
+- [asyncio](./python/standard_library/asyncio.md)
 - [collections](./python/standard_library/collections.md)
 - [keyword](./python/standard_library/keyword.md)
 - [os](./python/standard_library/os.md)
