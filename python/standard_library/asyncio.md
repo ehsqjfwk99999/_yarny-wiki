@@ -4,7 +4,7 @@ Python Standard Library : asyncio
 Import
 ------
 ```python
-import argparse
+import asyncio
 ```
 
 asyncio API
