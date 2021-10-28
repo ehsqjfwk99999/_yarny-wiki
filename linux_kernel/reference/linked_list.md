@@ -9,9 +9,10 @@ Structures
 ----------
 - [struct list_head](https://elixir.bootlin.com/linux/latest/A/ident/list_head)
     ```c
-    struct list_head {
-        struct list_head *next, *prev;
-    };
+    /**
+    * [STRUCTURE] struct list_head
+    * Location: /include/linux/types.h
+    */
     ```
 
 Macros
