@@ -13,11 +13,11 @@ Features
 HTTP Request
 ------------
 - Request Line
-    ```http
+    ```
     GET http:localhost:5000
     ```
 - Request Body
-    ```http
+    ```
     # Add blank after request line.
 
     POST http:localhost:5000
