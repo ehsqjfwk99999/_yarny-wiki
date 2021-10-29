@@ -266,17 +266,3 @@ do {                                    \
     unlikely(__ret_warn_once);              \
 })
 ```
-
-- IS_ERR()
-```c
-/**
- * IS_ERR()
- * Check if pointer is error value.
- * Location : linux/include/linux/err.h
- */
-
-static inline bool __must_check IS_ERR(__force const void *ptr)
-{
-    return IS_ERR_VALUE((unsigned long)ptr);
-}
-```
