@@ -119,9 +119,6 @@ Linux Kernel
 - [Queue](./linux_kernel/reference/queue.md)
 - [IDR](./linux_kernel/reference/idr.md)
 - [Block I/O Layer](./linux_kernel/reference/block_io_layer.md)
-#### - Fragments
-- [Kernel](./linux_kernel/fragments/kernel.md)
-- [File System](./linux_kernel/fragments/fs.md)
 #### - Else
 - [Ftrace](./linux_kernel/else/ftrace.md)
 - [Strace](./linux_kernel/else/strace.md)
