@@ -25,11 +25,11 @@ Abstract
 
 Type Notation
 -------------
-|               | Go       |
-|:-------------:|:--------:|
-| 💥 Update 💥 | 21-10-25 |
-| All           | `❓`     |
-| String        | `string` |
-| Number        | `int`    |
-| Boolean       | `bool`   |
-| Channel       | `chan`   |
+|               | Go            |
+|:-------------:|:-------------:|
+| 💥 Update 💥 | 21-10-25      |
+| All           | `interface{}` |
+| String        | `string`      |
+| Number        | `int`         |
+| Boolean       | `bool`        |
+| Channel       | `chan`        |
