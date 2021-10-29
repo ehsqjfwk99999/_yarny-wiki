@@ -6,8 +6,7 @@ Table of Contents
 - [Where 2 Go?](#where-2-go)
 - [Python](#python)
 - [JavaScript](#javascript)
-- [TypeScript](#typescript)
-- [Golang](#golang)
+- [Go](#go)
 - [Linux](#linux)
 - [Linux Kernel](#linux-kernel)
 - [Docker](#docker)
@@ -94,6 +93,11 @@ JavaScript
 #### - Else
 - [NVM](./javascript/else/nvm.md)
 - [npm](./javascript/else/npm.md)
+
+Go
+---
+#### - Go Packages
+- [Air](./go/packages/air.md)
 
 Linux
 -----
