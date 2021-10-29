@@ -16,6 +16,13 @@ HTTP Request
     ```
     GET http:localhost:5000
     ```
+- Request Headers
+    ```
+    # Lines right after request line to first empty line is considered request headers.
+    
+    POST http:localhost:5000
+    Content-Type: application/json
+    ```
 - Request Body
     ```
     # Add blank after request line.
