@@ -7,10 +7,13 @@ Javascript Language Reference : Built-in Objects
     ```javascript
     // [CONSTRUCTOR] [element0, element1, ..., elementN] -> Array
     ```
+- [Array.prototype.concat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
 - [Array.prototype.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
     ```javascript
     // [METHOD] arr.filter(callback) -> Array
     ```
+- [Array.prototype.includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+- [Array.prototype.indexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
 - [Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
     ```javascript
     // [METHOD] arr.map(callback) -> Array
@@ -19,10 +22,13 @@ Javascript Language Reference : Built-in Objects
     ```javascript
     // [METHOD] arr.reduce(callback) -> ?
     ```
+- [Array.prototype.shift](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
 - [Array.prototype.slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
     ```javascript
     // [METHOD] arr.slice([begin[, end]]) -> Array
     ```
+- [Array.prototype.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+- [Array.prototype.splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 - [Array.prototype.find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
     ```javascript
     // [METHOD] arr.find(callback) -> any
