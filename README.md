@@ -148,6 +148,10 @@ Windows 10
 - [Shortcuts](./windows_10/shortcuts.md)
 - [WSL](./windows_10/wsl.md)
 
+BackUp
+------
+- [PyCharm](./backup/pycharm.md)
+
 <!-- TypeScript
 ----------
 ### - Cookbook
@@ -159,8 +163,3 @@ Windows 10
 - [NestJs](./typescript/packages/nestjs.md)
 ### - Settings
 - [tsconfig.json](./typescript/settings/tsconfigjson.md) -->
-
-<!-- Golang
-------
-- [Grammer](./golang/grammer.md)
-- [Install](./golang/install.md) -->
