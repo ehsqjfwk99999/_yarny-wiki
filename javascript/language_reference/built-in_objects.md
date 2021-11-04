@@ -4,6 +4,9 @@ Javascript Language Reference : Built-in Objects
 [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 --------
 - [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/Object)
+    ```javascript
+    // [CONSTRUCTOR]
+    ```
 - [Object.assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
     ```javascript
     // [METHOD]
@@ -25,12 +28,21 @@ Javascript Language Reference : Built-in Objects
     // [PROPERTY]
     ```
 - [Array.prototype.concat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+    ```javascript
+    // [METHOD]
+    ```
 - [Array.prototype.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
     ```javascript
     // [METHOD] arr.filter(callback) -> Array
     ```
 - [Array.prototype.includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+    ```javascript
+    // [METHOD]
+    ```
 - [Array.prototype.indexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+    ```javascript
+    // [METHOD]
+    ```
 - [Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
     ```javascript
     // [METHOD] arr.map(callback) -> Array
@@ -40,12 +52,21 @@ Javascript Language Reference : Built-in Objects
     // [METHOD] arr.reduce(callback) -> ?
     ```
 - [Array.prototype.shift](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+    ```javascript
+    // [METHOD]
+    ```
 - [Array.prototype.slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
     ```javascript
     // [METHOD] arr.slice([begin[, end]]) -> Array
     ```
 - [Array.prototype.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+    ```javascript
+    // [METHOD]
+    ```
 - [Array.prototype.splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+    ```javascript
+    // [METHOD]
+    ```
 - [Array.prototype.find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
     ```javascript
     // [METHOD] arr.find(callback) -> any
