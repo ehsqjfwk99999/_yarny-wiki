@@ -1,22 +1,6 @@
 Javascript Language Reference : Built-in Objects
 ================================================
 
-[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
---------
-- [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/Object)
-    ```javascript
-    // [CONSTRUCTOR]
-    ```
-- [Object.assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
-    ```javascript
-    // [METHOD]
-    ```
-- [Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
-    ```javascript
-    // [METHOD]
-    ```
-
-
 [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 -------
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array)
@@ -74,6 +58,48 @@ Javascript Language Reference : Built-in Objects
 - [Array.prototype.push](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
     ```javascript
     // [METHOD] arr.push(element1[, ...[, elementN]]) -> number
+    ```
+
+[Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+-----
+- [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/Map)
+    ```javascript
+    // [CONSTRUCTOR]
+    ```
+- [Map.prototype.clear](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/clear)
+    ```javascript
+    // [METHOD]
+    ```
+- [Map.prototype.delete](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/delete)
+    ```javascript
+    // [METHOD]
+    ```
+- [Map.prototype.get](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get)
+    ```javascript
+    // [METHOD]
+    ```
+- [Map.prototype.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/keys)
+    ```javascript
+    // [METHOD]
+    ```
+- [Map.prototype.set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/set)
+    ```javascript
+    // [METHOD]
+    ```
+
+[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+--------
+- [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/Object)
+    ```javascript
+    // [CONSTRUCTOR]
+    ```
+- [Object.assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+    ```javascript
+    // [METHOD]
+    ```
+- [Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+    ```javascript
+    // [METHOD]
     ```
 
 [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
