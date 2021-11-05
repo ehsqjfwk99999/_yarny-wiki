@@ -27,6 +27,10 @@ Javascript Language Reference : Built-in Objects
     ```javascript
     // [METHOD]
     ```
+- [Array.prototype.join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+    ```javascript
+    // [METHOD]
+    ```
 - [Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
     ```javascript
     // [METHOD] arr.map(callback) -> Array
@@ -74,6 +78,10 @@ Javascript Language Reference : Built-in Objects
     ```javascript
     // [METHOD]
     ```
+- [Map.prototype.entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/entries)
+    ```javascript
+    // [METHOD]
+    ```
 - [Map.prototype.get](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get)
     ```javascript
     // [METHOD]
@@ -94,6 +102,10 @@ Javascript Language Reference : Built-in Objects
     // [CONSTRUCTOR]
     ```
 - [Object.assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+    ```javascript
+    // [METHOD]
+    ```
+- [Object.entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
     ```javascript
     // [METHOD]
     ```
