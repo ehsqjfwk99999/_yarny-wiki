@@ -50,6 +50,7 @@ Python
 - [pprint](./python/standard_library/pprint.md)
 - [random](./python/standard_library/random.md)
 - [re](./python/standard_library/re.md)
+- [shutil](./python/standard_library/shutil.md)
 - [subprocess](./python/standard_library/subprocess.md)
 - [sys](./python/standard_library/sys.md)
 - [time](./python/standard_library/time.md)
