@@ -114,6 +114,17 @@ Javascript Language Reference : Built-in Objects
     // [METHOD]
     ```
 
+[Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+-----
+- [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/Set)
+    ```js
+    // [CONSTRUCTOR] 
+    ```
+- [Set.prototype.add](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/add)
+    ```js
+    // [METHOD] 
+    ```
+
 [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 --------
 - [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/String)
