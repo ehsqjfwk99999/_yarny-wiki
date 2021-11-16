@@ -32,6 +32,8 @@ Type Notation
 | String           | `string`      | `string`   |
 | Number           | `int`         | `number`   |
 | Boolean          | `bool`        | `boolean`  |
+| Object           |               |            |
+| Array            |               |            |
 | Channel          | `chan`        | `❌`      |
 | No Return Value  |               |            |
 | No Return (Exit) |               | `void`     |
