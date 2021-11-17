@@ -33,7 +33,7 @@ Type Notation
 | Number           | `int`         | `number`   |
 | Boolean          | `bool`        | `boolean`  |
 | Object           |               |            |
-| Array            |               |            |
+| Array            |               | `<type>[]` |
 | Channel          | `chan`        | `❌`      |
-| No Return Value  |               |            |
-| No Return (Exit) |               | `void`     |
+| No Return Value  |               | `void`     |
+| No Return (Exit) |               |            |
