@@ -35,3 +35,7 @@ HTTP Request
       }
     }
     ```
+    - Request header for various body contents.
+      | Body Content | Request Header |
+      |:------------:|:--------------:|
+      | JSON | `Content-Type: application/json` |
