@@ -9,8 +9,8 @@ Table of Contents
 - [Go](#go)
 - [Linux](#linux)
 - [Linux Kernel](#linux-kernel)
-- [Docker](#docker)
-- [Windows10](#windows10)
+- [DevOps](#devops)
+- [Windows 10](#windows-10)
 - [BackUp](#backup)
 
 Where 2 Go ?
