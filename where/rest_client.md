@@ -14,20 +14,20 @@ HTTP Request
 ------------
 - Request Line
     ```
-    GET http:localhost:5000
+    GET http://localhost:5000
     ```
 - Request Headers
     ```
-    # Lines right after request line to first empty line is considered request headers.
+    # Lines right after request line until first empty line is considered request headers.
     
-    POST http:localhost:5000
+    POST http://localhost:5000
     Content-Type: application/json
     ```
 - Request Body
     ```
     # Add blank after request line.
 
-    POST http:localhost:5000
+    POST http://localhost:5000
 
     {
       "this": {
