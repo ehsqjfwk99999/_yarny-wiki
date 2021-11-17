@@ -5,7 +5,7 @@ Abstract
 --------
 |               | Go                                | TypeScript |
 |:-------------:|:---------------------------------:|:----------:|
-| 💥 Update 💥 | 21-10-25                          | 21-11-17   |
+| ✅ Update ✅ | 21-10-25                          | 21-11-17   |
 | Comment       | `//` `/* ... */`                  | `//` `/* ... */` |
 | String        | `` `...` `` `"..."`               |                  |
 | Boolean       | `true` `false`                    |                  |
@@ -14,7 +14,7 @@ Abstract
 | Constant      | `const`                           |                  |
 | Function      | `func`                            |                  |
 | Structure     | `struct`                          |                  |
-| Class         | `X`                               |                  |
+| Class         | `❌`                             |                  |
 | Condition     | `if` `switch`                     |                  |
 | Loop          | `for`                             |                  |
 | Export        | Start with capital                |                  |
@@ -27,7 +27,7 @@ Type Notation
 -------------
 |                  | Go            | TypeScript |
 |:----------------:|:-------------:|:----------:|
-| 💥 Update 💥    | 21-10-25      | 21-11-17   |
+| ✅ Update ✅    | 21-10-25      | 21-11-17   |
 | All              | `interface{}` | `any`      |
 | String           | `string`      | `string`   |
 | Number           | `int`         | `number`   |
