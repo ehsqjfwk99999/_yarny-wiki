@@ -14,41 +14,36 @@ Install
 NVM CLI
 =======
 
-nvm
----
-```sh
-# nvm [--help] [--version]
-```
+- nvm
+    ```sh
+    ## nvm [--help] [--version]
+    ```
+- nvm ls
+    ```sh
+    ## nvm ls
+    # List installed node versions.
 
-nvm ls
-------
-```sh
-# nvm ls
-# List installed node versions.
-```
+    nvm ls
+    ```
+- nvm install
+    ```sh
+    ## nvm install [--lts] [<version>]
+    # Download and install node <version>.
 
-nvm install
------------
-```sh
-# nvm install <version>
-# Download and install node <version>.
+    # Install the latest available node version.
+    nvm install node
 
-# Install the latest available node version.
-nvm install node
+    # Install the latest node LTS version.
+    nvm install --lts
+    ```
+- nvm use
+    ```sh
+    ## nvm use [--lts] [<version>]
+    # Start using node <version>.
 
-# Install the latest node LTS version.
-nvm install --lts
-```
+    # Use the latest node version.
+    nvm use node
 
-nvm use
--------
-```sh
-# nvm use <version>
-# Start using node <version>.
-
-# Use the latest node version.
-nvm use node
-
-# Use the latest node LTS version.
-nvm use --lts
-```
+    # Use the latest node LTS version.
+    nvm use --lts
+    ```
