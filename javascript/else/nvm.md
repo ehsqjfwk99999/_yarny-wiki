@@ -18,13 +18,6 @@ NVM CLI
     ```sh
     ## nvm [--help] [--version]
     ```
-- nvm ls
-    ```sh
-    ## nvm ls
-    # List installed node versions.
-
-    nvm ls
-    ```
 - nvm install
     ```sh
     ## nvm install [--lts] [<version>]
@@ -35,6 +28,13 @@ NVM CLI
 
     # Install the latest node LTS version.
     nvm install --lts
+    ```
+- nvm ls
+    ```sh
+    ## nvm ls
+    # List installed node versions.
+
+    nvm ls
     ```
 - nvm use
     ```sh
