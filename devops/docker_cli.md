@@ -3,7 +3,7 @@ Docker CLI
 
 - [docker build](https://docs.docker.com/engine/reference/commandline/build/)
     ```sh
-    # docker build [-f] [-t] <path>
+    ## docker build [-f] [-t] <path>
     # Directory of path must have Dockerfile.
 
     # Build image of <dockerfile_path> in <path>.
@@ -15,13 +15,13 @@ Docker CLI
     ```
 - [docker commit](https://docs.docker.com/engine/reference/commandline/commit/)
     ```sh
-    # docker commit <container> [repository[:tag]]
+    ## docker commit <container> [repository[:tag]]
     ```
 - [docker cp](https://docs.docker.com/engine/reference/commandline/cp/)
 - [docker create](https://docs.docker.com/engine/reference/commandline/create/)
 - [docker exec](https://docs.docker.com/engine/reference/commandline/exec/)
     ```sh
-    # docker exec [-i] [-t] <container> [command]
+    ## docker exec [-i] [-t] <container> [command]
 
     # Run <command> in running container and wait until command ends.
     docker exec -it <container> <command>
@@ -30,7 +30,7 @@ Docker CLI
     ```
 - [docker images](https://docs.docker.com/engine/reference/commandline/images/)
     ```sh
-    # docker images [-q]
+    ## docker images [-q]
 
     # Show only image IDs.
     docker images -q
