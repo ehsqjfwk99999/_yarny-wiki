@@ -35,12 +35,15 @@ Docker CLI
     # Show only image IDs.
     docker images -q
     ```
+- [docker inspect](https://docs.docker.com/engine/reference/commandline/inspect/)
 - [docker kill](https://docs.docker.com/engine/reference/commandline/kill/)
 - [docker login](https://docs.docker.com/engine/reference/commandline/login/)
 - [docker logs](https://docs.docker.com/engine/reference/commandline/logs/)
 - [docker network](https://docs.docker.com/engine/reference/commandline/network/)
     - [docker network connect](https://docs.docker.com/engine/reference/commandline/network_connect/)
     - [docker network create](https://docs.docker.com/engine/reference/commandline/network_create/)
+    - [docker network disconnect](https://docs.docker.com/engine/reference/commandline/network_disconnect/)
+    - [docker network inspect](https://docs.docker.com/engine/reference/commandline/network_inspect/)
     - [docker network ls](https://docs.docker.com/engine/reference/commandline/network_ls/)
 - [docker ps](https://docs.docker.com/engine/reference/commandline/ps/)
     ```sh
@@ -80,10 +83,9 @@ Docker CLI
     # Set working directory to <workdir_path>.
     docker run -w <workdir_path> <image>.
 
-    # Run container connecting container to $NETWORK.
+    # Run container connecting container to <network>.
     docker run --network=<network> <image>
     ```
-
 - [docker start](https://docs.docker.com/engine/reference/commandline/start/)
     ```sh
     ## docker start [-a] [-i] <container>
