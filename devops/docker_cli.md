@@ -39,11 +39,12 @@ Docker CLI
 - [docker login](https://docs.docker.com/engine/reference/commandline/login/)
 - [docker logs](https://docs.docker.com/engine/reference/commandline/logs/)
 - [docker network](https://docs.docker.com/engine/reference/commandline/network/)
-- [docker network connect](https://docs.docker.com/engine/reference/commandline/network_connect/)
-- [docker network create](https://docs.docker.com/engine/reference/commandline/network_create/)
+    - [docker network connect](https://docs.docker.com/engine/reference/commandline/network_connect/)
+    - [docker network create](https://docs.docker.com/engine/reference/commandline/network_create/)
+    - [docker network ls](https://docs.docker.com/engine/reference/commandline/network_ls/)
 - [docker ps](https://docs.docker.com/engine/reference/commandline/ps/)
     ```sh
-    # docker ps [-a] [-q]
+    ## docker ps [-a] [-q]
 
     # Show all containers.
     docker ps -a
@@ -58,7 +59,7 @@ Docker CLI
 - [docker rmi](https://docs.docker.com/engine/reference/commandline/rmi/)
 - [docker run](https://docs.docker.com/engine/reference/commandline/run/)
     ```sh
-    # docker run [-d] [-e] [-i] [-p] [-P] [-t] [-v] [-w] [--name] [--network] [--rm] <image> [command]
+    ## docker run [-d] [-e] [-i] [-p] [-P] [-t] [-v] [-w] [--name] [--network] [--rm] <image> [command]
     # docker run = docker create + docker start.
 
     # Run container executing <command>, overriding default command(CMD in Dockerfile).
@@ -85,7 +86,7 @@ Docker CLI
 
 - [docker start](https://docs.docker.com/engine/reference/commandline/start/)
     ```sh
-    # docker start [-a] [-i] <container>
+    ## docker start [-a] [-i] <container>
 
     # Attach STDOUT/STDERR.
     docker start -a <container>
@@ -99,6 +100,6 @@ Docker CLI
 - docker volume
     - [docker volume prune](https://docs.docker.com/engine/reference/commandline/volume_prune/)
         ```sh
-        # docker volume prune
+        ## docker volume prune
         # Remove all unused local volumes.
         ```
