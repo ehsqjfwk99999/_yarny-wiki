@@ -10,7 +10,7 @@ npm install dotenv
 Import
 ------
 ```js
-const multer  = require('multer')
+const dotenv = require('dotenv');
 ```
 
 Example
@@ -18,7 +18,7 @@ Example
 - `app.js`
     ```js
     // As early as possible.
-    require('dotenv').config()
+    require('dotenv').config();
 
         ...
 
@@ -26,7 +26,7 @@ Example
         host: process.env.DB_HOST,
         username: process.env.DB_USER,
         password: process.env.DB_PASS
-    }
+    };
     ```
 - `.env`
     ```
