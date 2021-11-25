@@ -87,6 +87,7 @@ JavaScript
 - [path](./javascript/nodejs_modules/path.md)
 #### - JavaScript Packages
 - [Classnames](./javascript/packages/classnames.md)
+- [cookie-parser](./javascript/packages/cookie-parser.md)
 - [Mocha](./javascript/packages/mocha.md)
 - [Mongoose](./javascript/packages/mongoose.md)
 - [morgan](./javascript/packages/morgan.md)

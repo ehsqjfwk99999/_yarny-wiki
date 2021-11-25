@@ -1,5 +1,5 @@
-morgan Cookbook
-===============
+morgan
+======
 
 Install
 -------
