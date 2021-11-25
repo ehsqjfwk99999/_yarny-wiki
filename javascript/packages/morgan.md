@@ -16,7 +16,9 @@ const morgan = require('morgan');
 Example
 -------
 ```js
-const morgan = require('morgan');
+const logger = require('morgan');
 
-const logger = morgan('dev');
+// ...
+
+app.use(logger('dev'));
 ```
