@@ -88,6 +88,7 @@ JavaScript
 #### - JavaScript Packages
 - [Classnames](./javascript/packages/classnames.md)
 - [cookie-parser](./javascript/packages/cookie-parser.md)
+- [express-session](./javascript/packages/express-session.md)
 - [Mocha](./javascript/packages/mocha.md)
 - [Mongoose](./javascript/packages/mongoose.md)
 - [morgan](./javascript/packages/morgan.md)
