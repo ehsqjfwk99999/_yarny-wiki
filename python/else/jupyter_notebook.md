@@ -1,5 +1,5 @@
-Jupyter Notebook Cookbook
-=========================
+Jupyter Notebook
+================
 
 Ignore(Reset) Warnings
 ----------------------
