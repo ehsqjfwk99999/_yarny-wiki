@@ -69,7 +69,7 @@ Python
 #### - Else
 - [Python CLI](./python/else/python_cli.md)
 - [Kaggle](./python/else/kaggle.md)
-- [Jupyter Notebook - Cookbook](./python/else/jupyter_notebook_cookbook.md)
+- [Jupyter Notebook](./python/else/jupyter_notebook.md)
 - [Ipython](./python/else/ipython.md)
 - [Colab - Keymap](./python/else/colab_keymap.md)
 
