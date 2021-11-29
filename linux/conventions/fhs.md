@@ -31,6 +31,9 @@ Filesystem Hierarchy Standard
 |        |
 |        |   # Information of system users' passwords.
 |        |-- /etc/shadow
+|        |
+|        |   # File to administrate system rights to users.
+|        |-- /etc/sudoers
 |
 |   # Parent directory of user's home directories.
 |-- /home
