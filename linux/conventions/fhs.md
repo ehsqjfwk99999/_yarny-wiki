@@ -23,7 +23,7 @@ Filesystem Hierarchy Standard
 |        |   # Show group information.
 |        |-- /etc/group
 |        |
-|        |   # File containing IP host and address mappings/
+|        |   # File containing IP host and address mappings.
 |        |-- /etc/hosts
 |        |
 |        |   # Show os information.
