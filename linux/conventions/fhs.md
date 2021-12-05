@@ -32,6 +32,9 @@ Filesystem Hierarchy Standard
 |        |   # Information of system user accounts.
 |        |-- /etc/passwd
 |        |
+|        |   # Information of system dns name server configuration.
+|        |-- /etc/resolv.conf
+|        |
 |        |   # Information of system users' passwords.
 |        |-- /etc/shadow
 |        |
