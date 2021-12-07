@@ -10,18 +10,19 @@ npm install mocha
 Run Test
 --------
 ```sh
+# Test files in 'test' directory. (default)
 mocha
 ```
 
-Structure
----------
+Example
+-------
 ```js
 // Hook to run before each test cases.
 beforeEach(() => { ... });
 
-// For grouping test cases.
+// Group test cases.
 describe('Test Group 1',  () => {
-    // Each test case.
+    // Test each test cases.
     it('Test Case 1', () => { ... });
     it('Test Case 2', () => { ... });
 });
