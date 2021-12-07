@@ -14,7 +14,7 @@ Variables
 - [os.name](https://docs.python.org/3/library/os.html#os.name)
 - [os.curdir](https://docs.python.org/3/library/os.html#os.curdir)
     ```python
-    # os.curdir
+    ## [CONSTANT] os.curdir
     # Constant string used by the operating system for current directory.
     ```
 - [os.pardir](https://docs.python.org/3/library/os.html#os.pardir)
@@ -24,11 +24,19 @@ Functions
 ---------
 - [os.getcwd](https://docs.python.org/3/library/os.html#os.getcwd)
     ```python
-    # os.getcwd
+    ## [FUNCTION] os.getcwd() -> str
     # String representing the current working directory.
     ```
 - [os.listdir](https://docs.python.org/3/library/os.html#os.listdir)
     ```python
-    # os.listdir(path='.') -> List
+    ## [FUNCTION] os.listdir() -> List
+    # @param path='.'
     # Return a list of entries in the directory given by path. 
+    # Excludes special entries('.', '..').
+    ```
+- [os.walk](https://docs.python.org/3/library/os.html#os.walk)
+    ```python
+    ## [FUNCTION] os.walk() -> Tuple
+    # @param top - Directory to walk.
+    # Excludes special entries('.', '..').
     ```
