@@ -1,19 +1,3 @@
-Git Cookbook
-============
-
-Install
--------
-```sh
-sudo apt install git
-```
-
-'git add .' vs 'git add *'
---------------------------
-| Command | Action |
-|:-------:|:------:|
-| `git add .` | Add files that is not stated in `.gitignore` |
-| `git add *` | Add all files, including files in `.gitignore` |
-
 Git CLI
 =======
 
