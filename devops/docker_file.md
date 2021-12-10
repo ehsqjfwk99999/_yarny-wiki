@@ -1,14 +1,14 @@
 Docker File
 ===========
 
-Configuration File
+Configuration Files
 ------------------
 - Dockerfile
 - Dockerfile.dev
 
 Instructions
 ------------
-- [FROM](https://docs.docker.com/engine/reference/builder/#from){:target="_blank"}
+- [FROM](https://docs.docker.com/engine/reference/builder/#from)
 	```dockerfile
 	# FROM <image> [AS <stage>]
 	# Set base image.
