@@ -8,7 +8,7 @@ Configuration File
 
 Instructions
 ------------
-- [FROM](https://docs.docker.com/engine/reference/builder/#from)
+- [FROM](https://docs.docker.com/engine/reference/builder/#from){:target="_blank"}
 	```dockerfile
 	# FROM <image> [AS <stage>]
 	# Set base image.
