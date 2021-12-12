@@ -20,8 +20,8 @@ Variables
     # argv[0] is script name.
 
     script_name = sys.agrv[0]
-    host = sys.agrv[1]
-    port = int(sys.agrv[2])
+    host        = sys.agrv[1]
+    port        = int(sys.agrv[2])
     ```
 - [sys.path](https://docs.python.org/3/library/sys.html#sys.path)
     ```python
