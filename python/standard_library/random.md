@@ -1,24 +1,30 @@
 Python Standard Library : random
 ================================
 
+Arxiv
+-----
+- [Documentation](https://docs.python.org/3/library/random.html)
+
 Import
 ------
 ```python
 import random
 ```
 
-random API
-==========
+Example
+-------
+```python
+import random
 
-- [random.randint](https://docs.python.org/3/library/random.html#random.randint)
-    ```python
-    # [FUNCTION] random.randint(a, b) -> int
-    ```
-- [random.random](https://docs.python.org/3/library/random.html#random.random)
-    ```python
-    # [FUNCTION] random.random() -> float
-    ```
-- [random.uniform](https://docs.python.org/3/library/random.html#random.uniform)
-    ```python
-    # [FUNCTION] random.uniform(a, b) -> float
-    ```
+# Return a random integer in range [1, 10].
+rand_int = random.randint(1, 10)
+
+# Return a random floating point number in range [0.0, 1.0).
+rand_float = random.random()
+
+# Return a random floating point number in range [1.0, 10.0).
+rand_float = random.uniform(1, 10)
+
+# Return a random character from string('abcde').
+rand_choice = random.choice('abcde')
+```
