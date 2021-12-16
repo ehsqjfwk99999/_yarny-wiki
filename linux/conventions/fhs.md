@@ -79,6 +79,9 @@ Filesystem Hierarchy Standard
 |         |
 |         |   # Shows mapped memory of specific process.
 |         |-- /proc/<pid>/maps
+|         |
+|         |   # Shows CPU scheduling of specific process.
+|         |-- /proc/<pid>/sched
 |
 |   # Home directory for the root user.
 |-- /root
