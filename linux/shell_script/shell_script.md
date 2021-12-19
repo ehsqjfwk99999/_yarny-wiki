@@ -50,47 +50,6 @@ exit
 exit $STATUS_NUMBER
 ```
 
-### - Variable
-- global variable.
-```sh
-# No whitespace on both side of '='.
-
-global_variable=$VARIABLE
-```
-- local variable.
-```sh
-# Only allowed in function.
-
-function function_one() {
-    local local_variable=$VARIABLE
-    echo "Something to do in function"
-}
-```
-
-### - Parameter expansion
-```sh
-# ${VARIABLE} is substituted with $VARIABLE.
-
-${$VAR}
-```
-```sh
-# Return length of $VAR.
-
-${#$VAR}
-```
-```sh
-# if $VAR is not defined, return $DIS_VAR.
-${$VAR-$DIS_VAR}
-# if $VAR is not defined or null, return $DIS_VAR.
-${$VAR:-$DIS_VAR}
-```
-```sh
-# if $VAR is not defined, substitute $VAR with $DIS_VAR and return $DIS_VAR.
-${$VAR-$DIS_VAR}
-# if $VAR is not defined or null, substitute $VAR with $DIS_VAR and return $DIS_VAR.
-${$VAR:-$DIS_VAR}
-```
-
 ### - Array
 - Declaration
 ```sh
@@ -131,33 +90,6 @@ ${#ARRAY_NAME[@]}
 # Empty string is considered null.
 
 $NULL_STRING=""
-```
-
-### - For Statement
-- for in
-```sh
-for $VARIABLE in $LIST; do
-    echo "Something to do in for statement"
-done
-```
-- for ()
-```sh
-for (($VAR=0;$VAR<10;$VAR++)); do
-    echo "Something to do in for statement"
-done
-```
-
-
-### - While Statement
-```sh
-while [ $VARIABLE -lt $CONSTANT ]; do
-    echo "Something to do when while condition"
-done
-
-# While infinite loop.
-while true; do
-    echo "Something to do when while condition"
-done
 ```
 
 ### - Function
