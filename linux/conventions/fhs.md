@@ -77,17 +77,21 @@ Filesystem Hierarchy Standard
 |         |   # Show information about Linux (kernel) release.
 |         |-- /proc/version
 |         |
-|         |   # Shows command name of specific process.
-|         |-- /proc/<pid>/comm
-|         |
-|         |   # Shows mapped memory of specific process.
-|         |-- /proc/<pid>/maps
-|         |
-|         |   # Shows CPU scheduling of specific process.
-|         |-- /proc/<pid>/sched
-|         |
-|         |   # Shows status information of specific process. Used by ps command.
-|         |-- /proc/<pid>/stat
+|         |   # Shows specific process info.
+|         |-- /proc/<pid>
+|                        \
+|                         |
+|                         |   # Command name of specific process.
+|                         |-- /proc/<pid>/comm
+|                         |
+|                         |   # Mapped memory of specific process.
+|                         |-- /proc/<pid>/maps
+|                         |
+|                         |   # CPU scheduling of specific process.
+|                         |-- /proc/<pid>/sched
+|                         |
+|                         |   # Status information of specific process. Used by ps command.
+|                         |-- /proc/<pid>/stat
 |
 |   # Home directory for the root user.
 |-- /root
