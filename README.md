@@ -114,8 +114,6 @@ Linux
 #### - Conventions
 - [FHS(Filesystem Hierarchy Standard)](./linux/conventions/fhs.md)
 - [POSIX(Portable Operating System Interface)](./linux/conventions/posix.md)
-#### - Shell Script
-- [Shell Script](./linux/shell_script/shell_script.md)
 #### - Else
 - [Linux Packages](./linux/else/linux_packages.md)
 - [SSH](./linux/else/ssh.md)
