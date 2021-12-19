@@ -133,32 +133,6 @@ ${#ARRAY_NAME[@]}
 $NULL_STRING=""
 ```
 
-### - IF Statement
-- if
-```sh
-if [ $VARIABLE -eq $CONSTANT ]; then
-    echo "Something to do in if condition"s
-fi
-```
-- if-else
-```sh
-if [ $VARIABLE -eq $CONSTANT ]; then
-    echo "Something to do in if condition"
-else
-    echo "Something to do in else condition"
-fi
-```
-- if-elif-else
-```sh
-if [ $VARIABLE -eq $CONSTANT_1 ]; then
-    echo "Something to do in if condition"
-elif [ $VARIABLE -eq $CONSTANT_2 ]; then
-    echo "Something to do in elif condition"
-else
-    echo "Something to do in else condition"
-fi
-```
-
 ### - For Statement
 - for in
 ```sh
@@ -186,21 +160,6 @@ while true; do
 done
 ```
 
-### - Case Statement
-```sh
-case $VARIABLE in
-    $CASE_1)
-        echo "Something to do with case 1"
-        ;;
-    $CASE_2)
-        echo "Something to do with case 2"
-        ;;
-    *)
-        echo "Something to do with other cases"
-        ;;
-esac
-```
-
 ### - Function
 - Function Declaration
 ```sh
@@ -221,83 +180,6 @@ function_two() {
 
 function_one $ARGUMENT_1 $ARGUMENT_2 ...
 ```
-
-Pre-Defined
------------
-
-### - Reserved Variables
-| Variable | Descripttion |
-| :------: | :----------: |
-| ${HOME} | Home path |
-| ${PATH} | Path to find executing files |
-| ${PWD} | Current directory path |
-| ${SHELL} | Current shell |
-
-### - Positional Parameters.
-| Variable | Descripttion |
-| :------: | :----------: |
-| ${0} | Executed script |
-| ${1}, ${2}, ... | Parameters |
-| ${*}, ${@} | All parameters |
-| ${#} | Parameter count |
-
-### - Special Parameters.
-| Variable | Descripttion |
-| :------: | :----------: |
-| ${$} | PID of current script |
-| ${?} | Exit code of last execution |
-
-Operators
----------
-
-### - Arithmetic Operators.
-| Operator | Descripttion |
-| :------: | :----------: |
-| + | Add |
-| - | Subtract |
-| * | Multiply |
-| ** | Power |
-| / | Divide |
-| % | Modulo |
-| += | Plus-equal |
-| -= | Minus-equal |
-| *= | Times-equal |
-| /= | Slash-equal |
-| %= | Mod-equal |
-
-### - Logical Operators.
-| Operator | Descripttion |
-| :------: | :----------: |
-| &&, -a | Logical AND |
-| \|\|, -o | Logical OR |
-
-### - Integer Comparison Operators.
-| Operator | Descripttion |
-| :------: | :----------: |
-| -eq | Equal |
-| -ne | Not equal |
-| >, -gt | Greater than |
-| >=, -ge | Greater or equal |
-| <, -lt | Less than |
-| <=, -le | Less or equal |
-
-### - String Comparison Operators.
-| Operator | Descripttion |
-| :------: | :----------: |
-| =, == | Equal |
-| != | Not equal |
-| > | Bigger in ASCII |
-| < | Smaller in ASCII |
-| -z | Length is 0 |
-| -n | Length is not 0 |
-
-### - File Test Operators.
-| Operator | Descripttion |
-| :------: | :----------: |
-| -d | If directory |
-| -e | If file |
-| -b | If block special file |
-| -c | If character special file |
 
 Additional
 ----------
