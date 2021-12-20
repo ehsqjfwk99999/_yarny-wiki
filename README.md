@@ -111,7 +111,6 @@ Linux
 - [FHS(Filesystem Hierarchy Standard)](./linux/conventions/fhs.md)
 - [POSIX(Portable Operating System Interface)](./linux/conventions/posix.md)
 #### - Else
-- [Linux Package List](./linux/else/linux_package_list.md)
 - [SSH](./linux/else/ssh.md)
 - [Vim](./linux/else/vim.md)
 - [Zsh](./linux/else/zsh.md)
