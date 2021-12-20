@@ -62,10 +62,6 @@ Python
 - [tqdm](./python/packages/tqdm.md)
 - [joblib](./python/packages/joblib.md)
 - [mrjob](./python/packages/mrjob.md)
-<!-- - [NumPy](./python/packages/numpy.md) -->
-#### - Anaconda
-- [Commands](./python/anaconda/commands.md)
-- [Install](./python/anaconda/install.md)
 #### - Else
 - [Python CLI](./python/else/python_cli.md)
 - [Kaggle](./python/else/kaggle.md)
