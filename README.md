@@ -25,7 +25,6 @@ Where 2 Go ?
 - [Prettier](./where/prettier.md)
 - [Travis CI](./where/travis_ci.md)
 - [MongoDB](./where/mongodb.md)
-- [YAML](./where/yaml.md)
 
 Python
 ------
