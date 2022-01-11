@@ -76,10 +76,6 @@ JavaScript
 - [Error Handling](./javascript/language_reference/error_handling.md)
 - [Iterator & Generator](./javascript/language_reference/iterator_&_generator.md)
 - [Regular Expression](./javascript/language_reference/regular_expression.md)
-#### - Node.js Modules
-- [assert](./javascript/nodejs_modules/assert.md)
-- [fs](./javascript/nodejs_modules/fs.md)
-- [path](./javascript/nodejs_modules/path.md)
 #### - JavaScript Packages
 - [Classnames](./javascript/packages/classnames.md)
 - [cookie-parser](./javascript/packages/cookie-parser.md)
