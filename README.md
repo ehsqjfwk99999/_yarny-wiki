@@ -83,9 +83,6 @@ JavaScript
 - [multer](./javascript/packages/multer.md)
 - [nodemon](./javascript/packages/nodemon.md)
 - [Node Redis](./javascript/packages/node_redis.md)
-#### - Else
-- [NVM](./javascript/else/nvm.md)
-- [npm](./javascript/else/npm.md)
 
 Go
 ---
