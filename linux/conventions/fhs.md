@@ -87,6 +87,9 @@ Filesystem Hierarchy Standard
 |                         |   # Mapped memory of specific process.
 |                         |-- /proc/<pid>/maps
 |                         |
+|                         |   # Namespaces of specific process.
+|                         |-- /proc/<pid>/ns
+|                         |
 |                         |   # CPU scheduling of specific process.
 |                         |-- /proc/<pid>/sched
 |                         |
