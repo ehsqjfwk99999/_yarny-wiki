@@ -21,8 +21,6 @@ Where 2 Go ?
 - [Visual Studio](./where/visual_studio.md)
 - [Git CLI](./where/git_cli.md)
 - [C](./where/c.md)
-- [ESLint](./where/eslint.md)
-- [Prettier](./where/prettier.md)
 - [Travis CI](./where/travis_ci.md)
 - [MongoDB](./where/mongodb.md)
 
