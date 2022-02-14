@@ -109,7 +109,6 @@ Linux Kernel
 - [Ftrace](./linux_kernel/else/ftrace.md)
 - [Strace](./linux_kernel/else/strace.md)
 - [Kernel Compile](./linux_kernel/else/compile.md)
-- [Kernel Debug Functions](./linux_kernel/else/debug_funcs.md)
 
 DevOps
 ------
