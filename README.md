@@ -90,7 +90,6 @@ Linux
 #### - GNU
 - [GCC](./linux/gnu/gcc.md)
 - [GDB](./linux/gnu/gdb.md)
-- [Make](./linux/gnu/make.md)
 #### - Conventions
 - [FHS(Filesystem Hierarchy Standard)](./linux/conventions/fhs.md)
 - [POSIX(Portable Operating System Interface)](./linux/conventions/posix.md)
