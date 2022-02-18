@@ -19,7 +19,6 @@ Where 2 Go ?
 - [VS Code](./where/vscode.md)
     - [REST Client](./where/rest_client.md)
 - [Visual Studio](./where/visual_studio.md)
-- [Git CLI](./where/git_cli.md)
 - [C](./where/c.md)
 - [Travis CI](./where/travis_ci.md)
 - [MongoDB](./where/mongodb.md)
