@@ -6,7 +6,6 @@ Table of Contents
 - [Where 2 Go?](#where-2-go)
 - [Python](#python)
 - [JavaScript](#javascript)
-- [Go](#go)
 - [Linux](#linux)
 - [Linux Kernel](#linux-kernel)
 - [Windows 10](#windows-10)
@@ -77,11 +76,6 @@ JavaScript
 - [multer](./javascript/packages/multer.md)
 - [nodemon](./javascript/packages/nodemon.md)
 - [Node Redis](./javascript/packages/node_redis.md)
-
-Go
----
-#### - Go Packages
-- [Air](./go/packages/air.md)
 
 Linux
 -----
