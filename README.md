@@ -109,13 +109,6 @@ Linux Kernel
 - [Strace](./linux_kernel/else/strace.md)
 - [Kernel Compile](./linux_kernel/else/compile.md)
 
-DevOps
-------
-#### - Install
-- [Install Kubernetes](./devops/install/install_k8s.md)
-#### - Docker Config Files
-- [Docker File](./devops/docker_file.md)
-
 Windows 10
 ----------
 - [Setup](./windows_10/setup.md)
@@ -126,14 +119,3 @@ BackUp
 ------
 - [PyCharm](./backup/pycharm.md)
 
-<!-- TypeScript
-----------
-### - Cookbook
-- [Style Guide](./typescript/cookbook/style_guide.md)
-### - Grammer
-- [Types](./typescript/grammer/types.md)
-- [Else](./typescript/grammer/else.md)
-### - Packages
-- [NestJs](./typescript/packages/nestjs.md)
-### - Settings
-- [tsconfig.json](./typescript/settings/tsconfigjson.md) -->
