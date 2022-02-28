@@ -9,7 +9,6 @@ Table of Contents
 - [Go](#go)
 - [Linux](#linux)
 - [Linux Kernel](#linux-kernel)
-- [DevOps](#devops)
 - [Windows 10](#windows-10)
 - [BackUp](#backup)
 
