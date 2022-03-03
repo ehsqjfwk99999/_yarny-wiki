@@ -74,7 +74,6 @@ JavaScript
 - [Mongoose](./javascript/packages/mongoose.md)
 - [morgan](./javascript/packages/morgan.md)
 - [multer](./javascript/packages/multer.md)
-- [nodemon](./javascript/packages/nodemon.md)
 - [Node Redis](./javascript/packages/node_redis.md)
 
 Linux
