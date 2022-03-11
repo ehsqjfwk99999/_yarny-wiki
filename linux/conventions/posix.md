@@ -1,3 +1,0 @@
-Portable Operating System Interface
-===================================
-

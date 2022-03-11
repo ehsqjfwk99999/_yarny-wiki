@@ -80,9 +80,6 @@ Linux
 #### - GNU
 - [GCC](./linux/gnu/gcc.md)
 - [GDB](./linux/gnu/gdb.md)
-#### - Conventions
-- [FHS(Filesystem Hierarchy Standard)](./linux/conventions/fhs.md)
-- [POSIX(Portable Operating System Interface)](./linux/conventions/posix.md)
 #### - Else
 - [SSH](./linux/else/ssh.md)
 - [Vim](./linux/else/vim.md)
