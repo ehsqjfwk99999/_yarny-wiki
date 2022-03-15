@@ -78,7 +78,6 @@ JavaScript
 Linux
 -----
 #### - GNU
-- [GCC](./linux/gnu/gcc.md)
 - [GDB](./linux/gnu/gdb.md)
 #### - Else
 - [SSH](./linux/else/ssh.md)
