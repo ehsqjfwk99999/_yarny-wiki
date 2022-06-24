@@ -1,16 +1,6 @@
 Yarny Wiki
 ==========
 
-Table of Contents
------------------
-- [Where 2 Go?](#where-2-go)
-- [Python](#python)
-- [JavaScript](#javascript)
-- [Linux](#linux)
-- [Linux Kernel](#linux-kernel)
-- [Windows 10](#windows-10)
-- [BackUp](#backup)
-
 Where 2 Go ?
 ------------
 - [Programming Languages](./where/programming_languages.md)
@@ -18,7 +8,6 @@ Where 2 Go ?
     - [REST Client](./where/rest_client.md)
 - [Visual Studio](./where/visual_studio.md)
 - [C](./where/c.md)
-- [Travis CI](./where/travis_ci.md)
 - [MongoDB](./where/mongodb.md)
 
 Python
