@@ -3,12 +3,9 @@ Yarny Wiki
 
 Where 2 Go ?
 ------------
-- [Programming Languages](./where/programming_languages.md)
 - [VS Code](./where/vscode.md)
-    - [REST Client](./where/rest_client.md)
 - [Visual Studio](./where/visual_studio.md)
 - [C](./where/c.md)
-- [MongoDB](./where/mongodb.md)
 
 Python
 ------
