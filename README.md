@@ -61,15 +61,6 @@ JavaScript
 - [multer](./javascript/packages/multer.md)
 - [Node Redis](./javascript/packages/node_redis.md)
 
-Linux
------
-#### - GNU
-- [GDB](./linux/gnu/gdb.md)
-#### - Else
-- [SSH](./linux/else/ssh.md)
-- [Vim](./linux/else/vim.md)
-- [Zsh](./linux/else/zsh.md)
-
 Linux Kernel
 ------------
 #### - Reference
